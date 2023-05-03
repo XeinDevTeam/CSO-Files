@@ -1,0 +1,4 @@
+type    0
+0   env                 5
+1   mulBright           1.0
+2   addBright           0.0

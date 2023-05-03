@@ -1,0 +1,14 @@
+// overview description file for fun_suddendeath.bsp
+
+global 
+{
+	ZOOM	0.78
+	ORIGIN	-229.00	-192.00	-92.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zs_trace.bmp"
+	HEIGHT 0
+}

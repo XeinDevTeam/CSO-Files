@@ -1,0 +1,13 @@
+// overview description file for dm_bunnyyard.bsp
+global 
+{
+	ZOOM	3.30
+	ORIGIN	-79.69	-35.09	592.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_bunnyyard.bmp"
+	HEIGHT 0
+}

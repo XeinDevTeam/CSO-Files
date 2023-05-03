@@ -1,0 +1,14 @@
+// overview description file for dm_trainfactory.bsp
+
+global 
+{
+	ZOOM	2.85
+	ORIGIN	0.00 	     0.00	   1824.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_trainfactory.bmp"
+	HEIGHT	-96.00
+}

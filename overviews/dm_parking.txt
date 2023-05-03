@@ -1,0 +1,13 @@
+// overview description file for dm_parking.bsp
+global 
+{
+	ZOOM	1.90
+	ORIGIN	223.83	351.98	144.50
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_parking.bmp"
+	HEIGHT -160
+}

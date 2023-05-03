@@ -1,0 +1,28 @@
+챕터 설명,페이지 (삽화 설명),하이라이트 좌표너비,툴팁 (좌표너비 꼬리방향 툴팁내용)
+#CSO_HelpBotZombie,,,
+,resource/HelpPage/tutorial_botzombie_bg_01 #CSO_HelpBotZombie_1,,
+,resource/HelpPage/tutorial_botzombie_bg_02 #CSO_HelpBotZombie_2,,
+,resource/HelpPage/tutorial_botzombie_bg_03 ,,
+,,,380 118 277 58 1 CSO_HelpBotZombie_3
+,resource/HelpPage/tutorial_botzombie_bg_05 ,,
+,,,320 159 272 72 1 CSO_HelpBotZombie_4
+,,,436 436 202 58 3 CSO_HelpBotZombie_5
+,resource/HelpPage/tutorial_botzombie_bg_04 ,,
+,,,305 370 197 58 1 CSO_HelpBotZombie_7
+,,,341 142 321 58 1 CSO_HelpBotZombie_6
+,resource/HelpPage/tutorial_botzombie_bg_06 ,,
+,,,127 123 496 58 0 cso_helpbotzombie_8
+#CSO_HelpZombleSenario,,,
+,resource/HelpPage/tutorial_zombiescenario_bg_01 #CSO_HelpZombleSenario_1,,
+,resource/HelpPage/tutorial_zombiescenario_bg_02 #CSO_HelpZombleSenario_2,,
+,resource/HelpPage/tutorial_zombiescenario_bg_03 ,,
+,,,39 139 482 58 2 CSO_HelpZombleSenario_3
+,resource/HelpPage/tutorial_zombiescenario_bg_05 ,,
+,,,304 283 211 58 1 CSO_HelpZombleSenario_4
+,,,304 348 219 58 1 CSO_HelpZombleSenario_5
+,resource/HelpPage/tutorial_zombiescenario_bg_04 ,,
+,,,268 519 228 58 1 CSO_HelpZombleSenario_9
+,,,20 457 215 58 3 CSO_HelpZombleSenario_8
+,,,87 258 386 58 1 CSO_HelpZombleSenario_6
+,,,434 462 289 58 3 CSO_HelpZombleSenario_10
+,resource/HelpPage/tutorial_zombiescenario_bg_06 #CSO_HelpZombleSenario_11,,

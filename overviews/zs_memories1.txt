@@ -1,0 +1,14 @@
+// overview description file for zs_memories1.bsp
+
+global 
+{
+	ZOOM	1
+	ORIGIN	0	0	0
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zs_trace.bmp"
+	HEIGHT 0
+}

@@ -1,0 +1,445 @@
+#피버설명,그룹id,액션1,액션1시간,액션2,액션2시간,액션3,액션3시간,min sec,max sec,fever message1,fever message2,fever message3
+점프,1,2,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Jump,#CSO_ZombiTag_Fever_Jump2,#CSO_ZombiTag_Fever_Jump3
+멈추기,2,3,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Stop,#CSO_ZombiTag_Fever_Stop2,#CSO_ZombiTag_Fever_Stop3
+앉기,3,4,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Crouch,#CSO_ZombiTag_Fever_Crouch2,#CSO_ZombiTag_Fever_Crouch3
+뒤로걷기,8,9,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_DrunkWalk,#CSO_ZombiTag_Fever_DrunkWalk2,#CSO_ZombiTag_Fever_DrunkWalk3
+인사하기,11,10,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Hi,#CSO_ZombiTag_Fever_Hi2,#CSO_ZombiTag_Fever_Hi3
+경례하기,12,11,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Salute,#CSO_ZombiTag_Fever_Salute2,#CSO_ZombiTag_Fever_Salute3
+도발하기,13,12,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Provoke,#CSO_ZombiTag_Fever_Provoke2,#CSO_ZombiTag_Fever_Provoke3
+즐기기?,14,13,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Joy,#CSO_ZombiTag_Fever_Joy2,#CSO_ZombiTag_Fever_Joy3
+화내기,15,14,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Angry,#CSO_ZombiTag_Fever_Angry2,#CSO_ZombiTag_Fever_Angry3
+춤추기,16,15,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Dance,#CSO_ZombiTag_Fever_Dance2,#CSO_ZombiTag_Fever_Dance3
+키스인사하기,17,16,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Kiss,#CSO_ZombiTag_Fever_Kiss2,#CSO_ZombiTag_Fever_Kiss3
+항복하기,18,17,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Giveup,#CSO_ZombiTag_Fever_Giveup2,#CSO_ZombiTag_Fever_Giveup3
+힘자랑,19,18,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Power,#CSO_ZombiTag_Fever_Power2,#CSO_ZombiTag_Fever_Power3
+죽은척하기,20,19,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Lie,#CSO_ZombiTag_Fever_Lie2,#CSO_ZombiTag_Fever_Lie3
+요가,21,20,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Yoga,#CSO_ZombiTag_Fever_Yoga2,#CSO_ZombiTag_Fever_Yoga3
+PT체조,22,21,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Pt,#CSO_ZombiTag_Fever_Pt2,#CSO_ZombiTag_Fever_Pt3
+명상,23,22,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Meditate,#CSO_ZombiTag_Fever_Meditate2,#CSO_ZombiTag_Fever_Meditate3
+발레,24,23,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Ballet,#CSO_ZombiTag_Fever_Ballet2,#CSO_ZombiTag_Fever_Ballet3
+쿵푸,25,24,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Kunghu,#CSO_ZombiTag_Fever_Kunghu2,#CSO_ZombiTag_Fever_Kunghu3
+승리동작,26,25,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_Victory,#CSO_ZombiTag_Fever_Victory2,#CSO_ZombiTag_Fever_Victory3
+똥침,27,26,3,0,0,0,0,2,3,#CSO_ZombiTag_Fever_AssAttack,#CSO_ZombiTag_Fever_AssAttack2,#CSO_ZombiTag_Fever_AssAttack3
+점프한 뒤 가만히 서있기,101,2,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_1,#CSO_ZombiTag_Fever_1_1,#CSO_ZombiTag_Fever_1_1
+점프한 뒤 앉아 있기,102,2,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_2,#CSO_ZombiTag_Fever_1_2,#CSO_ZombiTag_Fever_1_2
+점프한 뒤 뒤로 걷기,103,2,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_3,#CSO_ZombiTag_Fever_1_3,#CSO_ZombiTag_Fever_1_3
+점프한 뒤 인사 하기,104,2,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_4,#CSO_ZombiTag_Fever_1_4,#CSO_ZombiTag_Fever_1_4
+점프한 뒤 경례 하기,105,2,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_5,#CSO_ZombiTag_Fever_1_5,#CSO_ZombiTag_Fever_1_5
+점프한 뒤 환호 하기,106,2,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_6,#CSO_ZombiTag_Fever_1_6,#CSO_ZombiTag_Fever_1_6
+점프한 뒤 화내기,107,2,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_7,#CSO_ZombiTag_Fever_1_7,#CSO_ZombiTag_Fever_1_7
+점프한 뒤 손 키스 하기,108,2,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_8,#CSO_ZombiTag_Fever_1_8,#CSO_ZombiTag_Fever_1_8
+점프한 뒤 항복하기,109,2,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_9,#CSO_ZombiTag_Fever_1_9,#CSO_ZombiTag_Fever_1_9
+점프한 뒤 힘 자랑하기,110,2,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_10,#CSO_ZombiTag_Fever_1_10,#CSO_ZombiTag_Fever_1_10
+점프한 뒤 죽은척하기,111,2,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_11,#CSO_ZombiTag_Fever_1_11,#CSO_ZombiTag_Fever_1_11
+점프한 뒤 요가하기,112,2,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_12,#CSO_ZombiTag_Fever_1_12,#CSO_ZombiTag_Fever_1_12
+점프한 뒤 PT체조 하기,113,2,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_13,#CSO_ZombiTag_Fever_1_13,#CSO_ZombiTag_Fever_1_13
+점프한 뒤 명상 하기,114,2,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_14,#CSO_ZombiTag_Fever_1_14,#CSO_ZombiTag_Fever_1_14
+점프한 뒤 발레 하기,115,2,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_15,#CSO_ZombiTag_Fever_1_15,#CSO_ZombiTag_Fever_1_15
+점프한 뒤 권법 하기,116,2,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_16,#CSO_ZombiTag_Fever_1_16,#CSO_ZombiTag_Fever_1_16
+점프한 뒤 승리동작 하기,117,2,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_17,#CSO_ZombiTag_Fever_1_17,#CSO_ZombiTag_Fever_1_17
+점프한 뒤 똥침 하기,118,2,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_18,#CSO_ZombiTag_Fever_1_18,#CSO_ZombiTag_Fever_1_18
+멈춘 뒤 점프 하기,119,3,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_19,#CSO_ZombiTag_Fever_1_19,#CSO_ZombiTag_Fever_1_19
+멈춘 뒤 앉아 있기,120,3,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_20,#CSO_ZombiTag_Fever_1_20,#CSO_ZombiTag_Fever_1_20
+멈춘 뒤 뒤로 걷기,121,3,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_21,#CSO_ZombiTag_Fever_1_21,#CSO_ZombiTag_Fever_1_21
+멈춘 뒤 인사 하기,122,3,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_22,#CSO_ZombiTag_Fever_1_22,#CSO_ZombiTag_Fever_1_22
+멈춘 뒤 경례 하기,123,3,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_23,#CSO_ZombiTag_Fever_1_23,#CSO_ZombiTag_Fever_1_23
+멈춘 뒤 환호 하기,124,3,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_24,#CSO_ZombiTag_Fever_1_24,#CSO_ZombiTag_Fever_1_24
+멈춘 뒤 화내기,125,3,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_25,#CSO_ZombiTag_Fever_1_25,#CSO_ZombiTag_Fever_1_25
+멈춘 뒤 손 키스 하기,126,3,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_26,#CSO_ZombiTag_Fever_1_26,#CSO_ZombiTag_Fever_1_26
+멈춘 뒤 항복하기,127,3,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_27,#CSO_ZombiTag_Fever_1_27,#CSO_ZombiTag_Fever_1_27
+멈춘 뒤 힘 자랑하기,128,3,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_28,#CSO_ZombiTag_Fever_1_28,#CSO_ZombiTag_Fever_1_28
+멈춘 뒤 죽은척하기,129,3,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_29,#CSO_ZombiTag_Fever_1_29,#CSO_ZombiTag_Fever_1_29
+멈춘 뒤 요가하기,130,3,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_30,#CSO_ZombiTag_Fever_1_30,#CSO_ZombiTag_Fever_1_30
+멈춘 뒤 PT체조 하기,131,3,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_31,#CSO_ZombiTag_Fever_1_31,#CSO_ZombiTag_Fever_1_31
+멈춘 뒤 명상 하기,132,3,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_32,#CSO_ZombiTag_Fever_1_32,#CSO_ZombiTag_Fever_1_32
+멈춘 뒤 발레 하기,133,3,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_33,#CSO_ZombiTag_Fever_1_33,#CSO_ZombiTag_Fever_1_33
+멈춘 뒤 권법 하기,134,3,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_34,#CSO_ZombiTag_Fever_1_34,#CSO_ZombiTag_Fever_1_34
+멈춘 뒤 승리동작 하기,135,3,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_35,#CSO_ZombiTag_Fever_1_35,#CSO_ZombiTag_Fever_1_35
+멈춘 뒤 똥침 하기,136,3,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_36,#CSO_ZombiTag_Fever_1_36,#CSO_ZombiTag_Fever_1_36
+앉아있다가 점프 하기,137,4,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_37,#CSO_ZombiTag_Fever_1_37,#CSO_ZombiTag_Fever_1_37
+앉아있다가 가만히 서있기,138,4,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_38,#CSO_ZombiTag_Fever_1_38,#CSO_ZombiTag_Fever_1_38
+앉아있다가 뒤로 걷기,139,4,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_39,#CSO_ZombiTag_Fever_1_39,#CSO_ZombiTag_Fever_1_39
+앉아있다가 인사하기,140,4,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_40,#CSO_ZombiTag_Fever_1_40,#CSO_ZombiTag_Fever_1_40
+앉아있다가 경례하기,141,4,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_41,#CSO_ZombiTag_Fever_1_41,#CSO_ZombiTag_Fever_1_41
+앉아있다가 환호하기,142,4,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_42,#CSO_ZombiTag_Fever_1_42,#CSO_ZombiTag_Fever_1_42
+앉아있다가 화내기,143,4,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_43,#CSO_ZombiTag_Fever_1_43,#CSO_ZombiTag_Fever_1_43
+앉아있다가 손 키스 하기,144,4,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_44,#CSO_ZombiTag_Fever_1_44,#CSO_ZombiTag_Fever_1_44
+앉아있다가 항복하기,145,4,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_45,#CSO_ZombiTag_Fever_1_45,#CSO_ZombiTag_Fever_1_45
+앉아있다가 힘자랑,146,4,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_46,#CSO_ZombiTag_Fever_1_46,#CSO_ZombiTag_Fever_1_46
+앉아있다가 죽은척하기,147,4,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_47,#CSO_ZombiTag_Fever_1_47,#CSO_ZombiTag_Fever_1_47
+앉아있다가 요가하기,148,4,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_48,#CSO_ZombiTag_Fever_1_48,#CSO_ZombiTag_Fever_1_48
+앉아있다가 PT체조 하기,149,4,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_49,#CSO_ZombiTag_Fever_1_49,#CSO_ZombiTag_Fever_1_49
+앉아있다가 명상 하기,150,4,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_50,#CSO_ZombiTag_Fever_1_50,#CSO_ZombiTag_Fever_1_50
+앉아있다가 발레 하기,151,4,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_51,#CSO_ZombiTag_Fever_1_51,#CSO_ZombiTag_Fever_1_51
+앉아있다가 권법 하기,152,4,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_52,#CSO_ZombiTag_Fever_1_52,#CSO_ZombiTag_Fever_1_52
+앉아있다가 승리동작 하기,153,4,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_53,#CSO_ZombiTag_Fever_1_53,#CSO_ZombiTag_Fever_1_53
+앉아있다가 똥침 하기,154,4,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_54,#CSO_ZombiTag_Fever_1_54,#CSO_ZombiTag_Fever_1_54
+뒤로 걷다가 점프 하기,155,9,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_55,#CSO_ZombiTag_Fever_1_55,#CSO_ZombiTag_Fever_1_55
+뒤로 걷다가 가만히 서있기,156,9,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_56,#CSO_ZombiTag_Fever_1_56,#CSO_ZombiTag_Fever_1_56
+뒤로 걷다가 앉아있기,157,9,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_57,#CSO_ZombiTag_Fever_1_57,#CSO_ZombiTag_Fever_1_57
+뒤로 걷다가 인사하기,158,9,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_58,#CSO_ZombiTag_Fever_1_58,#CSO_ZombiTag_Fever_1_58
+뒤로 걷다가 경례하기,159,9,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_59,#CSO_ZombiTag_Fever_1_59,#CSO_ZombiTag_Fever_1_59
+뒤로 걷다가 환호하기,160,9,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_60,#CSO_ZombiTag_Fever_1_60,#CSO_ZombiTag_Fever_1_60
+뒤로 걷다가 화내기,161,9,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_61,#CSO_ZombiTag_Fever_1_61,#CSO_ZombiTag_Fever_1_61
+뒤로 걷다가 손 키스 하기,162,9,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_62,#CSO_ZombiTag_Fever_1_62,#CSO_ZombiTag_Fever_1_62
+뒤로 걷다가 항복하기,163,9,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_63,#CSO_ZombiTag_Fever_1_63,#CSO_ZombiTag_Fever_1_63
+뒤로 걷다가 힘자랑,164,9,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_64,#CSO_ZombiTag_Fever_1_64,#CSO_ZombiTag_Fever_1_64
+뒤로 걷다가 죽은척하기,165,9,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_65,#CSO_ZombiTag_Fever_1_65,#CSO_ZombiTag_Fever_1_65
+뒤로 걷다가 요가하기,166,9,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_66,#CSO_ZombiTag_Fever_1_66,#CSO_ZombiTag_Fever_1_66
+뒤로 걷다가 PT체조 하기,167,9,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_67,#CSO_ZombiTag_Fever_1_67,#CSO_ZombiTag_Fever_1_67
+뒤로 걷다가 명상 하기,168,9,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_68,#CSO_ZombiTag_Fever_1_68,#CSO_ZombiTag_Fever_1_68
+뒤로 걷다가 발레 하기,169,9,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_69,#CSO_ZombiTag_Fever_1_69,#CSO_ZombiTag_Fever_1_69
+뒤로 걷다가 권법 하기,170,9,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_70,#CSO_ZombiTag_Fever_1_70,#CSO_ZombiTag_Fever_1_70
+뒤로 걷다가 승리동작 하기,171,9,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_71,#CSO_ZombiTag_Fever_1_71,#CSO_ZombiTag_Fever_1_71
+뒤로 걷다가 똥침 하기,172,9,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_72,#CSO_ZombiTag_Fever_1_72,#CSO_ZombiTag_Fever_1_72
+인사하고 점프 하기,173,10,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_73,#CSO_ZombiTag_Fever_1_73,#CSO_ZombiTag_Fever_1_73
+인사하고 가만히 서있기,174,10,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_74,#CSO_ZombiTag_Fever_1_74,#CSO_ZombiTag_Fever_1_74
+인사하고 앉아있기,175,10,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_75,#CSO_ZombiTag_Fever_1_75,#CSO_ZombiTag_Fever_1_75
+인사하고 뒤로 걷기,176,10,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_76,#CSO_ZombiTag_Fever_1_76,#CSO_ZombiTag_Fever_1_76
+인사하고 경례하기,177,10,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_77,#CSO_ZombiTag_Fever_1_77,#CSO_ZombiTag_Fever_1_77
+인사하고 환호하기,178,10,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_78,#CSO_ZombiTag_Fever_1_78,#CSO_ZombiTag_Fever_1_78
+인사하고 화내기,179,10,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_79,#CSO_ZombiTag_Fever_1_79,#CSO_ZombiTag_Fever_1_79
+인사하고 손 키스 하기,180,10,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_80,#CSO_ZombiTag_Fever_1_80,#CSO_ZombiTag_Fever_1_80
+인사하고 항복 하기,181,10,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_81,#CSO_ZombiTag_Fever_1_81,#CSO_ZombiTag_Fever_1_81
+인사하고 힘자랑 하기,182,10,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_82,#CSO_ZombiTag_Fever_1_82,#CSO_ZombiTag_Fever_1_82
+인사하고 죽은척 하기,183,10,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_83,#CSO_ZombiTag_Fever_1_83,#CSO_ZombiTag_Fever_1_83
+인사하고 요가하기,184,10,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_84,#CSO_ZombiTag_Fever_1_84,#CSO_ZombiTag_Fever_1_84
+인사하고 PT체조 하기,185,10,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_85,#CSO_ZombiTag_Fever_1_85,#CSO_ZombiTag_Fever_1_85
+인사하고 명상 하기,186,10,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_86,#CSO_ZombiTag_Fever_1_86,#CSO_ZombiTag_Fever_1_86
+인사하고 발레 하기,187,10,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_87,#CSO_ZombiTag_Fever_1_87,#CSO_ZombiTag_Fever_1_87
+인사하고 권법 하기,188,10,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_88,#CSO_ZombiTag_Fever_1_88,#CSO_ZombiTag_Fever_1_88
+인사하고 승리 포즈 하기,189,10,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_89,#CSO_ZombiTag_Fever_1_89,#CSO_ZombiTag_Fever_1_89
+인사하고 똥침 하기,190,10,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_90,#CSO_ZombiTag_Fever_1_90,#CSO_ZombiTag_Fever_1_90
+경례하고 점프 하기,191,11,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_91,#CSO_ZombiTag_Fever_1_91,#CSO_ZombiTag_Fever_1_91
+경례하고 가만히 서있기,192,11,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_92,#CSO_ZombiTag_Fever_1_92,#CSO_ZombiTag_Fever_1_92
+경례하고 앉아있기,193,11,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_93,#CSO_ZombiTag_Fever_1_93,#CSO_ZombiTag_Fever_1_93
+경례하고 뒤로 걷기,194,11,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_94,#CSO_ZombiTag_Fever_1_94,#CSO_ZombiTag_Fever_1_94
+경례하고 인사하기,195,11,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_95,#CSO_ZombiTag_Fever_1_95,#CSO_ZombiTag_Fever_1_95
+경례하고 환호하기,196,11,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_96,#CSO_ZombiTag_Fever_1_96,#CSO_ZombiTag_Fever_1_96
+경례하고 화내기,197,11,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_97,#CSO_ZombiTag_Fever_1_97,#CSO_ZombiTag_Fever_1_97
+경례하고 손 키스 하기,198,11,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_98,#CSO_ZombiTag_Fever_1_98,#CSO_ZombiTag_Fever_1_98
+경례하고 항복 하기,199,11,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_99,#CSO_ZombiTag_Fever_1_99,#CSO_ZombiTag_Fever_1_99
+경례하고 힘자랑 하기,200,11,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_100,#CSO_ZombiTag_Fever_1_100,#CSO_ZombiTag_Fever_1_100
+경례하고 죽은척 하기,201,11,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_101,#CSO_ZombiTag_Fever_1_101,#CSO_ZombiTag_Fever_1_101
+경례하고 요가하기,202,11,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_102,#CSO_ZombiTag_Fever_1_102,#CSO_ZombiTag_Fever_1_102
+경례하고 PT체조 하기,203,11,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_103,#CSO_ZombiTag_Fever_1_103,#CSO_ZombiTag_Fever_1_103
+경례하고 명상 하기,204,11,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_104,#CSO_ZombiTag_Fever_1_104,#CSO_ZombiTag_Fever_1_104
+경례하고 발레 하기,205,11,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_105,#CSO_ZombiTag_Fever_1_105,#CSO_ZombiTag_Fever_1_105
+경례하고 권법 하기,206,11,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_106,#CSO_ZombiTag_Fever_1_106,#CSO_ZombiTag_Fever_1_106
+경례하고 승리 포즈 하기,207,11,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_107,#CSO_ZombiTag_Fever_1_107,#CSO_ZombiTag_Fever_1_107
+경례하고 똥침 하기,208,11,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_108,#CSO_ZombiTag_Fever_1_108,#CSO_ZombiTag_Fever_1_108
+도발하고 점프 하기,209,12,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_109,#CSO_ZombiTag_Fever_1_109,#CSO_ZombiTag_Fever_1_109
+도발하고 가만히 서있기,210,12,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_110,#CSO_ZombiTag_Fever_1_110,#CSO_ZombiTag_Fever_1_110
+도발하고 앉아있기,211,12,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_111,#CSO_ZombiTag_Fever_1_111,#CSO_ZombiTag_Fever_1_111
+도발하고 뒤로 걷기,212,12,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_112,#CSO_ZombiTag_Fever_1_112,#CSO_ZombiTag_Fever_1_112
+도발하고 인사하기,213,12,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_113,#CSO_ZombiTag_Fever_1_113,#CSO_ZombiTag_Fever_1_113
+도발하고 환호하기,214,12,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_114,#CSO_ZombiTag_Fever_1_114,#CSO_ZombiTag_Fever_1_114
+도발하고 화내기,215,12,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_115,#CSO_ZombiTag_Fever_1_115,#CSO_ZombiTag_Fever_1_115
+도발하고 손 키스 하기,216,12,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_116,#CSO_ZombiTag_Fever_1_116,#CSO_ZombiTag_Fever_1_116
+도발하고 항복 하기,217,12,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_117,#CSO_ZombiTag_Fever_1_117,#CSO_ZombiTag_Fever_1_117
+도발하고 힘자랑 하기,218,12,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_118,#CSO_ZombiTag_Fever_1_118,#CSO_ZombiTag_Fever_1_118
+도발하고 죽은척 하기,219,12,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_119,#CSO_ZombiTag_Fever_1_119,#CSO_ZombiTag_Fever_1_119
+도발하고 요가하기,220,12,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_120,#CSO_ZombiTag_Fever_1_120,#CSO_ZombiTag_Fever_1_120
+도발하고 PT체조 하기,221,12,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_121,#CSO_ZombiTag_Fever_1_121,#CSO_ZombiTag_Fever_1_121
+도발하고 명상 하기,222,12,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_122,#CSO_ZombiTag_Fever_1_122,#CSO_ZombiTag_Fever_1_122
+도발하고 발레 하기,223,12,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_123,#CSO_ZombiTag_Fever_1_123,#CSO_ZombiTag_Fever_1_123
+도발하고 권법 하기,224,12,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_124,#CSO_ZombiTag_Fever_1_124,#CSO_ZombiTag_Fever_1_124
+도발하고 승리 포즈 하기,225,12,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_125,#CSO_ZombiTag_Fever_1_125,#CSO_ZombiTag_Fever_1_125
+도발하고 똥침 하기,226,12,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_126,#CSO_ZombiTag_Fever_1_126,#CSO_ZombiTag_Fever_1_126
+환호하고 점프 하기,227,13,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_127,#CSO_ZombiTag_Fever_1_127,#CSO_ZombiTag_Fever_1_127
+환호하고 가만히 서있기,228,13,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_128,#CSO_ZombiTag_Fever_1_128,#CSO_ZombiTag_Fever_1_128
+환호하고 앉아있기,229,13,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_129,#CSO_ZombiTag_Fever_1_129,#CSO_ZombiTag_Fever_1_129
+환호하고 뒤로 걷기,230,13,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_130,#CSO_ZombiTag_Fever_1_130,#CSO_ZombiTag_Fever_1_130
+환호하고 인사하기,231,13,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_131,#CSO_ZombiTag_Fever_1_131,#CSO_ZombiTag_Fever_1_131
+환호하고 경례하기,232,13,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_132,#CSO_ZombiTag_Fever_1_132,#CSO_ZombiTag_Fever_1_132
+환호하고 화내기,233,13,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_133,#CSO_ZombiTag_Fever_1_133,#CSO_ZombiTag_Fever_1_133
+환호하고 손 키스 하기,234,13,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_134,#CSO_ZombiTag_Fever_1_134,#CSO_ZombiTag_Fever_1_134
+환호하고 항복 하기,235,13,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_135,#CSO_ZombiTag_Fever_1_135,#CSO_ZombiTag_Fever_1_135
+환호하고 힘자랑 하기,236,13,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_136,#CSO_ZombiTag_Fever_1_136,#CSO_ZombiTag_Fever_1_136
+환호하고 죽은척 하기,237,13,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_137,#CSO_ZombiTag_Fever_1_137,#CSO_ZombiTag_Fever_1_137
+환호하고 요가하기,238,13,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_138,#CSO_ZombiTag_Fever_1_138,#CSO_ZombiTag_Fever_1_138
+환호하고 PT체조 하기,239,13,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_139,#CSO_ZombiTag_Fever_1_139,#CSO_ZombiTag_Fever_1_139
+환호하고 명상 하기,240,13,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_140,#CSO_ZombiTag_Fever_1_140,#CSO_ZombiTag_Fever_1_140
+환호하고 발레 하기,241,13,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_141,#CSO_ZombiTag_Fever_1_141,#CSO_ZombiTag_Fever_1_141
+환호하고 권법 하기,242,13,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_142,#CSO_ZombiTag_Fever_1_142,#CSO_ZombiTag_Fever_1_142
+환호하고 승리 포즈 하기,243,13,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_143,#CSO_ZombiTag_Fever_1_143,#CSO_ZombiTag_Fever_1_143
+환호하고 똥침 하기,244,13,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_144,#CSO_ZombiTag_Fever_1_144,#CSO_ZombiTag_Fever_1_144
+화내고 점프 하기,245,14,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_145,#CSO_ZombiTag_Fever_1_145,#CSO_ZombiTag_Fever_1_145
+화내고 가만히 서있기,246,14,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_146,#CSO_ZombiTag_Fever_1_146,#CSO_ZombiTag_Fever_1_146
+화내고 앉아있기,247,14,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_147,#CSO_ZombiTag_Fever_1_147,#CSO_ZombiTag_Fever_1_147
+화내고 뒤로 걷기,248,14,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_148,#CSO_ZombiTag_Fever_1_148,#CSO_ZombiTag_Fever_1_148
+화내고 인사하기,249,14,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_149,#CSO_ZombiTag_Fever_1_149,#CSO_ZombiTag_Fever_1_149
+화내고 경례하기,250,14,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_150,#CSO_ZombiTag_Fever_1_150,#CSO_ZombiTag_Fever_1_150
+화내고 환호하기,251,14,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_151,#CSO_ZombiTag_Fever_1_151,#CSO_ZombiTag_Fever_1_151
+화내고 손 키스 하기,252,14,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_152,#CSO_ZombiTag_Fever_1_152,#CSO_ZombiTag_Fever_1_152
+화내고 항복 하기,253,14,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_153,#CSO_ZombiTag_Fever_1_153,#CSO_ZombiTag_Fever_1_153
+화내고 힘자랑 하기,254,14,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_154,#CSO_ZombiTag_Fever_1_154,#CSO_ZombiTag_Fever_1_154
+화내고 죽은척 하기,255,14,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_155,#CSO_ZombiTag_Fever_1_155,#CSO_ZombiTag_Fever_1_155
+화내고 요가하기,256,14,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_156,#CSO_ZombiTag_Fever_1_156,#CSO_ZombiTag_Fever_1_156
+화내고 PT체조 하기,257,14,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_157,#CSO_ZombiTag_Fever_1_157,#CSO_ZombiTag_Fever_1_157
+화내고 명상 하기,258,14,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_158,#CSO_ZombiTag_Fever_1_158,#CSO_ZombiTag_Fever_1_158
+화내고 발레 하기,259,14,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_159,#CSO_ZombiTag_Fever_1_159,#CSO_ZombiTag_Fever_1_159
+화내고 권법 하기,260,14,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_160,#CSO_ZombiTag_Fever_1_160,#CSO_ZombiTag_Fever_1_160
+화내고 승리 포즈 하기,261,14,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_161,#CSO_ZombiTag_Fever_1_161,#CSO_ZombiTag_Fever_1_161
+화내고 똥침 하기,262,14,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_162,#CSO_ZombiTag_Fever_1_162,#CSO_ZombiTag_Fever_1_162
+춤추고 점프 하기,263,15,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_163,#CSO_ZombiTag_Fever_1_163,#CSO_ZombiTag_Fever_1_163
+춤추고 가만히 서있기,264,15,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_164,#CSO_ZombiTag_Fever_1_164,#CSO_ZombiTag_Fever_1_164
+춤추고 앉아있기,265,15,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_165,#CSO_ZombiTag_Fever_1_165,#CSO_ZombiTag_Fever_1_165
+춤추고 뒤로 걷기,266,15,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_166,#CSO_ZombiTag_Fever_1_166,#CSO_ZombiTag_Fever_1_166
+춤추고 인사하기,267,15,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_167,#CSO_ZombiTag_Fever_1_167,#CSO_ZombiTag_Fever_1_167
+춤추고 경례하기,268,15,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_168,#CSO_ZombiTag_Fever_1_168,#CSO_ZombiTag_Fever_1_168
+춤추고 환호하기,269,15,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_169,#CSO_ZombiTag_Fever_1_169,#CSO_ZombiTag_Fever_1_169
+춤추고 화내기,270,15,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_170,#CSO_ZombiTag_Fever_1_170,#CSO_ZombiTag_Fever_1_170
+춤추고 항복 하기,271,15,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_171,#CSO_ZombiTag_Fever_1_171,#CSO_ZombiTag_Fever_1_171
+춤추고 힘자랑 하기,272,15,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_172,#CSO_ZombiTag_Fever_1_172,#CSO_ZombiTag_Fever_1_172
+춤추고 죽은척 하기,273,15,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_173,#CSO_ZombiTag_Fever_1_173,#CSO_ZombiTag_Fever_1_173
+춤추고 요가하기,274,15,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_174,#CSO_ZombiTag_Fever_1_174,#CSO_ZombiTag_Fever_1_174
+춤추고 PT체조 하기,275,15,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_175,#CSO_ZombiTag_Fever_1_175,#CSO_ZombiTag_Fever_1_175
+춤추고 명상 하기,276,15,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_176,#CSO_ZombiTag_Fever_1_176,#CSO_ZombiTag_Fever_1_176
+춤추고 발레 하기,277,15,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_177,#CSO_ZombiTag_Fever_1_177,#CSO_ZombiTag_Fever_1_177
+춤추고 권법 하기,278,15,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_178,#CSO_ZombiTag_Fever_1_178,#CSO_ZombiTag_Fever_1_178
+춤추고 승리 포즈 하기,279,15,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_179,#CSO_ZombiTag_Fever_1_179,#CSO_ZombiTag_Fever_1_179
+춤추고 똥침 하기,280,15,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_180,#CSO_ZombiTag_Fever_1_180,#CSO_ZombiTag_Fever_1_180
+손 키스 하고 점프 하기,281,16,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_181,#CSO_ZombiTag_Fever_1_181,#CSO_ZombiTag_Fever_1_181
+손 키스 하고 가만히 서있기,282,16,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_182,#CSO_ZombiTag_Fever_1_182,#CSO_ZombiTag_Fever_1_182
+손 키스 하고 앉아있기,283,16,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_183,#CSO_ZombiTag_Fever_1_183,#CSO_ZombiTag_Fever_1_183
+손 키스 하고 뒤로 걷기,284,16,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_184,#CSO_ZombiTag_Fever_1_184,#CSO_ZombiTag_Fever_1_184
+손 키스 하고 인사하기,285,16,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_185,#CSO_ZombiTag_Fever_1_185,#CSO_ZombiTag_Fever_1_185
+손 키스 하고 경례하기,286,16,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_186,#CSO_ZombiTag_Fever_1_186,#CSO_ZombiTag_Fever_1_186
+손 키스 하고 환호하기,287,16,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_187,#CSO_ZombiTag_Fever_1_187,#CSO_ZombiTag_Fever_1_187
+손 키스 하고 화내기,288,16,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_188,#CSO_ZombiTag_Fever_1_188,#CSO_ZombiTag_Fever_1_188
+손 키스 하고 항복 하기,289,16,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_189,#CSO_ZombiTag_Fever_1_189,#CSO_ZombiTag_Fever_1_189
+손 키스 하고 힘자랑 하기,290,16,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_190,#CSO_ZombiTag_Fever_1_190,#CSO_ZombiTag_Fever_1_190
+손 키스 하고 죽은척 하기,291,16,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_191,#CSO_ZombiTag_Fever_1_191,#CSO_ZombiTag_Fever_1_191
+손 키스 하고 요가하기,292,16,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_192,#CSO_ZombiTag_Fever_1_192,#CSO_ZombiTag_Fever_1_192
+손 키스 하고 PT체조 하기,293,16,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_193,#CSO_ZombiTag_Fever_1_193,#CSO_ZombiTag_Fever_1_193
+손 키스 하고 명상 하기,294,16,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_194,#CSO_ZombiTag_Fever_1_194,#CSO_ZombiTag_Fever_1_194
+손 키스 하고 발레 하기,295,16,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_195,#CSO_ZombiTag_Fever_1_195,#CSO_ZombiTag_Fever_1_195
+손 키스 하고 권법 하기,296,16,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_196,#CSO_ZombiTag_Fever_1_196,#CSO_ZombiTag_Fever_1_196
+손 키스 하고 승리 포즈 하기,297,16,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_197,#CSO_ZombiTag_Fever_1_197,#CSO_ZombiTag_Fever_1_197
+손 키스 하고 똥침 하기,298,16,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_198,#CSO_ZombiTag_Fever_1_198,#CSO_ZombiTag_Fever_1_198
+항복하고 점프 하기,299,17,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_199,#CSO_ZombiTag_Fever_1_199,#CSO_ZombiTag_Fever_1_199
+항복하고 가만히 서있기,300,17,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_200,#CSO_ZombiTag_Fever_1_200,#CSO_ZombiTag_Fever_1_200
+항복하고 앉아있기,301,17,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_201,#CSO_ZombiTag_Fever_1_201,#CSO_ZombiTag_Fever_1_201
+항복하고 뒤로 걷기,302,17,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_202,#CSO_ZombiTag_Fever_1_202,#CSO_ZombiTag_Fever_1_202
+항복하고 인사하기,303,17,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_203,#CSO_ZombiTag_Fever_1_203,#CSO_ZombiTag_Fever_1_203
+항복하고 경례하기,304,17,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_204,#CSO_ZombiTag_Fever_1_204,#CSO_ZombiTag_Fever_1_204
+항복하고 환호하기,305,17,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_205,#CSO_ZombiTag_Fever_1_205,#CSO_ZombiTag_Fever_1_205
+항복하고 손 키스 하기,306,17,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_206,#CSO_ZombiTag_Fever_1_206,#CSO_ZombiTag_Fever_1_206
+항복하고 항복 하기,307,17,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_207,#CSO_ZombiTag_Fever_1_207,#CSO_ZombiTag_Fever_1_207
+항복하고 힘자랑 하기,308,17,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_208,#CSO_ZombiTag_Fever_1_208,#CSO_ZombiTag_Fever_1_208
+항복하고 죽은척 하기,309,17,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_209,#CSO_ZombiTag_Fever_1_209,#CSO_ZombiTag_Fever_1_209
+항복하고 요가하기,310,17,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_210,#CSO_ZombiTag_Fever_1_210,#CSO_ZombiTag_Fever_1_210
+항복하고 PT체조 하기,311,17,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_211,#CSO_ZombiTag_Fever_1_211,#CSO_ZombiTag_Fever_1_211
+항복하고 명상 하기,312,17,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_212,#CSO_ZombiTag_Fever_1_212,#CSO_ZombiTag_Fever_1_212
+항복하고 발레 하기,313,17,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_213,#CSO_ZombiTag_Fever_1_213,#CSO_ZombiTag_Fever_1_213
+항복하고 권법 하기,314,17,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_214,#CSO_ZombiTag_Fever_1_214,#CSO_ZombiTag_Fever_1_214
+항복하고 승리 포즈 하기,315,17,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_215,#CSO_ZombiTag_Fever_1_215,#CSO_ZombiTag_Fever_1_215
+항복하고 똥침 하기,316,17,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_216,#CSO_ZombiTag_Fever_1_216,#CSO_ZombiTag_Fever_1_216
+힘자랑 하고 점프 하기,317,18,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_217,#CSO_ZombiTag_Fever_1_217,#CSO_ZombiTag_Fever_1_217
+힘자랑 하고 가만히 서있기,318,18,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_218,#CSO_ZombiTag_Fever_1_218,#CSO_ZombiTag_Fever_1_218
+힘자랑 하고 앉아있기,319,18,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_219,#CSO_ZombiTag_Fever_1_219,#CSO_ZombiTag_Fever_1_219
+힘자랑 하고 뒤로 걷기,320,18,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_220,#CSO_ZombiTag_Fever_1_220,#CSO_ZombiTag_Fever_1_220
+힘자랑 하고 인사하기,321,18,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_221,#CSO_ZombiTag_Fever_1_221,#CSO_ZombiTag_Fever_1_221
+힘자랑 하고 경례하기,322,18,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_222,#CSO_ZombiTag_Fever_1_222,#CSO_ZombiTag_Fever_1_222
+힘자랑 하고 환호하기,323,18,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_223,#CSO_ZombiTag_Fever_1_223,#CSO_ZombiTag_Fever_1_223
+힘자랑 하고 화내기,324,18,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_224,#CSO_ZombiTag_Fever_1_224,#CSO_ZombiTag_Fever_1_224
+힘자랑 하고 손 키스 하기,325,18,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_225,#CSO_ZombiTag_Fever_1_225,#CSO_ZombiTag_Fever_1_225
+힘자랑 하고 항복 하기,326,18,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_226,#CSO_ZombiTag_Fever_1_226,#CSO_ZombiTag_Fever_1_226
+힘자랑 하고 죽은척 하기,327,18,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_227,#CSO_ZombiTag_Fever_1_227,#CSO_ZombiTag_Fever_1_227
+힘자랑 하고 요가하기,328,18,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_228,#CSO_ZombiTag_Fever_1_228,#CSO_ZombiTag_Fever_1_228
+힘자랑 하고 PT체조 하기,329,18,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_229,#CSO_ZombiTag_Fever_1_229,#CSO_ZombiTag_Fever_1_229
+힘자랑 하고 명상 하기,330,18,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_230,#CSO_ZombiTag_Fever_1_230,#CSO_ZombiTag_Fever_1_230
+힘자랑 하고 발레 하기,331,18,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_231,#CSO_ZombiTag_Fever_1_231,#CSO_ZombiTag_Fever_1_231
+힘자랑 하고 권법 하기,332,18,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_232,#CSO_ZombiTag_Fever_1_232,#CSO_ZombiTag_Fever_1_232
+힘자랑 하고 승리 포즈 하기,333,18,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_233,#CSO_ZombiTag_Fever_1_233,#CSO_ZombiTag_Fever_1_233
+힘자랑 하고 똥침 하기,334,18,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_234,#CSO_ZombiTag_Fever_1_234,#CSO_ZombiTag_Fever_1_234
+죽은척 한 뒤 점프 하기,335,19,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_235,#CSO_ZombiTag_Fever_1_235,#CSO_ZombiTag_Fever_1_235
+죽은척 한 뒤 가만히 서있기,336,19,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_236,#CSO_ZombiTag_Fever_1_236,#CSO_ZombiTag_Fever_1_236
+죽은척 한 뒤 앉아있기,337,19,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_237,#CSO_ZombiTag_Fever_1_237,#CSO_ZombiTag_Fever_1_237
+죽은척 한 뒤 뒤로 걷기,338,19,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_238,#CSO_ZombiTag_Fever_1_238,#CSO_ZombiTag_Fever_1_238
+죽은척 한 뒤 인사하기,339,19,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_239,#CSO_ZombiTag_Fever_1_239,#CSO_ZombiTag_Fever_1_239
+죽은척 한 뒤 경례하기,340,19,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_240,#CSO_ZombiTag_Fever_1_240,#CSO_ZombiTag_Fever_1_240
+죽은척 한 뒤 환호하기,341,19,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_241,#CSO_ZombiTag_Fever_1_241,#CSO_ZombiTag_Fever_1_241
+죽은척 한 뒤 화내기,342,19,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_242,#CSO_ZombiTag_Fever_1_242,#CSO_ZombiTag_Fever_1_242
+죽은척 한 뒤 손 키스 하기,343,19,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_243,#CSO_ZombiTag_Fever_1_243,#CSO_ZombiTag_Fever_1_243
+죽은척 한 뒤 항복 하기,344,19,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_244,#CSO_ZombiTag_Fever_1_244,#CSO_ZombiTag_Fever_1_244
+죽은척 한 뒤 힘자랑 하기,345,19,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_245,#CSO_ZombiTag_Fever_1_245,#CSO_ZombiTag_Fever_1_245
+죽은척 한 뒤 요가하기,346,19,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_246,#CSO_ZombiTag_Fever_1_246,#CSO_ZombiTag_Fever_1_246
+죽은척 한 뒤 PT체조 하기,347,19,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_247,#CSO_ZombiTag_Fever_1_247,#CSO_ZombiTag_Fever_1_247
+죽은척 한 뒤 명상 하기,348,19,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_248,#CSO_ZombiTag_Fever_1_248,#CSO_ZombiTag_Fever_1_248
+죽은척 한 뒤 발레 하기,349,19,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_249,#CSO_ZombiTag_Fever_1_249,#CSO_ZombiTag_Fever_1_249
+죽은척 한 뒤 권법 하기,350,19,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_250,#CSO_ZombiTag_Fever_1_250,#CSO_ZombiTag_Fever_1_250
+죽은척 한 뒤 승리 포즈 하기,351,19,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_251,#CSO_ZombiTag_Fever_1_251,#CSO_ZombiTag_Fever_1_251
+죽은척 한 뒤 똥침 하기,352,19,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_252,#CSO_ZombiTag_Fever_1_252,#CSO_ZombiTag_Fever_1_252
+요가한 뒤 점프 하기,353,20,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_253,#CSO_ZombiTag_Fever_1_253,#CSO_ZombiTag_Fever_1_253
+요가한 뒤 가만히 서있기,354,20,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_254,#CSO_ZombiTag_Fever_1_254,#CSO_ZombiTag_Fever_1_254
+요가한 뒤 앉아있기,355,20,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_255,#CSO_ZombiTag_Fever_1_255,#CSO_ZombiTag_Fever_1_255
+요가한 뒤 뒤로 걷기,356,20,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_256,#CSO_ZombiTag_Fever_1_256,#CSO_ZombiTag_Fever_1_256
+요가한 뒤 인사하기,357,20,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_257,#CSO_ZombiTag_Fever_1_257,#CSO_ZombiTag_Fever_1_257
+요가한 뒤 경례하기,358,20,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_258,#CSO_ZombiTag_Fever_1_258,#CSO_ZombiTag_Fever_1_258
+요가한 뒤 환호하기,359,20,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_259,#CSO_ZombiTag_Fever_1_259,#CSO_ZombiTag_Fever_1_259
+요가한 뒤 화내기,360,20,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_260,#CSO_ZombiTag_Fever_1_260,#CSO_ZombiTag_Fever_1_260
+요가한 뒤 손 키스 하기,361,20,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_261,#CSO_ZombiTag_Fever_1_261,#CSO_ZombiTag_Fever_1_261
+요가한 뒤 항복 하기,362,20,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_262,#CSO_ZombiTag_Fever_1_262,#CSO_ZombiTag_Fever_1_262
+요가한 뒤 힘자랑 하기,363,20,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_263,#CSO_ZombiTag_Fever_1_263,#CSO_ZombiTag_Fever_1_263
+요가한 뒤 죽은척 하기,364,20,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_264,#CSO_ZombiTag_Fever_1_264,#CSO_ZombiTag_Fever_1_264
+요가한 뒤 PT체조 하기,365,20,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_265,#CSO_ZombiTag_Fever_1_265,#CSO_ZombiTag_Fever_1_265
+요가한 뒤 명상 하기,366,20,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_266,#CSO_ZombiTag_Fever_1_266,#CSO_ZombiTag_Fever_1_266
+요가한 뒤 발레 하기,367,20,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_267,#CSO_ZombiTag_Fever_1_267,#CSO_ZombiTag_Fever_1_267
+요가한 뒤 권법 하기,368,20,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_268,#CSO_ZombiTag_Fever_1_268,#CSO_ZombiTag_Fever_1_268
+요가한 뒤 승리 포즈 하기,369,20,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_269,#CSO_ZombiTag_Fever_1_269,#CSO_ZombiTag_Fever_1_269
+요가한 뒤 똥침 하기,370,20,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_270,#CSO_ZombiTag_Fever_1_270,#CSO_ZombiTag_Fever_1_270
+PT체조하고 점프 하기,371,21,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_271,#CSO_ZombiTag_Fever_1_271,#CSO_ZombiTag_Fever_1_271
+PT체조하고 가만히 서있기,372,21,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_272,#CSO_ZombiTag_Fever_1_272,#CSO_ZombiTag_Fever_1_272
+PT체조하고 앉아있기,373,21,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_273,#CSO_ZombiTag_Fever_1_273,#CSO_ZombiTag_Fever_1_273
+PT체조하고 뒤로 걷기,374,21,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_274,#CSO_ZombiTag_Fever_1_274,#CSO_ZombiTag_Fever_1_274
+PT체조하고 인사하기,375,21,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_275,#CSO_ZombiTag_Fever_1_275,#CSO_ZombiTag_Fever_1_275
+PT체조하고 경례하기,376,21,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_276,#CSO_ZombiTag_Fever_1_276,#CSO_ZombiTag_Fever_1_276
+PT체조하고 환호하기,377,21,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_277,#CSO_ZombiTag_Fever_1_277,#CSO_ZombiTag_Fever_1_277
+PT체조하고 화내기,378,21,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_278,#CSO_ZombiTag_Fever_1_278,#CSO_ZombiTag_Fever_1_278
+PT체조하고 손 키스 하기,379,21,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_279,#CSO_ZombiTag_Fever_1_279,#CSO_ZombiTag_Fever_1_279
+PT체조하고 항복 하기,380,21,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_280,#CSO_ZombiTag_Fever_1_280,#CSO_ZombiTag_Fever_1_280
+PT체조하고 힘자랑 하기,381,21,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_281,#CSO_ZombiTag_Fever_1_281,#CSO_ZombiTag_Fever_1_281
+PT체조하고 죽은척 하기,382,21,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_282,#CSO_ZombiTag_Fever_1_282,#CSO_ZombiTag_Fever_1_282
+PT체조하고 요가하기,383,21,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_283,#CSO_ZombiTag_Fever_1_283,#CSO_ZombiTag_Fever_1_283
+PT체조하고 PT체조 하기,384,21,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_284,#CSO_ZombiTag_Fever_1_284,#CSO_ZombiTag_Fever_1_284
+PT체조하고 명상 하기,385,21,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_285,#CSO_ZombiTag_Fever_1_285,#CSO_ZombiTag_Fever_1_285
+PT체조하고 발레 하기,386,21,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_286,#CSO_ZombiTag_Fever_1_286,#CSO_ZombiTag_Fever_1_286
+PT체조하고 권법 하기,387,21,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_287,#CSO_ZombiTag_Fever_1_287,#CSO_ZombiTag_Fever_1_287
+PT체조하고 승리 포즈 하기,388,21,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_288,#CSO_ZombiTag_Fever_1_288,#CSO_ZombiTag_Fever_1_288
+PT체조하고 똥침 하기,389,21,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_289,#CSO_ZombiTag_Fever_1_289,#CSO_ZombiTag_Fever_1_289
+명상한 뒤 점프 하기,390,22,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_290,#CSO_ZombiTag_Fever_1_290,#CSO_ZombiTag_Fever_1_290
+명상한 뒤 가만히 서있기,391,22,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_291,#CSO_ZombiTag_Fever_1_291,#CSO_ZombiTag_Fever_1_291
+명상한 뒤 앉아있기,392,22,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_292,#CSO_ZombiTag_Fever_1_292,#CSO_ZombiTag_Fever_1_292
+명상한 뒤 뒤로 걷기,393,22,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_293,#CSO_ZombiTag_Fever_1_293,#CSO_ZombiTag_Fever_1_293
+명상한 뒤 인사하기,394,22,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_294,#CSO_ZombiTag_Fever_1_294,#CSO_ZombiTag_Fever_1_294
+명상한 뒤 경례하기,395,22,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_295,#CSO_ZombiTag_Fever_1_295,#CSO_ZombiTag_Fever_1_295
+명상한 뒤 환호하기,396,22,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_296,#CSO_ZombiTag_Fever_1_296,#CSO_ZombiTag_Fever_1_296
+명상한 뒤 화내기,397,22,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_297,#CSO_ZombiTag_Fever_1_297,#CSO_ZombiTag_Fever_1_297
+명상한 뒤 손 키스 하기,398,22,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_298,#CSO_ZombiTag_Fever_1_298,#CSO_ZombiTag_Fever_1_298
+명상한 뒤 항복 하기,399,22,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_299,#CSO_ZombiTag_Fever_1_299,#CSO_ZombiTag_Fever_1_299
+명상한 뒤 힘자랑 하기,400,22,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_300,#CSO_ZombiTag_Fever_1_300,#CSO_ZombiTag_Fever_1_300
+명상한 뒤 죽은척 하기,401,22,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_301,#CSO_ZombiTag_Fever_1_301,#CSO_ZombiTag_Fever_1_301
+명상한 뒤 요가하기,402,22,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_302,#CSO_ZombiTag_Fever_1_302,#CSO_ZombiTag_Fever_1_302
+명상한 뒤 PT체조 하기,403,22,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_303,#CSO_ZombiTag_Fever_1_303,#CSO_ZombiTag_Fever_1_303
+명상한 뒤 발레 하기,404,22,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_304,#CSO_ZombiTag_Fever_1_304,#CSO_ZombiTag_Fever_1_304
+명상한 뒤 권법 하기,405,22,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_305,#CSO_ZombiTag_Fever_1_305,#CSO_ZombiTag_Fever_1_305
+명상한 뒤 승리 포즈 하기,406,22,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_306,#CSO_ZombiTag_Fever_1_306,#CSO_ZombiTag_Fever_1_306
+명상한 뒤 똥침 하기,407,22,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_307,#CSO_ZombiTag_Fever_1_307,#CSO_ZombiTag_Fever_1_307
+발레하고 점프 하기,408,23,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_308,#CSO_ZombiTag_Fever_1_308,#CSO_ZombiTag_Fever_1_308
+발레하고 가만히 서있기,409,23,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_309,#CSO_ZombiTag_Fever_1_309,#CSO_ZombiTag_Fever_1_309
+발레하고 앉아있기,410,23,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_310,#CSO_ZombiTag_Fever_1_310,#CSO_ZombiTag_Fever_1_310
+발레하고 뒤로 걷기,411,23,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_311,#CSO_ZombiTag_Fever_1_311,#CSO_ZombiTag_Fever_1_311
+발레하고 인사하기,412,23,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_312,#CSO_ZombiTag_Fever_1_312,#CSO_ZombiTag_Fever_1_312
+발레하고 경례하기,413,23,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_313,#CSO_ZombiTag_Fever_1_313,#CSO_ZombiTag_Fever_1_313
+발레하고 환호하기,414,23,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_314,#CSO_ZombiTag_Fever_1_314,#CSO_ZombiTag_Fever_1_314
+발레하고 화내기,415,23,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_315,#CSO_ZombiTag_Fever_1_315,#CSO_ZombiTag_Fever_1_315
+발레하고 손 키스 하기,416,23,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_316,#CSO_ZombiTag_Fever_1_316,#CSO_ZombiTag_Fever_1_316
+발레하고 항복 하기,417,23,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_317,#CSO_ZombiTag_Fever_1_317,#CSO_ZombiTag_Fever_1_317
+발레하고 힘자랑 하기,418,23,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_318,#CSO_ZombiTag_Fever_1_318,#CSO_ZombiTag_Fever_1_318
+발레하고 죽은척 하기,419,23,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_319,#CSO_ZombiTag_Fever_1_319,#CSO_ZombiTag_Fever_1_319
+발레하고 요가하기,420,23,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_320,#CSO_ZombiTag_Fever_1_320,#CSO_ZombiTag_Fever_1_320
+발레하고 PT체조 하기,421,23,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_321,#CSO_ZombiTag_Fever_1_321,#CSO_ZombiTag_Fever_1_321
+발레하고 명상 하기,422,23,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_322,#CSO_ZombiTag_Fever_1_322,#CSO_ZombiTag_Fever_1_322
+발레하고 권법 하기,423,23,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_323,#CSO_ZombiTag_Fever_1_323,#CSO_ZombiTag_Fever_1_323
+발레하고 승리 포즈 하기,424,23,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_324,#CSO_ZombiTag_Fever_1_324,#CSO_ZombiTag_Fever_1_324
+발레하고 똥침 하기,425,23,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_325,#CSO_ZombiTag_Fever_1_325,#CSO_ZombiTag_Fever_1_325
+권법하고 점프 하기,426,24,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_326,#CSO_ZombiTag_Fever_1_326,#CSO_ZombiTag_Fever_1_326
+권법하고 가만히 서있기,427,24,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_327,#CSO_ZombiTag_Fever_1_327,#CSO_ZombiTag_Fever_1_327
+권법하고 앉아있기,428,24,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_328,#CSO_ZombiTag_Fever_1_328,#CSO_ZombiTag_Fever_1_328
+권법하고 뒤로 걷기,429,24,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_329,#CSO_ZombiTag_Fever_1_329,#CSO_ZombiTag_Fever_1_329
+권법하고 인사하기,430,24,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_330,#CSO_ZombiTag_Fever_1_330,#CSO_ZombiTag_Fever_1_330
+권법하고 경례하기,431,24,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_331,#CSO_ZombiTag_Fever_1_331,#CSO_ZombiTag_Fever_1_331
+권법하고 환호하기,432,24,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_332,#CSO_ZombiTag_Fever_1_332,#CSO_ZombiTag_Fever_1_332
+권법하고 화내기,433,24,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_333,#CSO_ZombiTag_Fever_1_333,#CSO_ZombiTag_Fever_1_333
+권법하고 손 키스 하기,434,24,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_334,#CSO_ZombiTag_Fever_1_334,#CSO_ZombiTag_Fever_1_334
+권법하고 항복 하기,435,24,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_335,#CSO_ZombiTag_Fever_1_335,#CSO_ZombiTag_Fever_1_335
+권법하고 힘자랑 하기,436,24,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_336,#CSO_ZombiTag_Fever_1_336,#CSO_ZombiTag_Fever_1_336
+권법하고 죽은척 하기,437,24,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_337,#CSO_ZombiTag_Fever_1_337,#CSO_ZombiTag_Fever_1_337
+권법하고 요가하기,438,24,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_338,#CSO_ZombiTag_Fever_1_338,#CSO_ZombiTag_Fever_1_338
+권법하고 PT체조 하기,439,24,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_339,#CSO_ZombiTag_Fever_1_339,#CSO_ZombiTag_Fever_1_339
+권법하고 명상 하기,440,24,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_340,#CSO_ZombiTag_Fever_1_340,#CSO_ZombiTag_Fever_1_340
+권법하고 발레 하기,441,24,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_341,#CSO_ZombiTag_Fever_1_341,#CSO_ZombiTag_Fever_1_341
+권법하고 권법 하기,442,24,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_342,#CSO_ZombiTag_Fever_1_342,#CSO_ZombiTag_Fever_1_342
+권법하고 똥침 하기,443,24,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_343,#CSO_ZombiTag_Fever_1_343,#CSO_ZombiTag_Fever_1_343
+승리 포즈 후 점프 하기,444,25,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_344,#CSO_ZombiTag_Fever_1_344,#CSO_ZombiTag_Fever_1_344
+승리 포즈 후 가만히 서있기,445,25,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_345,#CSO_ZombiTag_Fever_1_345,#CSO_ZombiTag_Fever_1_345
+승리 포즈 후 앉아있기,446,25,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_346,#CSO_ZombiTag_Fever_1_346,#CSO_ZombiTag_Fever_1_346
+승리 포즈 후 뒤로 걷기,447,25,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_347,#CSO_ZombiTag_Fever_1_347,#CSO_ZombiTag_Fever_1_347
+승리 포즈 후 점프 하기,448,25,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_348,#CSO_ZombiTag_Fever_1_348,#CSO_ZombiTag_Fever_1_348
+승리 포즈 후 가만히 서있기,449,25,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_349,#CSO_ZombiTag_Fever_1_349,#CSO_ZombiTag_Fever_1_349
+승리 포즈 후 앉아있기,450,25,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_350,#CSO_ZombiTag_Fever_1_350,#CSO_ZombiTag_Fever_1_350
+승리 포즈 후 뒤로 걷기,451,25,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_351,#CSO_ZombiTag_Fever_1_351,#CSO_ZombiTag_Fever_1_351
+승리 포즈 후 인사하기,452,25,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_352,#CSO_ZombiTag_Fever_1_352,#CSO_ZombiTag_Fever_1_352
+승리 포즈 후 경례하기,453,25,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_353,#CSO_ZombiTag_Fever_1_353,#CSO_ZombiTag_Fever_1_353
+승리 포즈 후 환호하기,454,25,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_354,#CSO_ZombiTag_Fever_1_354,#CSO_ZombiTag_Fever_1_354
+승리 포즈 후 화내기,455,25,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_355,#CSO_ZombiTag_Fever_1_355,#CSO_ZombiTag_Fever_1_355
+승리 포즈 후 손 키스 하기,456,25,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_356,#CSO_ZombiTag_Fever_1_356,#CSO_ZombiTag_Fever_1_356
+승리 포즈 후 항복 하기,457,25,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_357,#CSO_ZombiTag_Fever_1_357,#CSO_ZombiTag_Fever_1_357
+승리 포즈 후 힘자랑 하기,458,25,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_358,#CSO_ZombiTag_Fever_1_358,#CSO_ZombiTag_Fever_1_358
+승리 포즈 후 죽은척 하기,459,25,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_359,#CSO_ZombiTag_Fever_1_359,#CSO_ZombiTag_Fever_1_359
+승리 포즈 후 요가하기,460,25,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_360,#CSO_ZombiTag_Fever_1_360,#CSO_ZombiTag_Fever_1_360
+승리 포즈 후 PT체조 하기,461,25,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_361,#CSO_ZombiTag_Fever_1_361,#CSO_ZombiTag_Fever_1_361
+승리 포즈 후 명상 하기,462,25,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_362,#CSO_ZombiTag_Fever_1_362,#CSO_ZombiTag_Fever_1_362
+승리 포즈 후 발레 하기,463,25,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_363,#CSO_ZombiTag_Fever_1_363,#CSO_ZombiTag_Fever_1_363
+승리 포즈 후 권법 하기,464,25,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_364,#CSO_ZombiTag_Fever_1_364,#CSO_ZombiTag_Fever_1_364
+승리 포즈 후 똥침 하기,465,25,3,26,3,0,0,5,6,#CSO_ZombiTag_Fever_0_365,#CSO_ZombiTag_Fever_1_365,#CSO_ZombiTag_Fever_1_365
+승리 포즈 후 가만히 서있기,466,25,3,3,3,0,0,5,6,#CSO_ZombiTag_Fever_0_366,#CSO_ZombiTag_Fever_1_366,#CSO_ZombiTag_Fever_1_366
+승리 포즈 후 앉아있기,467,25,3,4,3,0,0,5,6,#CSO_ZombiTag_Fever_0_367,#CSO_ZombiTag_Fever_1_367,#CSO_ZombiTag_Fever_1_367
+승리 포즈 후 뒤로 걷기,468,25,3,9,3,0,0,5,6,#CSO_ZombiTag_Fever_0_368,#CSO_ZombiTag_Fever_1_368,#CSO_ZombiTag_Fever_1_368
+똥침하고 점프 하기,469,26,3,2,3,0,0,5,6,#CSO_ZombiTag_Fever_0_369,#CSO_ZombiTag_Fever_1_369,#CSO_ZombiTag_Fever_1_369
+똥침하고 인사하기,470,26,3,10,3,0,0,5,6,#CSO_ZombiTag_Fever_0_370,#CSO_ZombiTag_Fever_1_370,#CSO_ZombiTag_Fever_1_370
+똥침하고 경례하기,471,26,3,11,3,0,0,5,6,#CSO_ZombiTag_Fever_0_371,#CSO_ZombiTag_Fever_1_371,#CSO_ZombiTag_Fever_1_371
+똥침하고 환호하기,472,26,3,13,3,0,0,5,6,#CSO_ZombiTag_Fever_0_372,#CSO_ZombiTag_Fever_1_372,#CSO_ZombiTag_Fever_1_372
+똥침하고 화내기,473,26,3,14,3,0,0,5,6,#CSO_ZombiTag_Fever_0_373,#CSO_ZombiTag_Fever_1_373,#CSO_ZombiTag_Fever_1_373
+똥침하고 손 키스 하기,474,26,3,16,3,0,0,5,6,#CSO_ZombiTag_Fever_0_374,#CSO_ZombiTag_Fever_1_374,#CSO_ZombiTag_Fever_1_374
+똥침하고 항복 하기,475,26,3,17,3,0,0,5,6,#CSO_ZombiTag_Fever_0_375,#CSO_ZombiTag_Fever_1_375,#CSO_ZombiTag_Fever_1_375
+똥침하고 힘자랑 하기,476,26,3,18,3,0,0,5,6,#CSO_ZombiTag_Fever_0_376,#CSO_ZombiTag_Fever_1_376,#CSO_ZombiTag_Fever_1_376
+똥침하고 죽은척 하기,477,26,3,19,3,0,0,5,6,#CSO_ZombiTag_Fever_0_377,#CSO_ZombiTag_Fever_1_377,#CSO_ZombiTag_Fever_1_377
+똥침하고 요가하기,478,26,3,20,3,0,0,5,6,#CSO_ZombiTag_Fever_0_378,#CSO_ZombiTag_Fever_1_378,#CSO_ZombiTag_Fever_1_378
+똥침하고 PT체조 하기,479,26,3,21,3,0,0,5,6,#CSO_ZombiTag_Fever_0_379,#CSO_ZombiTag_Fever_1_379,#CSO_ZombiTag_Fever_1_379
+똥침하고 명상 하기,480,26,3,22,3,0,0,5,6,#CSO_ZombiTag_Fever_0_380,#CSO_ZombiTag_Fever_1_380,#CSO_ZombiTag_Fever_1_380
+똥침하고 발레 하기,481,26,3,23,3,0,0,5,6,#CSO_ZombiTag_Fever_0_381,#CSO_ZombiTag_Fever_1_381,#CSO_ZombiTag_Fever_1_381
+똥침하고 권법 하기,482,26,3,24,3,0,0,5,6,#CSO_ZombiTag_Fever_0_382,#CSO_ZombiTag_Fever_1_382,#CSO_ZombiTag_Fever_1_382
+똥침하고 승리 포즈 하기,483,26,3,25,3,0,0,5,6,#CSO_ZombiTag_Fever_0_383,#CSO_ZombiTag_Fever_1_383,#CSO_ZombiTag_Fever_1_383
+앉아있다 점프하고 멈추기,1001,4,3,2,3,3,3,8,9,#CSO_ZombiTag_Fever_01,#CSO_ZombiTag_Fever_01,#CSO_ZombiTag_Fever_01
+앉아있다 점프하고 앉아있기,1002,4,3,2,3,4,3,8,9,#CSO_ZombiTag_Fever_02,#CSO_ZombiTag_Fever_02,#CSO_ZombiTag_Fever_02
+앉아있다 점프하고 뒤로걷기,1003,4,3,2,3,9,3,8,9,#CSO_ZombiTag_Fever_03,#CSO_ZombiTag_Fever_03,#CSO_ZombiTag_Fever_03
+앉아있다 점프하고 인사하기,1004,4,3,2,3,10,3,8,9,#CSO_ZombiTag_Fever_04,#CSO_ZombiTag_Fever_04,#CSO_ZombiTag_Fever_04
+앉아있다 점프하고 경례하기,1005,4,3,2,3,11,3,8,9,#CSO_ZombiTag_Fever_05,#CSO_ZombiTag_Fever_05,#CSO_ZombiTag_Fever_05
+앉아있다 점프하고 도발하기,1006,4,3,2,3,12,3,8,9,#CSO_ZombiTag_Fever_06,#CSO_ZombiTag_Fever_06,#CSO_ZombiTag_Fever_06
+앉아있다 점프하고 환호하기,1007,4,3,2,3,13,3,8,9,#CSO_ZombiTag_Fever_07,#CSO_ZombiTag_Fever_07,#CSO_ZombiTag_Fever_07
+앉아있다 점프하고 화내기,1008,4,3,2,3,14,3,8,9,#CSO_ZombiTag_Fever_08,#CSO_ZombiTag_Fever_08,#CSO_ZombiTag_Fever_08
+앉아있다 점프하고 춤추기,1009,4,3,2,3,15,3,8,9,#CSO_ZombiTag_Fever_09,#CSO_ZombiTag_Fever_09,#CSO_ZombiTag_Fever_09
+앉아있다 점프하고 손키스 하기,1010,4,3,2,3,16,3,8,9,#CSO_ZombiTag_Fever_10,#CSO_ZombiTag_Fever_10,#CSO_ZombiTag_Fever_10
+앉아있다 점프하고 항복하기,1011,4,3,2,3,17,3,8,9,#CSO_ZombiTag_Fever_11,#CSO_ZombiTag_Fever_11,#CSO_ZombiTag_Fever_11
+앉아있다 점프하고 힘자랑,1012,4,3,2,3,18,3,8,9,#CSO_ZombiTag_Fever_12,#CSO_ZombiTag_Fever_12,#CSO_ZombiTag_Fever_12
+앉아있다 점프하고 죽은척하기,1013,4,3,2,3,19,3,8,9,#CSO_ZombiTag_Fever_13,#CSO_ZombiTag_Fever_13,#CSO_ZombiTag_Fever_13
+앉아있다 점프하고 요가,1014,4,3,2,3,20,3,8,9,#CSO_ZombiTag_Fever_14,#CSO_ZombiTag_Fever_14,#CSO_ZombiTag_Fever_14
+앉아있다 점프하고 PT체조,1015,4,3,2,3,21,3,8,9,#CSO_ZombiTag_Fever_15,#CSO_ZombiTag_Fever_15,#CSO_ZombiTag_Fever_15
+앉아있다 점프하고 명상하기,1016,4,3,2,3,22,3,8,9,#CSO_ZombiTag_Fever_16,#CSO_ZombiTag_Fever_16,#CSO_ZombiTag_Fever_16
+앉아있다 점프하고 발레하기,1017,4,3,2,3,23,3,8,9,#CSO_ZombiTag_Fever_17,#CSO_ZombiTag_Fever_17,#CSO_ZombiTag_Fever_17
+앉아있다 점프하고 권법하기,1018,4,3,2,3,24,3,8,9,#CSO_ZombiTag_Fever_18,#CSO_ZombiTag_Fever_18,#CSO_ZombiTag_Fever_18
+앉아있다 점프하고 승리동작 하기,1019,4,3,2,3,25,3,8,9,#CSO_ZombiTag_Fever_19,#CSO_ZombiTag_Fever_19,#CSO_ZombiTag_Fever_19
+앉아있다 점프하고 똥침하기,1020,4,3,2,3,26,3,8,9,#CSO_ZombiTag_Fever_20,#CSO_ZombiTag_Fever_20,#CSO_ZombiTag_Fever_20
+점프하고 앉아있다가 점프하기,1021,2,3,4,3,2,3,8,9,#CSO_ZombiTag_Fever_21,#CSO_ZombiTag_Fever_21,#CSO_ZombiTag_Fever_21
+점프하고 앉아있다가 가만히 서있기,1022,2,3,4,3,3,3,8,9,#CSO_ZombiTag_Fever_22,#CSO_ZombiTag_Fever_22,#CSO_ZombiTag_Fever_22
+점프하고 앉아있다가 뒤로걷기,1023,2,3,4,3,9,3,8,9,#CSO_ZombiTag_Fever_23,#CSO_ZombiTag_Fever_23,#CSO_ZombiTag_Fever_23
+점프하고 앉아있다가 인사하기,1024,2,3,4,3,10,3,8,9,#CSO_ZombiTag_Fever_24,#CSO_ZombiTag_Fever_24,#CSO_ZombiTag_Fever_24
+점프하고 앉아있다가 경례하기,1025,2,3,4,3,11,3,8,9,#CSO_ZombiTag_Fever_25,#CSO_ZombiTag_Fever_25,#CSO_ZombiTag_Fever_25
+점프하고 앉아있다가 도발하기,1026,2,3,4,3,12,3,8,9,#CSO_ZombiTag_Fever_26,#CSO_ZombiTag_Fever_26,#CSO_ZombiTag_Fever_26
+점프하고 앉아있다가 환호하기,1027,2,3,4,3,13,3,8,9,#CSO_ZombiTag_Fever_27,#CSO_ZombiTag_Fever_27,#CSO_ZombiTag_Fever_27
+점프하고 앉아있다가 화내기,1028,2,3,4,3,14,3,8,9,#CSO_ZombiTag_Fever_28,#CSO_ZombiTag_Fever_28,#CSO_ZombiTag_Fever_28
+점프하고 앉아있다가 춤추기,1029,2,3,4,3,15,3,8,9,#CSO_ZombiTag_Fever_29,#CSO_ZombiTag_Fever_29,#CSO_ZombiTag_Fever_29
+점프하고 앉아있다가 손키스 하기,1030,2,3,4,3,16,3,8,9,#CSO_ZombiTag_Fever_30,#CSO_ZombiTag_Fever_30,#CSO_ZombiTag_Fever_30
+점프하고 앉아있다가 항복하기,1031,2,3,4,3,17,3,8,9,#CSO_ZombiTag_Fever_31,#CSO_ZombiTag_Fever_31,#CSO_ZombiTag_Fever_31
+점프하고 앉아있다가 힘자랑하기,1032,2,3,4,3,18,3,8,9,#CSO_ZombiTag_Fever_32,#CSO_ZombiTag_Fever_32,#CSO_ZombiTag_Fever_32
+점프하고 앉아있다가 죽은척하기,1033,2,3,4,3,19,3,8,9,#CSO_ZombiTag_Fever_33,#CSO_ZombiTag_Fever_33,#CSO_ZombiTag_Fever_33
+점프하고 앉아있다가 요가 자세하기,1034,2,3,4,3,20,3,8,9,#CSO_ZombiTag_Fever_34,#CSO_ZombiTag_Fever_34,#CSO_ZombiTag_Fever_34
+점프하고 앉아있다가 PT 체조하기,1035,2,3,4,3,21,3,8,9,#CSO_ZombiTag_Fever_35,#CSO_ZombiTag_Fever_35,#CSO_ZombiTag_Fever_35
+점프하고 앉아있다가 명상하기,1036,2,3,4,3,22,3,8,9,#CSO_ZombiTag_Fever_36,#CSO_ZombiTag_Fever_36,#CSO_ZombiTag_Fever_36
+점프하고 앉아있다가 발레하기,1037,2,3,4,3,23,3,8,9,#CSO_ZombiTag_Fever_37,#CSO_ZombiTag_Fever_37,#CSO_ZombiTag_Fever_37
+점프하고 앉아있다가 권법하기,1038,2,3,4,3,24,3,8,9,#CSO_ZombiTag_Fever_38,#CSO_ZombiTag_Fever_38,#CSO_ZombiTag_Fever_38
+점프하고 앉아있다가 승리동작 하기,1039,2,3,4,3,25,3,8,9,#CSO_ZombiTag_Fever_39,#CSO_ZombiTag_Fever_39,#CSO_ZombiTag_Fever_39
+점프하고 앉아있다가 똥침하기,1040,2,3,4,3,26,3,8,9,#CSO_ZombiTag_Fever_40,#CSO_ZombiTag_Fever_40,#CSO_ZombiTag_Fever_40

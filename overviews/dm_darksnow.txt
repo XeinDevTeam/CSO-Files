@@ -1,0 +1,14 @@
+// overview description file for dm_darksnow.bsp
+
+global 
+{
+	ZOOM	1.6
+	ORIGIN	-6.25 	     1230.31	   1792.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_darksnow.bmp"
+	HEIGHT	0.00
+}

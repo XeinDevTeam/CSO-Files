@@ -1,0 +1,14 @@
+// overview description file for zg_splash.bsp
+
+global 
+{
+	ZOOM	0.91
+	ORIGIN	-121.64	     351.99	   1728.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/zg_splash.bmp"
+	HEIGHT	-96.00
+}

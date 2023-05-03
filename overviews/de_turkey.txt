@@ -1,0 +1,14 @@
+// overview description file for de_turkey.bsp
+
+global 
+{
+	ZOOM	1.80
+	ORIGIN	-4.81 	     -206.06	   382.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/de_turkey.bmp"
+	HEIGHT	0.00
+}

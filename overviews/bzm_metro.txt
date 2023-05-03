@@ -1,0 +1,14 @@
+// overview description file for bzm_metro.bsp
+
+global 
+{
+	ZOOM	1.10
+	ORIGIN	56.00 	     -16.00	   189.50
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/bzm_metro.bmp"
+	HEIGHT	-142.00
+}

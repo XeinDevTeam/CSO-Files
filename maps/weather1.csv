@@ -1,0 +1,19 @@
+s_count,255,파티클 수
+s_forward,200,내위치에서 얼마 앞쪽을 중심으로 뿌리나
+s_halfrange,300,중심에서 얼마 반경으로 뿌리나
+s_heightmin,100,뿌리는 최소높이
+s_heightmax,300,뿌리는 최대높이
+s_sizemin,40,눈 최소크기
+s_sizemax,60,눈 최대크기
+s_colorr,255,눈 색 R
+s_colorg,255,눈 색 G
+s_colorb,255,눈 색 B
+s_sprid,0,눈 spr 아이디 [sprites\\effects\\env_spr#.spr]
+sw_interval,15,눈 몇개당 눈보라 spr이 나타나나
+sw_sizemin,90,눈보라 최소크기
+sw_sizemax,110,눈보라 최대크기
+sw_colorr,255,눈보라 색 R
+sw_colorg,255,눈보라 색 G
+sw_colorb,255,눈보라 색 B
+w_speedmin,250,바람 최소속도
+w_speedmax,300,바람 최대속도

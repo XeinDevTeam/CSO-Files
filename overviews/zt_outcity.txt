@@ -1,0 +1,14 @@
+// overview description file for zt_outcity.bsp
+
+global 
+{
+	ZOOM	0.67
+	ORIGIN	0.00	188.67	896.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/zt_outcity.bmp"
+	HEIGHT 0
+}

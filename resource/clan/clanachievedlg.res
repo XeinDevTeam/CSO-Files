@@ -1,0 +1,105 @@
+"ClanAchieveDlg.res"
+{
+	"ClanAchieveDlg"
+	{
+		"ControlName"		"Frame"
+		"fieldName"		"ClanAchieveDlg"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"560"
+		"tall"		"675"
+		"AutoResize"		"0"
+		"PinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintbackground"		"1"
+		"settitlebarvisible"		"1"
+		"title"		""
+	}
+	
+	"ClanAchieveTitle"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ClanAchieveTitle"
+		"xpos"		"15"
+		"ypos"		"16"
+		"wide"		"520"
+		"tall"		"64"
+		"AutoResize"		"0"
+		"PinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintbackground"		"1"
+		"scaleImage"		"1"
+	}
+	
+	"ClanAchieveLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"ClanAchieveLabel"
+		"xpos"		"260"
+		"ypos"		"34"
+		"wide"		"235"
+		"tall"		"28"
+		"AutoResize"		"0"
+		"PinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintbackground"		"1"
+		"labelText"		""
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"ForceTextColor"		"255 255 255 255"
+		"EnableForceTextColor"	"1"
+		"font"		"ResultTeam"
+		"wrap"		"0"
+	}
+	
+	"listBG"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"listBG"
+		"xpos"		"172"
+		"ypos"		"92"
+		"wide"		"367"
+		"tall"		"525"
+		"AutoResize"		"0"
+		"PinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintbackground"		"1"
+		"scaleImage"		"1"
+	}
+	
+	
+	
+	"CloseBtn"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"CloseBtn"
+		"xpos"		"417"
+		"ypos"		"628"
+		"wide"		"94"
+		"tall"		"30"
+		"AutoResize"		"0"
+		"PinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintbackground"		"1"
+		"labelText"		"#CSO_ClosePopup"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
+		"Default"		"1"
+		"command"   "close"
+	}
+	
+}
+ 

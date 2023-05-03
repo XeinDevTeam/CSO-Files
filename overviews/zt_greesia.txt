@@ -1,0 +1,14 @@
+// overview description file for zt_greesia.bsp
+
+global 
+{
+	ZOOM	1.65
+	ORIGIN	0.00	0.00	866.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zt_greesia.bmp"
+	HEIGHT 0
+}

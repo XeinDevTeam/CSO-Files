@@ -1,0 +1,14 @@
+// overview description file for ze_rising.bsp
+
+global 
+{
+	ZOOM	0.93
+	ORIGIN	929.66	-462.73	1024.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/ze_rising.bmp"
+	HEIGHT 0
+}

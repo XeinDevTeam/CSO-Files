@@ -1,0 +1,14 @@
+// overview description file for zm_shoreline.bsp
+
+global 
+{
+	ZOOM	1.67
+	ORIGIN	480 	     -1000	   -1056
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zm_shoreline.bmp"
+	HEIGHT	-1760
+}

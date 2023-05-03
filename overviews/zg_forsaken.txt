@@ -1,0 +1,14 @@
+// overview description file for zg_forsaken.bsp
+
+global 
+{
+	ZOOM	1.41
+	ORIGIN	214.82 	     -61.09	   1312.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/zg_forsaken.bmp"
+	HEIGHT	0.00
+}

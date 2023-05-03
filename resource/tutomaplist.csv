@@ -1,0 +1,9 @@
+#map_id,tuto_name,map_filename,loadingImage,panalImage
+1,TUTORIAL03,tuto_1,LoadingBg_Tuto_1,Tuto_1
+2,TUTORIAL04,tuto_2,LoadingBg_Tuto_2,Tuto_2
+3,TUTORIAL05,tuto_3,LoadingBg_Tuto_3,Tuto_3
+4,TUTORIAL06,tuto_4,LoadingBg_Tuto_4,Tuto_4
+5,TUTORIAL01,tuto_0,LoadingBg_Tuto_0,Tuto_0
+6,TUTORIAL02,tuto_0a,LoadingBg_Tuto_0a,Tuto_0a
+144,TUTORIAL02,zs_lastclue,LoadingBg_ZS_Lastclue,Tuto_0a
+115,TUTORIAL02,bzm_bigtree,loadingbg_bzm_bigtree,Tuto_

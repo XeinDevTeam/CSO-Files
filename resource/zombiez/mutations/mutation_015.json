@@ -1,0 +1,19 @@
+//버티기
+//피격 시 일정 확률로 모든 넉백과 경직을 무시합니다.
+{
+  "team": 2
+  , "weight": 25
+  , "param1" :  // 확률
+  {
+    "base_value" :	0.01
+    , "increment" : 0.005
+    , "increment_period" : 2
+    , "is_percent" : true
+  }
+  , "param2" :  // 지속 시간
+  {
+    "base_value" :	0.75
+    , "increment" : 0.25
+    , "increment_period" : 2
+  }
+}

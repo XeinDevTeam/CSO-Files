@@ -1,0 +1,28 @@
+{
+	"TR": [
+		{
+			"floorName": "#CSO_Partner_SelectSpawnPoint_1F",
+			"floorImage": "resource/Partner/minimap_villa_1F",
+			"spawnPos": [[436, 58], [612, 208], [436, 400], [258, 208]]
+		},
+		{
+			"floorName": "#CSO_Partner_SelectSpawnPoint_2F",
+			"floorImage": "resource/Partner/minimap_villa_2F",
+			"spawnPos": []
+		}
+	],
+	"CT": [
+		{
+			"floorName": "#CSO_Partner_SelectSpawnPoint_2F",
+			"floorImage": "resource/Partner/minimap_villa_2F",
+			"spawnPos": [[436, 190]],
+			"bombTargets": [[476, 162], [532, 142], [502, 264], [529, 220], [436, 232], [400, 170], [340, 244], [369, 250], [344, 220]]
+		},
+		{
+			"floorName": "#CSO_Partner_SelectSpawnPoint_1F",
+			"floorImage": "resource/Partner/minimap_villa_1F",
+			"spawnPos": [[436, 253]],
+			"bombTargets": [[436, 210], [436, 94], [378, 196], [496, 196]]
+		}
+	]
+}

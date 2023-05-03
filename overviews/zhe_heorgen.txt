@@ -1,0 +1,13 @@
+// overview description file for zhe_heorgen.bsp
+global 
+{
+	ZOOM	1.00
+	ORIGIN	0.00 0.00 0.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zs_trace.bmp"
+	HEIGHT 0
+}

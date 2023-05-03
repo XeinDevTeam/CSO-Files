@@ -1,0 +1,16 @@
+﻿//.좀폭 방어
+//좀비 폭탄의 데미지, 넉백 감소
+{
+	"team": 1
+	, "weight": 15
+	, "param1" :  // 데미지 감소 계수
+	{
+		"base_value" :	1
+		, "increment" : 0.56
+	}
+	, "param2" :  // 넉백 감소 계수
+	{
+		"base_value" :	0.35
+		, "increment" : 0.9
+	}
+}

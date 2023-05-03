@@ -1,0 +1,13 @@
+// overview description file for zm_junkhouse.bsp
+global 
+{
+	ZOOM	1.75
+	ORIGIN	128.00 -640.00 600.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zm_junkhouse.bmp"
+	HEIGHT 0
+}

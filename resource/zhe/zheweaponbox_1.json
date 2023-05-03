@@ -1,0 +1,46 @@
+//아이템id
+//확률
+//drop effect는 "models/w_*.mdl" 만 가능함.
+{
+	"ispacked" : 0
+	, "packpath" : ""
+	, "dropeffct" : 0 
+	, "info" :[
+	{
+		"id" : 0,
+		"weight" : 60,
+		"ammo" : 0,
+		"modelpath" : ""
+	},
+	{
+		"id" : 8108,
+		"weight" : 5,
+		"ammo" : 0,
+		"modelpath" : ""
+	},
+	{
+		"id" : 8194,
+		"weight" : 10,
+		"ammo" : 0,
+		"modelpath" : ""
+	},
+	{
+		"id" : 8048,
+		"weight" : 10,
+		"ammo" : 0,
+		"modelpath" : ""
+	},
+	{
+		"id" : 717,
+		"weight" : 10,
+		"ammo" : 0,
+		"modelpath" : ""
+	},
+	{
+		"id" : 488,
+		"weight" : 5,
+		"ammo" : 0,
+		"modelpath" : ""
+	}
+	]	
+}

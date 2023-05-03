@@ -1,0 +1,13 @@
+// overview description file for de_csoland.bsp
+global 
+{
+	ZOOM	1.09
+	ORIGIN	-72.00 816.22 688.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/de_csoland.bmp"
+	HEIGHT -192
+}

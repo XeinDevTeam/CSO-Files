@@ -1,0 +1,570 @@
+{
+	"Expedition": 
+	{
+		"EnhanceProgressSpeed"		: 200.0,	// 프로그레스바 속도
+		"EnhanceProgressMinSpeed"	: 100.0,	// 프로그레스바 최소 속도
+		"EnhanceProgressDecreaseRate": 3.0,		// 프로그레스바 감소할 때, 속도 배율
+		"EnhanceProgressBezierT1"	: 0.85,		// bezier step
+		"EnhanceProgressBezierT2"	: 0.98,		// bezier step
+		"EnhanceProgressBezierTime"	: 1.5		// bezier process time
+	},
+	"Enhance":
+	{
+		"MaxRegisterEnhancer"	: 300
+	},
+	"History":
+	{	
+		"HistoryType":{
+			"NONE"				:0,
+			"LOCATION_ENTRY"	:1,
+			"LOCATION_ACTION"	:2,
+			"LOCATION_RESULT"	:3,
+			"BATTLE_ENTRY"		:4,
+			"BATTLE_ACTION"		:5,
+			"BATTLE_RESULT"		:6,
+			"EXPLORE_RESULT"	:7
+		},		
+		// arg 타입은 참고용입니다. (수정시 코드작업 필요)
+		"STRING_ARG_TYPE":{
+			"MAP_NAME":0,
+			"MAP_LEVEL":1,
+			"CLASS_NAME":2,
+			"CLASS_LEVEL":3,
+			"BOSS_NAME":4,
+			"BONUS_CLASS":5
+		},
+		"config":
+		{
+			"history_scroll_speed": 200,
+			"history_scroll_skip_speed": 300,
+			"history_insert_delay": 0.8,
+			"history_insert_skip_delay": 0.1
+		},
+		"boss_info":
+		[
+			{
+				"name":"CSO_bearboss_msg",
+				"resource":"resource/Hud/ZBS/bearboss_msg"
+			},
+			{
+				"name":"CSO_megalodon_msg",
+				"resource":"resource/Hud/ZBS/megalodon_msg"
+			},
+			{
+				"name":"CSO_colossus_msg",
+				"resource":"resource/Hud/ZBS/colossus_msg"
+			},
+			{
+				"name":"CSO_envy_msg",
+				"resource":"resource/Hud/ZBS/envy_msg"
+			},
+			{
+				"name":"CSO_frozenterror_msg",
+				"resource":"resource/Hud/ZBS/frozenterror_msg"
+			},
+			{
+				"name":"CSO_gluttony_msg",
+				"resource":"resource/Hud/ZBS/gluttony_msg"
+			},
+			{
+				"name":"CSO_juggernaut_msg",
+				"resource":"resource/Hud/ZBS/juggernaut_msg"
+			},
+			{
+				"name":"CSO_mr_x_msg",
+				"resource":"resource/Hud/ZBS/mr-x_msg"
+			},
+			{
+				"name":"CSO_mx2000_msg",
+				"resource":"resource/Hud/ZBS/mx2000_msg"
+			},
+			{
+				"name":"CSO_scorpion_msg",
+				"resource":"resource/Hud/ZBS/scorpion_msg"
+			},
+			{
+				"name":"CSO_ampsuit_msg",
+				"resource":"resource/Hud/ZBS/ampsuit_msg"
+			},
+			{
+				"name":"CSO_angra_msg",
+				"resource":"resource/Hud/ZBS/angra_msg"
+			},
+			{
+				"name":"CSO_cronobotics53_msg",
+				"resource":"resource/Hud/ZBS/cronobotics53_msg"
+			},
+			{
+				"name":"CSO_cronobotics54_msg",
+				"resource":"resource/Hud/ZBS/cronobotics54_msg"
+			},
+			{
+				"name":"CSO_fallentitan_msg",
+				"resource":"resource/Hud/ZBS/fallentitan_msg"
+			},
+			{
+				"name":"CSO_grasshopper_msg",
+				"resource":"resource/Hud/ZBS/grasshopper_msg"
+			},
+			{
+				"name":"CSO_infectedrex_msg",
+				"resource":"resource/Hud/ZBS/infectedrex_msg"
+			},
+			{
+				"name":"CSO_oberon_msg",
+				"resource":"resource/Hud/ZBS/oberon_msg"
+			},
+			{
+				"name":"CSO_phobos_msg",
+				"resource":"resource/Hud/ZBS/phobos_msg"
+			},
+			{
+				"name":"CSO_revenant_msg",
+				"resource":"resource/Hud/ZBS/revenant_msg"
+			},
+			{
+				"name":"CSO_seizetypephobos_msg",
+				"resource":"resource/Hud/ZBS/seizetypephobos_msg"
+			},
+			{
+				"name":"CSO_zombiejack_msg",
+				"resource":"resource/Hud/ZBS/zombiejack_msg"
+			},
+			{
+				"name":"CSO_Bootleg_1_msg",
+				"resource":"resource/Hud/ZBS/Bootleg_1_msg"
+			},
+			{
+				"name":"CSO_Bootleg_2_msg",
+				"resource":"resource/Hud/ZBS/Bootleg_2_msg"
+			},
+			{
+				"name":"CSO_comanche_msg",
+				"resource":"resource/Hud/ZBS/comanche_msg"
+			},
+			{
+				"name":"CSO_zombiebrachyura_msg",
+				"resource":"resource/Hud/ZBS/zombiebrachyura_msg"
+			}
+		],
+		"slot_info": 
+		[
+			{
+				// 탐색지역 진입
+				"id":"LOCATION_ENTRY",
+				"type":	
+				[
+					{
+						"String": "#CSO_ExpeditionEntry01"
+					},
+					{
+						"String": "#CSO_ExpeditionEntry02"
+					},
+					{
+						"String": "#CSO_ExpeditionEntry03"
+					},
+					{
+						"String": "#CSO_ExpeditionEntry04"
+					}
+				]
+			},
+			{
+				// 탐색지역 로그
+				"id":"LOCATION_ACTION",
+				"successRate": 0.7,
+				"successType":
+				[
+					[true, false, true],
+					[false, true, true]
+				],
+				"failureType":
+				[
+					[false, true, false],
+					[true, false, false]
+				],
+				"type":	
+				[
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess01"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess02"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess03"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess04"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess05"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess06"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess07"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess08"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess09"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess10"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess11"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess12"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess13"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess14"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess15"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationSuccess16"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail01"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail02"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail03"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail04"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail05"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail06"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail07"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail08"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail09"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail10"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail11"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail12"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail13"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail14"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail15"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail16"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail17"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail18"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail19"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail20"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail21"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail22"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail23"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationFail24"
+					}
+				]
+			},
+			{
+				// 탐색지역 결과
+				"id":"LOCATION_RESULT",
+				"type":	
+				[
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationResultSuccess01"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationResultSuccess02"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationResultSuccess03"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionLocationResultSuccess04"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationResultFail01"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationResultFail02"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationResultFail03"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationResultFail04"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionLocationResultFail05"
+					}
+				]
+			},
+			{
+				// 적 발견
+				"id":"BATTLE_ENTRY",
+				"type":	
+				[
+					{
+						"String": "#CSO_ExpeditionBattleEntry01"
+					},
+					{
+						"String": "#CSO_ExpeditionBattleEntry02"
+					},
+					{
+						"String": "#CSO_ExpeditionBattleEntry03"
+					},
+					{
+						"String": "#CSO_ExpeditionBattleEntry04"
+					}
+				]
+			},
+			{
+				// 전투 로그
+				"id":"BATTLE_ACTION",
+				"successType":
+				[
+					[true, false, true],
+					[false, true, true]
+				],
+				"failureType":
+				[
+					[false, true, false],
+					[true, false, false]
+				],
+				"type":	
+				[
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionBattleSuccess01"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionBattleSuccess02"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionBattleSuccess03"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionBattleSuccess04"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionBattleSuccess05"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionBattleSuccess06"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionBattleSuccess07"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionBattleFail01"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionBattleFail02"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionBattleFail03"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionBattleFail04"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionBattleFail05"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionBattleFail06"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionBattleFail07"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionBattleFail08"
+					}
+				]
+			},
+			{
+				// 전투 결과
+				"id":"BATTLE_RESULT",
+				"type":	
+				[
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionBattleResultSuccess01"
+					},
+					{
+						"Success":true,
+						"String": "#CSO_ExpeditionBattleResultSuccess02"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionBattleResultFail01"
+					},
+					{
+						"Success":false,
+						"String": "#CSO_ExpeditionBattleResultFail02"
+					}
+				]
+			},
+			{
+				// 탐색 결과
+				"id":"EXPLORE_RESULT",
+				"type":	
+				[
+					{
+						"Battle":true,
+						"Success":true,
+						"String": "#CSO_ExpeditionExploreResultBattleSuccess01"
+					},
+					{
+						"Battle":true,
+						"Success":true,
+						"String": "#CSO_ExpeditionExploreResultBattleSuccess02"
+					},
+					{
+						"Battle":true,
+						"Success":true,
+						"String": "#CSO_ExpeditionExploreResultBattleSuccess03"
+					},
+					{
+						"Battle":true,
+						"Success":false,
+						"String": "#CSO_ExpeditionExploreResultBattleFail01"
+					},
+					{
+						"Battle":true,
+						"Success":false,
+						"String": "#CSO_ExpeditionExploreResultBattleFail02"
+					},
+					{
+						"Battle":true,
+						"Success":false,
+						"String": "#CSO_ExpeditionExploreResultBattleFail03"
+					},
+					{
+						"Battle":false,
+						"Success":false,
+						"String": "#CSO_ExpeditionExploreResultFail01"
+					},
+					{
+						"Battle":false,
+						"Success":false,
+						"String": "#CSO_ExpeditionExploreResultFail02"
+					},
+					{
+						"Battle":false,
+						"Success":false,
+						"String": "#CSO_ExpeditionExploreResultFail03"
+					},
+					{
+						"Battle":false,
+						"Success":false,
+						"String": "#CSO_ExpeditionExploreResultFail04"
+					}
+				]
+			}
+		]
+	}	
+}

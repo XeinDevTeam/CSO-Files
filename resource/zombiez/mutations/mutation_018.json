@@ -1,0 +1,16 @@
+//접촉감염
+//접촉하는 것만으로 감염 발생
+{
+  "team": 2
+  , "weight": 5
+  , "param1" :  // 접촉 유지 필요 시간
+  {
+    "base_value" :	0.3
+    , "increment" : 0
+  }
+  , "param2" :  // 접촉 유지 필요 거리(m)
+  {
+    "base_value" :	1.1359
+    , "increment" : 0
+  }
+}

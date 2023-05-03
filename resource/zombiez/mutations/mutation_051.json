@@ -1,0 +1,16 @@
+// 좀폭 지급
+// 일정시간마다 좀폭 지급
+{
+  "team": 2
+  , "weight": 25
+  , "param1" :  // 빨간 폭탄(second)
+  {
+    "base_value" :	20
+    , "increment" : -0.5
+  }
+  , "param2" :  // 초록 폭탄(second)
+  {
+    "base_value" :	30
+    , "increment" : -0.8
+  }
+}

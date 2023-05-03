@@ -1,0 +1,13 @@
+// overview description file for zm_chosun.bsp
+global 
+{
+	ZOOM	1.82
+	ORIGIN	120.00 40.64 528.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zm_chosun.bmp"
+	HEIGHT 0
+}

@@ -1,0 +1,13 @@
+// overview description file for cs_assault_halloween.bsp
+global 
+{
+	ZOOM	1.88
+	ORIGIN	-681.88 1519.30 568.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/cs_assault_halloween.bmp"
+	HEIGHT 0
+}

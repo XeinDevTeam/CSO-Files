@@ -1,0 +1,13 @@
+// overview description file for zm_italy.bsp
+global 
+{
+	ZOOM	1.38
+	ORIGIN	-152.00 152.22 168.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zm_italy.bmp"
+	HEIGHT -256
+}

@@ -1,0 +1,28 @@
+{
+	"TR": [
+		{
+			"floorName": "#CSO_Partner_SelectSpawnPoint_1F",
+			"floorImage": "resource/Partner/minimap_dust2_1F",
+			"spawnPos": [[100, 100], [200, 200]]
+		},
+		{
+			"floorName": "#CSO_Partner_SelectSpawnPoint_2F",
+			"floorImage": "resource/Partner/minimap_dust2_2F",
+			"spawnPos": [[150, 150], [250, 250]]
+		}
+	],
+	"CT": [
+		{
+			"floorName": "#CSO_Partner_SelectSpawnPoint_1F",
+			"floorImage": "resource/Partner/minimap_dust2_1F",
+			"spawnPos": [[100, 100], [200, 200]],
+			"bombTargets": [[450, 100], [600, 250]]
+		},
+		{
+			"floorName": "#CSO_Partner_SelectSpawnPoint_2F",
+			"floorImage": "resource/Partner/minimap_dust2_2F",
+			"spawnPos": [[150, 150], [250, 250]],
+			"bombTargets": [[450, 400], [200, 250]]
+		}
+	]
+}

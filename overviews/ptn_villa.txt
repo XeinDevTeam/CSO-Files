@@ -1,0 +1,13 @@
+// overview description file for ptn_villa.bsp
+global 
+{
+	ZOOM	1.23
+	ORIGIN	0.00 0.00 976.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/ptn_villa.bmp"
+	HEIGHT 0
+}

@@ -1,0 +1,21 @@
+{
+    "ingameID": 538,
+    "resourceName": "y23s1sfsmg",
+    "baseWpnName": "sfsmg",
+    "wpnClassName": "y23s1sfsmg",
+    "drawSeq": 2,
+    "pAnimSeq": "rifle",
+    "secondAmmoType": "nonebuy",
+	"maxClip": 45,
+	"usableMap": ["EMT_DE", "EMT_CS"],
+	"combo_data": {
+		"item_id":8780,				
+		"setting":[
+			{				
+				"title":"#CSO_Combo_8780_name",
+				"desc":"#CSO_Combo_8780_desc",
+				"combo":["MR"]
+			}
+		]
+	}
+}

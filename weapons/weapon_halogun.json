@@ -1,0 +1,69 @@
+{
+    "ingameID": 537,
+    "resourceName": "halogun",
+    "wpnClassName": "halogun",
+    "drawSeq": 2,
+    "pAnimSeq": "m249",
+    "firstAmmoType": "halogun",
+    "secondAmmoType": "halogun_b",
+    "useCustomDeploy": true,
+    "deployAttackTime": 0.1,
+    "deployIdleTime": 1.0,
+    "maxClip": 100,
+    "weight": 20,
+    "slot": 1,
+    "position": 1,
+    "ratio": 1.5,
+    "maxSpeed": 240,
+    "distance": 4,
+    "delta": 3,
+    "seriesID": -1,
+    "kbGround": 600,
+    "kbJump": 550,
+    "kbFJump": 650,
+    "kbDucking": 550,
+    "kbModifier": 0.4,
+    "accSpeed": 0,
+    "accuracy": "ACC_2",
+    "properties": [
+        "WPN_USE_BOTH",
+        "WPN_LARGE_FLINCH",
+        "WPN_EQUIPMENT"
+    ],
+    "basketPos": 0,
+    "price": 6000,
+    "usableMap": [
+        "EMT_DE",
+        "EMT_CS"
+    ],
+    "team": [
+        "ETT_CT",
+        "ETT_TER"
+    ],
+    "buyMenuType": "BMT_EQUIP",
+    "classFlag": [
+        -1
+    ],
+	"combo_data":{
+		
+		"item_id":8787,				
+		"setting":[
+			{				
+				"title":"#CSO_Combo_8787_name",
+				"desc":"#CSO_Combo_8787_desc",
+				"combo":["MR","+","HOLD"]
+			},
+			{				
+				"title":"#CSO_Combo_8787_name2",
+				"desc":"#CSO_Combo_8787_desc2",
+				"combo":["MR","+","ML"]
+			},
+			{				
+				"title":"#CSO_Combo_8787_name3",
+				"desc":"#CSO_Combo_8787_desc3",
+				"combo":["NONE"]
+			}
+		]
+	}
+
+}

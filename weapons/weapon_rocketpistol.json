@@ -1,0 +1,15 @@
+{
+    "ingameID": 536,
+    "resourceName": "rocketpistol",
+    "baseWpnName": "y21s1jetgunma",
+    "wpnClassName": "rocketpistol",
+	"useCustomDeploy" : true,
+    "drawSeq": 6,
+    "pAnimSeq": "dualpistols",
+	"firstAmmoType": "rocketpistol",
+    "ratio": 1.35,
+    "maxSpeed": 260,
+	 "attribute": [
+        "WPN_ATTR_SCEN_INFINITE_AMMO"
+    ]
+}

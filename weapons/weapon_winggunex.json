@@ -1,0 +1,28 @@
+{
+    "ingameID": 542,
+    "resourceName": "winggunex",
+    "baseWpnName": "winggun",
+    "wpnClassName": "winggunex",
+    "drawSeq": 4,
+    "pAnimSeq": "ak47",
+	"firstAmmoType": "winggunex_buckshot",
+    "deployAttackTime": 1.0,
+    "deployIdleTime": 1.0,
+	"maxClip": 60,
+    "useCustomDeploy": true,
+	"combo_data": {
+		"item_id":8825,				
+		"setting":[
+			{				
+			    "title":"#CSO_Combo_8825_name",
+			    "desc":"#CSO_Combo_8825_desc",
+			    "combo":["MR"]
+			},
+			{				
+				"title":"#CSO_Combo_8825_name2",
+				"desc":"#CSO_Combo_8825_desc2",
+				"combo":["MR", "RELOAD"]
+			}
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+    "ingameID": 540,
+    "resourceName": "y23s1dartpistol",
+    "baseWpnName": "dartpistol",
+    "wpnClassName": "y23s1dartpistol",
+    "drawSeq": 4,
+    "pAnimSeq": "onehanded",
+    "texPrefix": "y23s1",
+	"maxClip": 7,
+    "usableMap": ["EMT_DE", "EMT_CS"]
+}

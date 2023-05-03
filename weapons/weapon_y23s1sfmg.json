@@ -1,0 +1,13 @@
+{
+    "ingameID": 539,
+    "resourceName": "y23s1sfmg",
+    "baseWpnName": "sfmg",
+    "wpnClassName": "y23s1sfmg",
+    "drawSeq": 2,
+    "pAnimSeq": "sfmg",
+    "texPrefix": "y23s1",
+	"kbGround": 500,
+    "kbJump": 300,
+    "kbFJump": 350,
+    "kbDucking": 250
+}

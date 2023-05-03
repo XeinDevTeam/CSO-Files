@@ -1,0 +1,63 @@
+{
+    "ingameID": 534,
+    "resourceName": "chainsr",
+    "wpnClassName": "chainsr",
+    "useCustomDeploy": true,
+    "drawSeq": 4,
+    "pAnimSeq": "rifle",
+    "firstAmmoType": "50bmg_m95tiger",
+    "secondAmmoType": "nonebuy",
+    "maxClip": 20,
+    "weight": 50,
+    "slot": 1,
+    "position": 1,
+    "ratio": 1.9,
+    "maxSpeed": 220, 
+    "distance": 4,
+    "delta": 3,
+    "seriesID": -1,
+    "kbGround": 5000,
+    "kbJump": 500,
+    "kbFJump": 1200,
+    "kbDucking": 800,
+    "kbModifier": 0.3,
+    "accSpeed": 120,
+    "accuracy": "ACC_0",
+    "properties": [
+        "WPN_USE_BOTH",
+        "WPN_LARGE_FLINCH",		
+		"WPN_SNIPER_RIFLE_CROSSHAIR"
+    ],
+    "basketPos": 0,
+    "price": 10000,
+    "usableMap": [
+        "EMT_DE",
+        "EMT_CS"
+    ],
+    "team": [
+        "ETT_CT",
+        "ETT_TER"
+    ],
+    "buyMenuType": "BMT_SNIPER_RIFLE",
+    "classFlag": [
+        -1
+    ],
+	"attribute": [
+        "WPN_ATTR_SCEN_INFINITE_AMMO"
+    ],
+	"combo_data": {
+		"item_id":8794,				
+		"setting":[
+			{				
+				"title":"#CSO_Combo_8794_name",
+				"desc":"#CSO_Combo_8794_desc",
+				"combo":["RELOAD"]
+			},
+			{				
+				"title":"#CSO_Combo_8794_name2",
+				"desc":"#CSO_Combo_8794_desc2",
+				"combo":["NONE"]
+			}
+		]
+	}
+}

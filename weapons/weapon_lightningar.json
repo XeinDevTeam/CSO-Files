@@ -1,0 +1,45 @@
+{
+    "ingameID": 535,
+    "resourceName": "lightningar",    
+    "wpnClassName": "lightningar",
+    "drawSeq": 7,
+    "pAnimSeq": "ak47",
+    "useCustomDeploy": true,
+	"firstAmmoType": "lightningar",
+	"secondAmmoType" : "nonebuy",
+    "maxClip": 50,
+    "weight": 50,
+    "slot": 1,
+    "position": 1,
+    "ratio": 1.5,
+    "maxSpeed": 230, 
+    "distance": 4,
+    "delta": 3,
+    "seriesID": -1,
+    "kbGround": 500,
+    "kbJump": 300,
+    "kbFJump": 300,
+    "kbDucking": 120,
+    "kbModifier": 0.5,
+    "accSpeed": 129,
+    "accuracy": "ACC_0",	
+    "properties": [
+        "WPN_USE_BOTH",        
+        "WPN_ASSAULT_RIFLE"
+    ],
+    "basketPos": 0,
+    "price": 3000,
+    "usableMap": [
+        "EMT_DE",
+        "EMT_CS",
+		"EMT_AS"
+    ],
+    "team": [
+        "ETT_CT",
+        "ETT_TER"
+    ],
+    "buyMenuType": "BMT_ASSAULT_RIFLE",
+    "classFlag": [
+        -1
+    ]
+}

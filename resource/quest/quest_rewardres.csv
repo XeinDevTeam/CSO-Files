@@ -1,0 +1,14 @@
+resource_id,reward_img,reward_name,reward_Desc
+0,QNormal,#CSO_Reward_QNormal_Name,#CSO_Reward_QNormal_Desc
+1,QAdvanced,#CSO_Reward_QAdvanced_Name,#CSO_Reward_QAdvanced_Desc
+2,QNormalP,#CSO_Reward_QNormalP_Name,#CSO_Reward_QNormalP_Desc
+3,QAdvancedP,#CSO_Reward_QAdvancedP_Name,#CSO_Reward_QAdvancedP_Desc
+4,QHonor,#CSO_Reward_QHonor_Name,#CSO_Reward_QHonor_Desc
+5,QPCNormal,#CSO_Reward_QPCNormal_Name,#CSO_Reward_QPCNormal_Desc
+6,QPCAdvanced,#CSO_Reward_QPCAdvanced_Name,#CSO_Reward_QPCAdvanced_Desc
+7,QPCNormalP,#CSO_Reward_QPCNormalP_Name,#CSO_Reward_QPCNormalP_Desc
+8,QPCAdvancedP,#CSO_Reward_QPCAdvancedP_Name,#CSO_Reward_QPCAdvancedP_Desc
+9,QWeek,#CSO_Reward_QWeek_Name,#CSO_Reward_QWeek_Desc
+10,QWeekP,#CSO_Reward_QWeekP_Name,#CSO_Reward_QWeekP_Desc
+11,QPCWeek,#CSO_Reward_QPCWeek_Name,#CSO_Reward_QPCWeek_Desc
+12,QPCWeekP,#CSO_Reward_QPCWeekP_Name,#CSO_Reward_QPCWeekP_Desc

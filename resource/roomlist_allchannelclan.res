@@ -1,0 +1,41 @@
+"RoomList_AllChannelClan.res"
+{
+	"Temp"
+	{
+		"ControlName"		"CTempFrame"
+		"fieldName"		"Temp"
+		"xpos"		"240"
+		"ypos"		"465"
+		"wide"		"550"
+		"tall"		"269"
+		"AutoResize"		"0"
+		"PinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintbackground"		"1"
+		"settitlebarvisible"		"1"
+		"title"		"전체 채널 클랜탭"
+	}
+	"IMETextEntry1"
+	{
+		"ControlName"		"IMETextEntry"
+		"fieldName"		"IMETextEntry1"
+		"xpos"		"9"
+		"ypos"		"240"
+		"wide"		"532"
+		"tall"		"20"
+		"AutoResize"		"0"
+		"PinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintbackground"		"1"
+		"textHidden"		"0"
+		"editable"		"1"
+		"maxchars"		"-1"
+		"NumericInputOnly"		"0"
+		"unicode"		"1"
+	}
+}
+ 

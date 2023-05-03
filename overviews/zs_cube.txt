@@ -1,0 +1,14 @@
+// overview description file for zs_cube.bsp
+
+global 
+{
+	ZOOM	4.26
+	ORIGIN	-7.19 	28.00	620
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/zs_cube.bmp"
+	HEIGHT -113
+}

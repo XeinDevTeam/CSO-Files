@@ -1,0 +1,14 @@
+// overview description file for ze_venice.bsp
+
+global 
+{
+	ZOOM	1.02
+	ORIGIN	-88.00 	-119.13	424.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/ze_venice.bmp"
+	HEIGHT	-160.00
+}

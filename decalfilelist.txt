@@ -1,0 +1,5 @@
+"4"
+"decals.wad"
+"decals_userdef.wad"
+"decals_bg.wad"
+"decals_tuscan.wad"

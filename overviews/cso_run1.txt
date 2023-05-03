@@ -1,0 +1,14 @@
+// overview description file for cso_run1
+
+global 
+{
+	ZOOM	1.18
+	ORIGIN	-395.57	-274.96	576
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/cso_run1.bmp"
+	HEIGHT	-1009
+}

@@ -1,0 +1,14 @@
+// overview description file for zs_2gate.bsp
+
+global 
+{
+	ZOOM	2.85
+	ORIGIN	-61.75 	76.86	601
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/zs_2gate.bmp"
+	HEIGHT -955
+}

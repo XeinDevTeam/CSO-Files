@@ -1,0 +1,14 @@
+// overview description file for hs_hellfire.bsp
+
+global 
+{
+	ZOOM	1.40
+	ORIGIN	-177.25 	694.88	464.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/hs_hellfire.bmp"
+	HEIGHT	-183
+}

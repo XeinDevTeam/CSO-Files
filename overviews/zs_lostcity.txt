@@ -1,0 +1,14 @@
+// overview description file for zs_lostcity.bsp
+
+global 
+{
+	ZOOM	1.10
+	ORIGIN	34.00 	42.06	1404
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/zs_lostcity.bmp"
+	HEIGHT -305
+}

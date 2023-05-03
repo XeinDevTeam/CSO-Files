@@ -1,0 +1,14 @@
+// overview description file for dm_tunnel.bsp
+
+global 
+{
+	ZOOM	2.84
+	ORIGIN	121.96 	51.02	147
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_tunnel.bmp"
+	HEIGHT	-38
+}

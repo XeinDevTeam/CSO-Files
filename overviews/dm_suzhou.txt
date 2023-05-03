@@ -1,0 +1,14 @@
+// overview description file for dm_suzhou.bsp
+
+global 
+{
+	ZOOM	2.11
+	ORIGIN	-290.00 	6.00	200.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_suzhou.bmp"
+	HEIGHT	-177.00
+}

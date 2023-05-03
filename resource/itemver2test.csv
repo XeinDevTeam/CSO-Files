@@ -1,0 +1,198 @@
+;,,,";무기/장비=""Equipment"",클래스(캐릭터)=""Class""",";권총=1,샷건=2,기관단총=3,소총=4,기관총=5장비=6,클래스=7,기능성(passive)=8,작동성(active)=9",,";UseType, 0= 간접사용, 1= 자동사용, 2= 수동사용, 3= 수동사용(int), 4= 수동사용(string)",";공용=0,테러리스트1,대테러리스트2",,,,,,,,,,,,,,,,,,,,,";0=개인,1=클랜;공백=0",
+;ID,Name,recourcename,ClassName,Category,InGameID,UseType,Team,Level,ExpPointModCategory,ExpModPriority,ExpModMin,ExpModMax,PCBangExpModMin,PCBangExpModMax,PointModPriority,PointModMin,PointModMax,PCBangPointModMin,PCBangPointModMax,InventoryType,Damage,HitRate,Reaction,FiringSpeed,Weight,SkinBase,Period,BuyerType,ItemBoxName
+1,.40 Dual Elites,Elites,Equipment,1,10,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,31,63,70,86,25,,1,,
+2,228 Compact,p228,Equipment,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,28,50,70,86,25,,1,,
+3,9X19mm Sidearm,Glock18,Equipment,1,17,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,22,67,100,86,25,,1,,
+4,Night Hawk .50C,deserteagle,Equipment,1,26,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,47,45,70,81,25,,1,,
+5,ES Five-Seven,fiveseven,Equipment,1,11,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,17,62,70,86,25,,1,,
+6,K&M .45 Tactical,usp45,Equipment,1,16,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,30,72,70,85,25,,1,,
+7,Leone 12 Gauge Super,m3,Equipment,2,21,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,17,100,40,54,43,,1,,
+8,Leone YG1265 Auto Shotgun,xm1014,Equipment,2,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,17,100,48,76,34,,1,,
+9,Schmidt Machine Pistol,tmp,Equipment,3,23,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,17,73,83,92,25,,1,,
+10,Ingram MAC-10,MAC10,Equipment,3,7,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,25,72,81,92,25,,1,,
+11,ES C90,p90,Equipment,3,30,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,18,68,91,92,29,,1,,
+12,K&M Sub-Machine Gun,MP5,Equipment,3,19,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,23,79,92,92,25,,1,,
+13,K&M UMP45,ump45,Equipment,3,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,26,75,91,90,25,,1,,
+14,Magnum Sniper Rifle,awp,Equipment,4,18,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,100,100,70,26,65,,1,,
+15,Maverick M4A1 Carbine,m4a1,Equipment,4,22,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,29,88,92,91,43,,1
+16,Bullpup,aug,Equipment,4,8,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,28,90,82,86,34,,1
+17,Schmidt Scout,Scout,Equipment,4,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,65,88,70,36,17,,1
+18,Krieg 550 Commando,sg550,Equipment,4,13,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,61,62,76,83,65,,1
+19,Krieg 552,sg552,Equipment,4,27,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,29,90,82,91,38,,1
+20,Clarion 5.56,famas,Equipment,4,15,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,26,90,82,88,34,,1
+21,CV-47,AK47,Equipment,4,28,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,31,83,79,91,53,,1
+22,D3/AU-1 Semi-Auto Sniper Rifle,G3SG1,Equipment,4,24,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,70,73,72,83,65,,1
+23,IDF Defender,Galil,Equipment,4,14,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,26,77,82,91,34,,1
+24,ES M249 Para,m249,Equipment,5,20,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,28,78,79,90,54,,1
+25,Night Vision Goggles ,nightvision,Equipment,6,2006,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+26,Smoke Grenade ,SmokeGrenade,Equipment,6,2004,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+27,Kevlar Vest ,Kevlar,Equipment,6,2000,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+28,Kevlar Vest & Helmet ,Kevlar_Helmet,Equipment,6,2001,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+29,Defuse Kit ,defuser,Equipment,6,2005,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+30,Flashbang ,Flashbang,Equipment,6,2002,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+31,HE Grenade ,HEGrenade,Equipment,6,2003,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+32,QBB-95,QBB95,Equipment,5,41,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,26,79,74,90,49,,1
+33,FN SCAR,SCAR,Equipment,4,31,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,"28,34","90,87","81,80","91,90","43,60",,1
+34,XM-8,XM8,Equipment,4,33,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,"28,28","83,78","81,78","91,91","53,65",,1
+35,VSK-94 Sniper Rifle,VSK94,Equipment,4,40,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,28,90,79,90,25,,1
+36,K1A Submachinegun,K1A,Equipment,3,38,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,26,78,87,91,29,,1
+37,MP7A1 Submachinegun,MP7A1,Equipment,3,36,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"25,25","71,90","91,88","92,87","25,43",,1
+38,USAS-12 Automatic Shotgun,USAS12,Equipment,2,39,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,17,100,48,76,90,,1
+39,Dragunov SVD,svd,Equipment,4,35,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,96,88,39,67,43,,1
+40,Guerilla,guerilla,Class,7,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+41,Terror,terror,Class,7,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+42,Leet,leet,Class,7,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+43,Arctic,arctic,Class,7,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+44,Militia,militia,Class,7,10,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+45,RBC,RB,Class,7,16,2,1,33,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+46,VC,IRA,Class,7,17,2,1,0,2,2,20,20,40,40,2,10,10,20,20,1,,,,,,,1
+47,NLC,ETA,Class,7,18,2,1,0,2,2,5,5,10,10,0,0,0,0,0,1,,,,,,,1
+48,ARA,JRA,Class,7,19,2,1,0,2,2,20,20,30,30,0,0,0,0,0,1,,,,,,,1
+49,Urban,urban,Class,7,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+50,GSG9,gsg9,Class,7,5,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+51,GIGN,gign,Class,7,6,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+52,SAS,sas,Class,7,7,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+53,Spetsnaz,Spetsnaz,Class,7,11,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+54,707,707,Class,7,12,2,2,33,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+55,Sozo,sozo,Class,7,13,2,2,0,2,2,20,20,40,40,2,10,10,20,20,1,,,,,,,1
+56,Magui,magui,Class,7,14,2,2,0,2,2,5,5,10,10,0,0,0,0,0,1,,,,,,,1
+57,Sdefence,sdefence,Class,7,15,2,2,0,2,2,20,20,30,30,0,0,0,0,0,1,,,,,,,1
+58,NoThirdperson,NoThirdperson,PeriodicItem,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+59,ExpUp,ExpUp,PeriodicItem,8,0,2,0,0,1,1,50,50,90,90,0,0,0,0,0,1,,,,,,,1
+60,AttackStats,AttackStats,item,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0
+61,WeaponLimitPistol,WeaponLimitPistol,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+62,NoOverview,NoOverview,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+63,NicknameUnderbar,NicknameUnderbar,NicknameUnderbar,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0
+64,NicknameBackground,NicknameBackground,NicknameBackground,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0
+65,NicknameChange,NicknameChange,NicknameChange,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0
+66,NicknameBold,NicknameBold,NicknameBold,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0
+67,NicknameColor,NicknameColor,NicknameColor,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0
+68,NicknameCamouflage,NicknameCamouflage,NicknameCamouflage,8,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+69,NicknameItalic,NicknameItalic,NicknameItalic,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0
+70,NicknameStrike,NicknameStrike,NicknameStrike,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0
+71,InviteAll,InviteAll,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+72,ChannelChat,ChannelChat,ChannelChat,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+73,DoubleUp,DoubleUp,PeriodicItem,8,0,2,0,0,1,1,50,50,90,90,1,50,50,90,90,1,,,,,,,1
+74,LevelCamouflage,LevelCamouflage,LevelCamouflage,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0
+75,LevelLimit,LevelLimit,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+76,ShortTimeRespawn,ShortTimeRespawn,PeriodicItem,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+77,SourceMiniMap,SourceMiniMap,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+78,RoomnameChange,RoomnameChange,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+79,Ban,Ban,Requirement,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,
+80,ResetPcbang,ResetPcbang,ResetCafe,9,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,
+81,WeaponLimitSniper,WeaponLimitSniper,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,
+82,ResetWinAndLose,ResetWinAndLose,ResetWinLose,9,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,
+83,GameModeBotTraining,GameModeBotTraining,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,
+84,DisplayKiller,DisplayKiller,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,
+85,Kick,Kick,Requirement,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,
+86,NoChaseDeathCam,NoChaseDeathCam,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,
+87,GameModeClassic,GameModeClassic,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,
+88,WeaponLimitKnife,WeaponLimitKnife,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,
+89,ClannoticeExpansion,ClannoticeExpansion,ClanNoticeExpansion,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,,,,1,1
+90,ClanmateIncrease,ClanmateIncrease,Requirement,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,,,,0,1
+91,ClanmarkChange,ClanmarkChange,Requirement,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,,,,0,1
+92,ClannameUnderbar,ClannameUnderbar,ClanNameUnderbar,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,,,,0,1
+93,ClannameBackground,ClannameBackground,ClanNameBackground,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,,,,0,1
+94,ClannameChange,ClannameChange,Requirement,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,,,,0,1
+95,ClannameBold,ClannameBold,ClanNameBold,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,,,,0,1
+96,ClannameColor,ClannameColor,ClanNameColor,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,,,,0,1
+97,ClannameItalic,ClannameItalic,ClanNameItalic,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,,,,0,1
+98,ClannameStrike,ClannameStrike,ClanNameStrike,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,,,,0,1
+99,ClanmateForeword,ClanmateForeword,ClanForeword,8,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,,,,0,1
+100,ResetClanscore,ResetClanscore,Requirement,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,,,,0,1
+101,ClanUnion,ClanUnion,Requirement,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,,,,0,1
+102,ResetClanPcbang,ResetClanPcbang,ResetClanCafe,9,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,,,,,0,1
+103,ResetKillDeath,ResetKillDeath,ResetKillDeath,9,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,
+104,VoteKick,VoteKick,Requirement,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,
+105,DefeatInvalidation,DefeatInvalidation,Requirement,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,
+106,PenaltyInvalidation,PenaltyInvalidation,Requirement,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,
+107,PenaltyDefeatInvalidation,PenaltyDefeatInvalidation,Requirement,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,
+108,PointUp,PointUp,PeriodicItem,8,0,2,0,0,1,0,0,0,0,0,1,50,50,90,90,1,,,,,,,1,
+109,HitpointIncrease,HitpointIncrease,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,
+110,DamageStats,DamageStats,PeriodicItem,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,
+111,DamageDisplay,DamageDisplay,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+112,C4Sound,C4Sound,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+113,SCAR556Limited,SCAR556Limited,Equipment,4,42,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,28,90,81,91,43,,0
+114,XM8CarbineLimited,XM8CarbineLimited,Equipment,4,43,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,28,83,81,91,53,,0
+115,ResetPcbangEvent,ResetPcbangEvent,ResetCafe,9,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0
+116,WeaponLimitFlash,WeaponLimitFlash,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+117,SCOUTM24,SCOUTM24,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,17,1
+118,AWPTRG42,AWPTRG42,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,14,1
+119,AWPM400,AWPM400,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,14,1
+120,AWPR93,AWPR93,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,14,1
+121,AWPAW50,AWPAW50,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,14,1
+122,M4A1HK416,M4A1HK416,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,15,1
+123,M4A1LR300,M4A1LR300,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,15,1
+124,AK47AKM,AK47AKM,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,21,1
+125,AK47FAL,AK47FAL,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,21,1
+126,DEAnaconda,DEAnaconda,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,4,1
+127,DEAutoMag,DEAutoMag,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,4,1
+128,MP5Spectre,MP5Spectre,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,12,1
+129,GalilFNC,GalilFNC,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,23,1
+130,FAMASL85A2,FAMASL85A2,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,20,1
+131,AUGTAR21,AUGTAR21,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,16,1
+132,SIG552G36K,SIG552G36K,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,19,1
+133,M249HK23E,M249HK23E,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,24,1
+134,G3SG1SR25,G3SG1SR25,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,22,1
+135,SG550SL8,SG550SL8,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,18,1
+136,ZombieAnoWeapon,ZombieAnoWeapon,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+137,ZombieBnoWeapon,ZombieBnoWeapon,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+138,ZombieCnoWeapon,ZombieCnoWeapon,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+139,ZombieDnoWeapon,ZombieDnoWeapon,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+140,ZombieEnoWeapon,ZombieEnoWeapon,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+141,AK47HQ,AK47HQ,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,21,1
+142,M4A1HQ,M4A1HQ,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,15,1
+143,MP7A1HQ,MP7A1HQ,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,37,1
+144,SCARHQ,SCARHQ,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,33,1
+145,XM8HQ,XM8HQ,SkinItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,34,1
+146,EventUserTutor,EventUserTutor,EventUserTutor,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0
+147,EventBotFree,EventBotFree,EventBotFree,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0
+148,MG3,MG3,Equipment,5,45,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,28,78,79,90,54,,1
+149,Anaconda,Anaconda,Equipment,1,46,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,39,68,70,83,25,,1
+150,Criss,Criss,Class,7,20,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+151,Natasha,Natasha,Class,7,21,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+152,ChoiJiYoon,ChoiJiYoon,Class,7,22,1,2,0,2,2,10,10,20,20,2,10,10,20,20,1,,,,,,,1
+153,Jennifer,Jennifer,Class,7,23,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+154,Ritsuka,Ritsuka,Class,7,24,1,1,0,2,2,10,10,20,20,2,10,10,20,20,1,,,,,,,1
+155,Yuri,Yuri,Class,7,25,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+156,EventSpray,EventSpray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+157,TRG42,TRG42,Equipment,4,47,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,100,100,66,27,60,,1
+158,Hdagger,Hdagger,Equipment,11,29,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+159,awpRED,AWPRED,Equipment,4,51,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,100,100,70,26,65,,1,,
+160,m249RED,M249RED,Equipment,5,52,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,28,78,79,90,54,,1,,
+161,defaultKnife,defaultKnife,Equipment,11,29,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,,
+162,XmasHat,XmasHat,PeriodicItem,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,,
+163,SpeedZombie,SpeedZombie,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,,
+164,NataKnife,NataKnife,PeriodicItem,11,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,,
+165,Decoder,Decoder,LotteryKeyItem,9,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,,DecoderB
+166,PasswordBox,PasswordBox,PeriodicItem,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,,
+167,NewyearSpray,NewyearSpray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,,
+168,NewyearSprayKor,NewyearSprayKor,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,,
+169,M400,M400,Equipment,4,53,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,100,100,67,24,71,,1,,
+170,AK47G,AK47G,Equipment,4,55,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,31,83,79,91,53,,1,,
+171,M4A1G,M4A1G,Equipment,4,54,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,29,88,92,91,43,,1,,
+172,DeserteagleG,DeserteagleG,Equipment,1,56,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,47,45,70,81,25,,1,,
+173,CashDecoder,CashDecoder,LotteryKeyItem,9,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,0,,DecoderA
+174,HeartBoom,HeartBoom,PeriodicItem,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1,,
+175,HeavyZombie,HeavyZombie,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+176,Hammer,Hammer,PeriodicItem,11,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+177,TaegeukgiSpray,TaegeukgiSpray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+178,WeaponLimitAWP,WeaponLimitAWP,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+179,BVSpray,BVSpray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+180,ZombieDoubleUp,ZombieDoubleUp,PeriodicItem,8,0,2,0,0,1,4,50,50,50,50,4,50,50,50,50,1,,,,,,,1
+181,ZombiePointUp,ZombiePointUp,PeriodicItem,8,0,2,0,0,1,4,0,0,0,0,4,50,50,50,50,1,,,,,,,1
+182,ZombieExpUp,ZombieExpUp,PeriodicItem,8,0,2,0,0,1,4,50,50,50,50,4,0,0,0,0,1,,,,,,,1
+183,NatashaSpray,NatashaSpray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+184,JenniferSpray,JenniferSpray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+185,RitsukaSpray,RitsukaSpray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+186,ChoiJiYoonSpray,ChoiJiYoonSpray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+187,SL8,SL8,Equipment,4,57,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,1
+188,SD707Spray,SD707Spray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+189,SDsasSpray,SDsasSpray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+190,SDleetSpray,SDleetSpray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+191,SDnlcSpray,SDnlcSpray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+192,Fake01Spray,Fake01Spray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+193,Fake02Spray,Fake02Spray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+194,Fake03Spray,Fake03Spray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+195,Fake04Spray,Fake04Spray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1
+196,Fake05Spray,Fake05pray,PeriodicItem,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,,,,,1

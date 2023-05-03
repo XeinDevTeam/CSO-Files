@@ -1,0 +1,14 @@
+// overview description file for zs_contact.bsp
+
+global 
+{
+	ZOOM	0.86
+	ORIGIN	-8.00 	300.00	344.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/zs_trace.bmp"
+	HEIGHT -401.00
+}

@@ -1,0 +1,14 @@
+// overview description file for zs_culvert.bsp
+
+global 
+{
+	ZOOM	1.40
+	ORIGIN	0.01 	     -0.00	   400.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/zs_culvert.bmp"
+	HEIGHT	-224.00
+}

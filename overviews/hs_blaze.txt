@@ -1,0 +1,14 @@
+// overview description file for hs_blaze.bsp
+
+global 
+{
+	ZOOM	1.47
+	ORIGIN	269.69 98.73	-259
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/hs_blaze.bmp"
+	HEIGHT	-3909
+}

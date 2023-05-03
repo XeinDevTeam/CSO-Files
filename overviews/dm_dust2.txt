@@ -1,0 +1,14 @@
+// overview description file for dm_dust2
+
+global 
+{
+	ZOOM	1.74
+	ORIGIN	-71.06 	76.00	21
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_dust2.bmp"
+	HEIGHT	-558
+}

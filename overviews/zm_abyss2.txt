@@ -1,0 +1,14 @@
+// overview description file for zm_abyss2.bsp
+
+global 
+{
+	ZOOM	1.82
+	ORIGIN	-666.94 194.41	-752
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/zm_abyss2.bmp"
+	HEIGHT	-1633
+}

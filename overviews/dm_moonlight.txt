@@ -1,0 +1,14 @@
+// overview description file for ka_moonlight.bsp
+
+global 
+{
+	ZOOM	4.10
+	ORIGIN	112.94 	-63.31	-179.50
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_moonlight.bmp"
+	HEIGHT	-557
+}

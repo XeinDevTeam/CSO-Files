@@ -1,0 +1,14 @@
+// overview description file for de_angelcity.bsp
+
+global 
+{
+	ZOOM	1.50
+	ORIGIN	406.5	675.4	437.5
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/de_angelcity.bmp"
+	HEIGHT	-448
+}

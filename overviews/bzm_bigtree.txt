@@ -1,0 +1,14 @@
+// overview description file for bzm_bigtree.bsp
+
+global 
+{
+	ZOOM	2.99
+	ORIGIN	9.63 	222.99	1768.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/bzm_bigtree.bmp"
+	HEIGHT	0
+}

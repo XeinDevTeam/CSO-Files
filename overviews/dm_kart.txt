@@ -1,0 +1,14 @@
+// overview description file for dm_kart.bsp
+
+global 
+{
+	ZOOM	3.46
+	ORIGIN	-384 	5.19	416
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_kart.bmp"
+	HEIGHT	-769
+}

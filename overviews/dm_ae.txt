@@ -1,0 +1,14 @@
+// overview description file for dm_ae.bsp
+
+global 
+{
+	ZOOM	3.50
+	ORIGIN	293.27 	-34.21	-260.50
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_ae.bmp"
+	HEIGHT	-719
+}

@@ -1,0 +1,14 @@
+// overview description file for zm_origin.bsp
+
+global 
+{
+	ZOOM	2.52
+	ORIGIN	0.00 	     512.00	   628.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/zm_origin.bmp"
+	HEIGHT	-193.00
+}

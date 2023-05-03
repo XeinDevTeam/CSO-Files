@@ -1,0 +1,14 @@
+// overview description file for cs_camouflage2.bsp
+
+global 
+{
+	ZOOM	2.91
+	ORIGIN	-359.69 	-53.19	-316.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/cs_camouflage2.bmp"
+	HEIGHT	-561
+}

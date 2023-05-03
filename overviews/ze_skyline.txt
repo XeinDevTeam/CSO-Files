@@ -1,0 +1,14 @@
+// overview description file for ze_skyline.bsp
+
+global 
+{
+	ZOOM	1.01
+	ORIGIN	0.00 	432.00	1480.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/ze_skyline.bmp"
+	HEIGHT	-128.00
+}

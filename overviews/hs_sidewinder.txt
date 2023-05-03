@@ -1,0 +1,14 @@
+// overview description file for hs_sidewinder.bsp
+
+global 
+{
+	ZOOM	1.45
+	ORIGIN	2.00	0.00	1712.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/hs_sidewinder.bmp"
+	HEIGHT	-3013.00
+}

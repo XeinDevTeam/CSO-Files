@@ -1,0 +1,14 @@
+// overview description file for br_urban.bsp
+
+global 
+{
+	ZOOM	1.34
+	ORIGIN	290.31 	-612.44	 1487
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/br_urban.bmp"
+	HEIGHT	1080
+}

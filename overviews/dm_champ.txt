@@ -1,0 +1,14 @@
+// overview description file for dm_champ.bsp
+
+global 
+{
+	ZOOM	2.03
+	ORIGIN	0.0 	22.19	256.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_champ.bmp"
+	HEIGHT	-1025
+}

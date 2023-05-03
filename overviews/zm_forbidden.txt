@@ -1,0 +1,14 @@
+// overview description file for zm_forbidden.bsp
+
+global 
+{
+	ZOOM	2.09
+	ORIGIN	180.00 	     470.00	   1772.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zm_forbidden.bmp"
+	HEIGHT	-312.00
+}

@@ -1,0 +1,14 @@
+// overview description file for zs_trace.bsp
+
+global 
+{
+	ZOOM	1.38
+	ORIGIN	22.00 	93.00	739.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zs_trace.bmp"
+	HEIGHT -2169
+}

@@ -1,0 +1,14 @@
+// overview description file for de_toscana.bsp
+
+global 
+{
+	ZOOM	1.42
+	ORIGIN	-215.00 	     256.00	   544.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/de_toscana.bmp"
+	HEIGHT	-513.00
+}

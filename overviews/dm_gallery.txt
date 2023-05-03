@@ -1,0 +1,14 @@
+// overview description file for dm_gallery.bsp
+
+global 
+{
+	ZOOM	3.76
+	ORIGIN	-359.44 	0.00	416.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_gallery.bmp"
+	HEIGHT	-737
+}

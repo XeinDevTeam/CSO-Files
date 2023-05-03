@@ -1,0 +1,14 @@
+// overview description file for de_storm.bsp
+
+global 
+{
+	ZOOM	2.77
+	ORIGIN	206 	234.56	-116
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/awp_greesia.bmp"
+	HEIGHT	-580
+}

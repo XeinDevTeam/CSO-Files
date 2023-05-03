@@ -1,0 +1,147 @@
+"Inventory_PointCash.res"
+{
+	"InventoryPointCashDlg"
+	{
+		"ControlName"		"CInventoryPointCashDlg"
+		"fieldName"		"InventoryPointCashDlg"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"679"
+		"tall"		"32"
+		"AutoResize"		"0"
+		"PinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintbackground"		"1"
+		"settitlebarvisible"		"1"
+		"title"		"untitle"
+	}
+	"CouponNumber"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"CouponNumber"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"120"
+		"tall"		"32"
+		"AutoResize"		"0"
+		"PinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintbackground"		"1"
+		"labelText"		"#CSO_Coupon_Title"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
+		"Default"		"0"
+	}
+	"ClanPointBG"
+	{
+	"ControlName"		"TextEntry"
+	"xpos"		"121"
+	"ypos"		"4"
+	"wide"		"180"
+	"tall"		"19"
+	"textAlignment"	"east"
+	"labelText"		""
+	"editable"	"0"
+	}
+	"ClanPointAmount"
+	{
+	"ControlName"		"BlackLabel"
+	"xpos"		"206"
+	"ypos"		"4"
+	"wide"		"88"
+	"tall"		"19"
+	"textAlignment"	"east"
+	"labelText"		"0"
+	}
+
+	"ClanPointLabel"
+	{
+	"ControlName"		"BlackLabel"
+	"xpos"		"128"
+	"ypos"		"4"
+	"wide"		"76"
+	"tall"		"19"
+	"labelText"		"#CSO_Clan_Point"
+	"textAlignment"	"left"	
+	}
+	"PointBG"
+	{
+	"ControlName"		"TextEntry"
+	"xpos"		"306"
+	"ypos"		"4"
+	"wide"		"137"
+	"tall"		"19"
+	"textAlignment"	"east"
+	"labelText"		""
+	"editable"	"0"
+	}
+	"PointAmount"
+	{
+	"ControlName"		"BlackLabel"
+	"xpos"		"358"
+	"ypos"		"4"
+	"wide"		"78"
+	"tall"		"19"
+	"textAlignment"	"east"
+	"labelText"		"0"
+	}
+	"PointLabel"
+	{
+	"ControlName"		"BlackLabel"
+	"xpos"		"313"
+	"ypos"		"4"
+	"wide"		"43"
+	"tall"		"19"
+	"labelText"		"#CSO_Point"
+	"textAlignment"	"left"	
+	}
+	"CashBG"
+	{
+	"ControlName"		"TextEntry"
+	"xpos"		"448"
+	"ypos"		"4"
+	"wide"		"137"
+	"tall"		"19"
+	"textAlignment"	"east"
+	"labelText"		""
+	"editable"	"0"
+	}
+	"CashAmount"
+	{
+	"ControlName"		"BlackWhiteLabel"
+	"xpos"		"500"
+	"ypos"		"4"
+	"wide"		"78"
+	"tall"		"19"
+	"textAlignment"	"east"
+	"labelText"		"0"
+	}
+	"CashLabel"
+	{
+	"ControlName"		"BlackLabel"
+	"xpos"		"455"
+	"ypos"		"4"
+	"wide"		"43"
+	"tall"		"19"
+	"labelText"		"#CSO_Cash"
+	"textAlignment"	"left"	
+	}
+	"ChargingCash"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"ChargingCash"
+		"xpos"		"588"
+		"ypos"		"0"
+		"wide"		"91"
+		"tall"		"32"
+		"labelText"		"#CSO_ChargingCash"	
+		"textAlignment"	"center"	
+	}
+}
+ 

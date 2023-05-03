@@ -1,0 +1,14 @@
+// overview description file for dm_union.bsp
+
+global 
+{
+	ZOOM	1.35
+	ORIGIN	-170.60 	847.34	3.50
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_union.bmp"
+	HEIGHT	-1065
+}

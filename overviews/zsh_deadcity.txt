@@ -1,0 +1,14 @@
+// overview description file for zsh_deadcity.bsp
+
+global 
+{
+	ZOOM	0.86
+	ORIGIN	0.00 	0.00	1144.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/zsh_deadcity.bmp"
+	HEIGHT	0
+}

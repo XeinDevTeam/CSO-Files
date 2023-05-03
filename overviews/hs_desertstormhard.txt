@@ -1,0 +1,14 @@
+// overview description file for hs_desertstormhard.bsp
+
+global 
+{
+	ZOOM	2.30
+	ORIGIN	83.81 	34.61	726.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/hs_desertstorm.bmp"
+	HEIGHT	-13
+}

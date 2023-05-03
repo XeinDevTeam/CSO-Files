@@ -1,0 +1,14 @@
+// overview description file for cso_jump2
+
+global 
+{
+	ZOOM	1.27
+	ORIGIN	672.44 	581.38	448
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/cso_jump2.bmp"
+	HEIGHT	-1281
+}

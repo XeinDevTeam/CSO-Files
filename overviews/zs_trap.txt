@@ -1,0 +1,14 @@
+// overview description file for zs_trap.bsp
+
+global 
+{
+	ZOOM	3.21
+	ORIGIN	-224.32 	23.85	0
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zs_trap.bmp"
+	HEIGHT -1281
+}

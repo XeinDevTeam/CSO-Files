@@ -1,0 +1,14 @@
+// overview description file for zs_lastclue.bsp
+
+global 
+{
+	ZOOM	0.99
+	ORIGIN	-761.53 	-234.84	-1184
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zs_lastclue.bmp"
+	HEIGHT -2529
+}

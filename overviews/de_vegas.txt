@@ -1,0 +1,14 @@
+// overview description file for de_vegas.bsp
+
+global 
+{
+	ZOOM	1.56
+	ORIGIN	1892.44 	-1273.75	-390.50
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/de_vegas.bmp"
+	HEIGHT	-1466
+}

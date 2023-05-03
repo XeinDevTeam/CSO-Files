@@ -1,0 +1,14 @@
+// overview description file for hs_mosque.bsp
+
+global 
+{
+	ZOOM	2.21
+	ORIGIN	0	-78.06	1280
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/hs_mosque.bmp"
+	HEIGHT	-513
+}

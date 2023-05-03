@@ -1,0 +1,14 @@
+// overview description file for dm_industry.bsp
+
+global 
+{
+	ZOOM	1.77
+	ORIGIN	-7.19 	-3.44	192
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_industry.bmp"
+	HEIGHT	-769
+}

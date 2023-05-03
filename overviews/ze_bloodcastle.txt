@@ -1,0 +1,14 @@
+// overview description file for ze_bloodcastle.bsp
+
+global 
+{
+	ZOOM	1.29
+	ORIGIN	-38.00 	952.13	688.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/ze_bloodcastle.bmp"
+	HEIGHT	-161.00
+}

@@ -1,0 +1,14 @@
+// overview description file for zs_nightmare.bsp
+
+global 
+{
+	ZOOM	3.10
+	ORIGIN	358.65 	84.07	1408.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/zs_nightmare.bmp"
+	HEIGHT	-257
+}

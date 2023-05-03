@@ -1,0 +1,14 @@
+// overview description file for de_train.bsp
+
+global 
+{
+	ZOOM	1.40
+	ORIGIN	1127.19 	176.06	-356
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zm_abyss.bmp"
+	HEIGHT	-782
+}

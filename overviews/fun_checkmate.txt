@@ -1,0 +1,14 @@
+// overview description file for fun_checkmate.bsp
+
+global 
+{
+	ZOOM	1.50
+	ORIGIN	427.00 	-560	905.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/fun_checkmate.bmp"
+	HEIGHT	-634.00
+}

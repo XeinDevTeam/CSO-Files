@@ -1,0 +1,14 @@
+// overview description file for hd_harlem.bsp
+
+global 
+{
+	ZOOM	3.34
+	ORIGIN	-23.89 9.83	733.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/hd_harlem.bmp"
+	HEIGHT	-151.00
+}

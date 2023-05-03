@@ -1,0 +1,16 @@
+﻿//관통탄
+//탄의 관통율과 총기의 아머 관통율 증가
+{
+	"team": 1
+	, "weight": 50
+	, "param1" :  // 관통 가능 거리 증가
+	{
+		"base_value" :	1.15
+		, "increment" : 1.4
+	}
+	, "param2" :  // 아머 관통율 증가
+	{
+		"base_value" :	1.35
+		, "increment" : 1.62
+	}
+}

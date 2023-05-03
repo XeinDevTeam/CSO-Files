@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<BehaviorTree>
+	<!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ파트너 모드ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+	<Root name='zbbot_partner'>
+		<ZBBot_BT_BuyWeapon_Partner />
+		<Selector>
+			<ZBBot_BT_Panic_Partner minHealth='0.1' visibleEnemy='3' possibility='0.2' panicTime='3.0' checkInterval='5.0' />
+			<Selector>
+				<!--엄호하라-->
+				<Sequence>
+					<If_Int name='command' value='1'/>
+					<Selector>
+						<!--적이 있으면 교전-->
+						<Sequence>
+							<ZBBot_BT_FindEnemy_Partner engageEnemyTime='10.0' lockOnEnemyTime='3' />
+							<Parallel>
+								<Selector>
+									<ZBBot_BT_LookLadder_Partner />
+									<ZBBot_BT_FacingTarget_Partner target='enemyIndex' updateAim='1' updateAimIntervalMin='0.5' updateAimIntervalMax='1.0' />
+									<ZBBot_BT_LookAround_Partner skill_alwaysObserv='50' updateObservationIntervalMin='1.0' updateObservationIntervalMax='2.0' />
+								</Selector>
+								<ZBBot_BT_ChasingTarget_Partner target='enemyIndex' justVisible='1' visibleMinRange='1000' minRange='64.0' />
+								<ZBBot_BT_FireWeapon_Partner skill_high='70' skill_mid='50' />
+								<ZBBot_BT_ReloadingWiggle_Partner skill_wiggle='50' minWiggle='0.5' maxWiggle='1.0' />
+							</Parallel>
+						</Sequence>
+						<!--적이 없으면 엄호-->
+						<Parallel>
+							<Selector>
+								<ZBBot_BT_LookLadder_Partner />
+								<ZBBot_BT_FacingTarget_Partner target='ownerIndex' />
+								<ZBBot_BT_LookAround_Partner skill_alwaysObserv='50' updateObservationIntervalMin='1.0' updateObservationIntervalMax='2.0' />
+							</Selector>
+							<ZBBot_BT_ChasingTarget_Partner target='ownerIndex' justVisible='1' visibleMinRange='1000' minRange='64.0' />
+							<ZBBot_BT_PrepareWeapon_Partner />
+						</Parallel>
+					</Selector>
+				</Sequence>
+				<!--C4 설치/해제-->
+				<Sequence>
+					<If_Int name='command' value='2'/>
+					<Selector>
+						<!--적이 있으면 교전-->
+						<Sequence>
+							<ZBBot_BT_FindEnemy_Partner engageEnemyTime='10.0' lockOnEnemyTime='3' />
+							<Parallel>
+								<Selector>
+									<ZBBot_BT_LookLadder_Partner />
+									<ZBBot_BT_FacingTarget_Partner target='enemyIndex' updateAim='1' updateAimIntervalMin='0.5' updateAimIntervalMax='1.0' />
+									<ZBBot_BT_LookAround_Partner skill_alwaysObserv='50' updateObservationIntervalMin='1.0' updateObservationIntervalMax='2.0' />
+								</Selector>
+								<ZBBot_BT_ChasingTarget_Partner target='enemyIndex' justVisible='1' visibleMinRange='1000' minRange='64.0' />
+								<ZBBot_BT_FireWeapon_Partner skill_high='70' skill_mid='50' />
+								<ZBBot_BT_ReloadingWiggle_Partner skill_wiggle='50' minWiggle='0.5' maxWiggle='1.0' />
+							</Parallel>
+						</Sequence>
+						<!--적이 없으면 폭설/폭해체-->
+						<Parallel>
+							<Selector>
+								<ZBBot_BT_LookLadder_Partner />
+								<ZBBot_BT_LookAround_Partner skill_alwaysObserv='50' updateObservationIntervalMin='1.0' updateObservationIntervalMax='2.0' />
+							</Selector>
+							<Selector>
+								<ZBBot_BT_PickUpC4_Partner minRange='50.0'/>
+								<ZBBot_BT_MoveTo_Partner minRange='64.0' />
+							</Selector>
+							<Selector>
+								<ZBBot_BT_PlantC4_Partner minRange='64.0' />
+								<ZBBot_BT_DefuseC4_Partner minRange='64.0' />
+								<ZBBot_BT_PrepareWeapon_Partner />
+							</Selector>
+						</Parallel>
+					</Selector>
+				</Sequence>
+				<!--위치사수-->
+				<Sequence>
+					<If_Int name='command' value='3'/>
+					<Selector>
+						<!--적이 있으면 교전-->
+						<Sequence>
+							<ZBBot_BT_FindEnemy_Partner engageEnemyTime='10.0' lockOnEnemyTime='3' />
+							<Parallel>
+								<Selector>
+									<ZBBot_BT_LookLadder_Partner />
+									<ZBBot_BT_FacingTarget_Partner target='enemyIndex' updateAim='1' updateAimIntervalMin='0.5' updateAimIntervalMax='1.0' />
+									<ZBBot_BT_LookAround_Partner skill_alwaysObserv='50' updateObservationIntervalMin='1.0' updateObservationIntervalMax='2.0' />
+								</Selector>
+								<ZBBot_BT_ChasingTarget_Partner target='enemyIndex' justVisible='1' visibleMinRange='1000' minRange='64.0' />
+								<ZBBot_BT_FireWeapon_Partner skill_high='70' skill_mid='50' />
+								<ZBBot_BT_ReloadingWiggle_Partner skill_wiggle='50' minWiggle='0.5' maxWiggle='1.0' />
+							</Parallel>
+						</Sequence>
+						<!--적이 없으면 위치 사수-->
+						<Parallel>
+							<Selector>
+								<ZBBot_BT_LookAround_Partner skill_alwaysObserv='50' updateObservationIntervalMin='1.0' updateObservationIntervalMax='2.0' />
+							</Selector>
+							<ZBBot_BT_PrepareWeapon_Partner />
+						</Parallel>
+					</Selector>
+				</Sequence>
+				<!--절루가-->
+				<Sequence>
+					<If_Int name='command' value='4'/>
+					<Selector>
+						<!--적이 있으면 교전-->
+						<Sequence>
+							<ZBBot_BT_FindEnemy_Partner engageEnemyTime='10.0' lockOnEnemyTime='3' />
+							<Parallel>
+								<Selector>
+									<ZBBot_BT_LookLadder_Partner />
+									<ZBBot_BT_FacingTarget_Partner target='enemyIndex' updateAim='1' updateAimIntervalMin='0.5' updateAimIntervalMax='1.0' />
+									<ZBBot_BT_LookAround_Partner skill_alwaysObserv='50' updateObservationIntervalMin='1.0' updateObservationIntervalMax='2.0' />
+								</Selector>
+								<ZBBot_BT_ChasingTarget_Partner target='enemyIndex' justVisible='1' visibleMinRange='1000' minRange='64.0' />
+								<ZBBot_BT_FireWeapon_Partner skill_high='70' skill_mid='50' />
+								<ZBBot_BT_ReloadingWiggle_Partner skill_wiggle='50' minWiggle='0.5' maxWiggle='1.0' />
+							</Parallel>
+						</Sequence>
+						<!--적이 없으면 지정 위치로 이동-->
+						<Parallel>
+							<Selector>
+								<ZBBot_BT_LookLadder_Partner />
+								<ZBBot_BT_LookAround_Partner skill_alwaysObserv='50' updateObservationIntervalMin='1.0' updateObservationIntervalMax='2.0' />
+							</Selector>
+							<ZBBot_BT_MoveTo_Partner minRange='64.0' />
+							<ZBBot_BT_PrepareWeapon_Partner />
+						</Parallel>
+					</Selector>
+				</Sequence>
+				<!--날 따라와-->
+				<Sequence>
+					<If_Int name='command' value='5'/>
+					<Selector>
+						<!--적이 있으면 교전-->
+						<Sequence>
+							<ZBBot_BT_FindEnemy_Partner engageEnemyTime='10.0' lockOnEnemyTime='3' />
+							<Parallel>
+								<Selector>
+									<ZBBot_BT_LookLadder_Partner />
+									<ZBBot_BT_FacingTarget_Partner target='enemyIndex' updateAim='1' updateAimIntervalMin='0.5' updateAimIntervalMax='1.0' />
+									<ZBBot_BT_LookAround_Partner skill_alwaysObserv='50' updateObservationIntervalMin='1.0' updateObservationIntervalMax='2.0' />
+								</Selector>
+								<ZBBot_BT_ChasingTarget_Partner target='enemyIndex' justVisible='1' visibleMinRange='1000' minRange='64.0' />
+								<ZBBot_BT_FireWeapon_Partner skill_high='70' skill_mid='50' />
+								<ZBBot_BT_ReloadingWiggle_Partner skill_wiggle='50' minWiggle='0.5' maxWiggle='1.0' />
+							</Parallel>
+						</Sequence>
+						<!--적이 없으면 플레이어 따라가기-->
+						<Parallel>
+							<Selector>
+								<ZBBot_BT_LookLadder_Partner />
+								<ZBBot_BT_LookAround_Partner skill_alwaysObserv='50' updateObservationIntervalMin='1.0' updateObservationIntervalMax='2.0' />
+							</Selector>
+							<ZBBot_BT_ChasingTarget_Partner target='ownerIndex' minRange='128.0' />
+							<ZBBot_BT_PrepareWeapon_Partner />
+						</Parallel>
+					</Selector>
+				</Sequence>
+				<!--도와줘 공격받고 있다-->
+				<Sequence>
+					<If_Int name='command' value='6'/>
+					<Selector>
+						<!--적이 있으면 교전-->
+						<Sequence>
+							<ZBBot_BT_FindEnemy_Partner engageEnemyTime='10.0' lockOnEnemyTime='3' />
+							<Parallel>
+								<Selector>
+									<ZBBot_BT_LookLadder_Partner />
+									<ZBBot_BT_FacingTarget_Partner target='enemyIndex' updateAim='1' updateAimIntervalMin='0.5' updateAimIntervalMax='1.0' />
+									<ZBBot_BT_LookAround_Partner skill_alwaysObserv='50' updateObservationIntervalMin='1.0' updateObservationIntervalMax='2.0' />
+								</Selector>
+								<ZBBot_BT_ChasingTarget_Partner target='enemyIndex' justVisible='1' visibleMinRange='1000' minRange='64.0' />
+								<ZBBot_BT_FireWeapon_Partner skill_high='70' skill_mid='50' />
+								<ZBBot_BT_ReloadingWiggle_Partner skill_wiggle='50' minWiggle='0.5' maxWiggle='1.0' />
+							</Parallel>
+						</Sequence>
+						<!--적이 없으면 플레이어 위치로 가기-->
+						<Parallel>
+							<Selector>
+								<ZBBot_BT_LookLadder_Partner />
+								<ZBBot_BT_LookAround_Partner skill_alwaysObserv='50' updateObservationIntervalMin='1.0' updateObservationIntervalMax='2.0' />
+							</Selector>
+							<ZBBot_BT_ChasingTarget_Partner target='ownerIndex' justVisible='1' visibleMinRange='600' minRange='64.0' />
+							<ZBBot_BT_PrepareWeapon_Partner />
+						</Parallel>
+					</Selector>
+				</Sequence>
+			</Selector>
+		</Selector>
+	</Root>
+</BehaviorTree>

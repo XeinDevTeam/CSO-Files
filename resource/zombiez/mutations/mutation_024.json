@@ -1,0 +1,15 @@
+// 육감
+// 좀비 등장 param1초 전, param2 범위 내에서 좀비 숙주가 등장하는 것을 미리 감지
+{
+  "team": 1
+  , "weight": 200
+  , "param1" : // 발동 시간
+  {
+    "base_value" : 5
+    , "increment" : 0.5
+  }
+  ,	"param2" : // 감지 범위
+  {
+    "base_value" : 250
+  }
+}

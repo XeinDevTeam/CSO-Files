@@ -1,0 +1,17 @@
+//고속장전
+//장전 속도 증가
+{
+  "team": 1
+  , "weight": 50
+  , "param1" :  // 장전 속도 증가
+  {
+    "base_value" :	0.32
+    , "increment" : 0.04
+    , "is_percent" : true
+  }
+  ,	"param2" :  // 자동 장전 활성화를 위한 장전 가속 요구치
+  {
+    "base_value" :	0.8
+    , "is_percent" : true
+  }
+}

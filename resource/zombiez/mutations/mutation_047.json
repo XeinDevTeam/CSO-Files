@@ -1,0 +1,18 @@
+﻿//발톱강화
+//좀비 사거리 증가
+{
+	"team": 2
+	, "weight": 25
+	, "param1" :  // 사거리 증가 계수
+	{
+		"base_value" :	15
+	}
+	, "param2" :  // 이펙트 duration
+	{
+		"base_value" :	0.5
+	}
+	, "param3" :  // 이펙트 delay
+	{
+		"base_value" :	0.2
+	}
+}

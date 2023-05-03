@@ -1,0 +1,28 @@
+//코끼리
+//걷거나 앉아서 이동할 때 방어력이 상승합니다.
+{
+  "team": 2
+  , "weight": 25
+  , "param1" :  // 이동 요구 시간
+  {
+    "base_value" :	0.1
+  }
+  , "param2" :  // 피해 감쇄
+  {
+    "base_value" :	-0.1
+    , "increment" : -0.015
+    , "is_percent" : true
+  }
+  , "param3" :  // 넉백 감쇄
+  {
+    "base_value" :	0.1
+    , "increment" : 0.025
+    , "is_percent" : true
+  }
+  , "param4" :  // 경직 감쇄
+  {
+    "base_value" :	0.1
+    , "increment" : 0.03
+    , "is_percent" : true
+  }
+}

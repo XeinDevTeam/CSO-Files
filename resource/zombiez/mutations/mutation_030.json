@@ -1,0 +1,20 @@
+//백신탄
+//연막탄 투척 시, 백신탄으로 대체되며 범위 공격
+{
+  "team": 1
+  , "weight": 100
+  , "param1" :  // 백신 영향 범위
+  {
+    "base_value" :	120
+  }
+  ,	"param2" :  // 백신 유지 시간
+  {
+    "base_value" :	4
+    , "increment" : 1
+  }
+  ,	"param3" :  // 백신 지속 피해
+  {
+    "base_value" :	20
+    , "increment" : 10
+  }
+}

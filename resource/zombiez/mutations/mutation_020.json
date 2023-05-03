@@ -1,0 +1,12 @@
+//강철갑옷
+//방어구 수치 증가
+{
+  "team": 2
+  , "weight": 100
+  , "param1" :  // 방어구 증가량
+  {
+    "base_value" :	0.2
+    , "increment" : 0.05
+    , "is_percent" : true
+  }
+}

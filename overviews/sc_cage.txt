@@ -1,0 +1,14 @@
+// overview description file for sc_cage.bsp
+
+global 
+{
+	ZOOM	4.57
+	ORIGIN	-4.19 	-26.19	416.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/sc_cage.bmp"
+	HEIGHT	-449
+}

@@ -1,0 +1,13 @@
+// overview description file for zm_lakepark.bsp
+global 
+{
+	ZOOM	1.27
+	ORIGIN	1103.50 -72.72 896.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zm_lakepark.bmp"
+	HEIGHT 16.00
+}

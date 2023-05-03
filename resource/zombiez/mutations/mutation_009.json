@@ -1,0 +1,26 @@
+//부스터
+//기관단총 장비 시 이동 속도 증가 및 추가 버프
+{
+  "team": 1
+  , "weight": 100
+  , "param1" :  // 이동 속도
+  {
+    "base_value" :	3
+    , "increment" : 3
+  }
+  ,	"param2" :  // 추가 가속 발동을 위한 요구 이동 거리
+  {
+    "base_value" :	4000
+  }
+  ,	"param3" :  // 지속 시간
+  {
+    "base_value" :	0.5
+    , "increment" : 0.05
+  }
+  ,	"param4" :  // 추가 이동 속도
+  {
+    "base_value" :	40
+    , "increment" : 5
+    , "increment_period" : 2
+  }
+}

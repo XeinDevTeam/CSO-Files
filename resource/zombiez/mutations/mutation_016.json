@@ -1,0 +1,33 @@
+//화염탄
+//저격 소총 사용 시, 적에게 불을 붙임
+{
+  "team": 1
+  , "weight": 100
+  , "param1" :  // 명중 시 발동 확률
+  {
+    "base_value" :	0.2
+    , "increment" : 0.05
+    , "is_percent" : true
+  }
+  ,	"param2" :  // 명중 시 발동 확률(헤드샷)
+  {
+    "base_value" :	1
+    , "is_percent" : true
+  }
+  ,	"param3" :  // 화염 지속 시간
+  {
+    "base_value" :	1.5
+    , "increment" : 0.25
+  }
+  ,	"param4" :  // 화염 초 당 피해량
+  {
+    "base_value" :	20
+    , "increment" : 20
+  }
+  ,	"param5" :  // 화염 지속 중 이동 속도 감쇄
+  {
+    "base_value" :	0.02
+    , "increment" : 0.01
+    , "is_percent" : true
+  }
+}

@@ -1,0 +1,13 @@
+// overview description file for dm_storage.bsp
+global 
+{
+	ZOOM	1.64
+	ORIGIN	600.00 -192.00 272.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_storage.bmp"
+	HEIGHT 0
+}

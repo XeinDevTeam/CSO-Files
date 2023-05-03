@@ -1,0 +1,13 @@
+// overview description file for zm_desktop.bsp
+global 
+{
+	ZOOM	2.42
+	ORIGIN	0.00 0.00 936.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/zm_desktop.bmp"
+	HEIGHT 0.00
+}

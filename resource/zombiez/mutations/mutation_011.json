@@ -1,0 +1,42 @@
+//사냥 본능
+//주기적으로 범위 내 적 플레이어를 표적으로 지정, 대상에 대한 전투 능력 향상
+{
+  "team": 0
+  , "weight": 100
+  , "param1" :  // 발동 주기
+  {
+    "base_value" :	15
+  }
+  ,	"param2" :  // 탐지 범위
+  {
+    "base_value" :	128
+    , "increment" : 8
+  }
+  ,	"param3" :  // (인간) 추가 공격력
+  {
+    "base_value" :	4
+    , "increment" : 2
+  }
+  ,	"param4" :  // (인간) 추가 넉백
+  {
+    "base_value" :	30
+    , "increment" : 20
+  }
+  ,	"param5" :  // (좀비) 추가 이동 속도
+  {
+    "base_value" :	4
+    , "increment" : 2
+  }
+  ,	"param6" :  // (좀비) 넉백 감쇄
+  {
+    "base_value" :	-0.1
+    , "increment" : -0.05
+    , "is_percent" : true
+  }
+  ,	"param7" :  // (좀비) 경직 감쇄
+  {
+    "base_value" :	-0.24
+    , "increment" : -0.02
+    , "is_percent" : true
+  }
+}

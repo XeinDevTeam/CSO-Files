@@ -1,0 +1,29 @@
+//화염구
+//저격 소총 사용 시, 화염구를 발사함
+{
+  "team": 1
+  , "weight": 100
+  , "param1" :  // 피해량
+  {
+    "base_value" :	800
+    , "increment" : 100
+  }
+  , "param2" :  // 범위
+  {
+    "base_value" :	100
+  }
+  , "param3" :  // 넉백
+  {
+    "base_value" :	320
+    , "increment" : 20
+  }
+  , "param4" :  // 투사 속도
+  {
+    "base_value" :	1200
+  }
+  , "param5" :  // 쿨타임
+  {
+    "base_value" :	5
+    , "increment" : -0.2
+  }
+}

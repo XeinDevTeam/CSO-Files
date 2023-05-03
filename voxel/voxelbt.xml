@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<BehaviorTree>
+  
+  <!-- 일반 좀비 -->
+	<Root name="NormalZombie">
+		<Selector>
+			<!-- 스폰 애니메이션 -->
+			<Sequence>
+					<If name="on_spawn" />
+					<VxlSpawn seq='32' />
+			</Sequence>
+		 
+			<!-- 근접공격 시도 후, 대시 공격 시도-->
+			<VxlAttack seq_min='34' seq_max='36' />
+			<VxlRushAttack dist='80' seq='41' speed='50' delay='1.9' />
+		  
+			<!-- 타겟 찾아서 이동 -->
+			<Sequence>
+				<VxlCheckTarget check_cooltime='1' />
+				<VxlFindPath canJump='1' canCrouch='1' />
+				<VxlFollowPath seq='9' crouch_speed='40' />
+			</Sequence>
+		  
+			<!-- 주위 배회 -->
+			<Sequence>
+				<VxlRoaming delay='15' />
+				<VxlFindPath canJump='0' canCrouch='0' />
+				<VxlFollowPath seq='8' speed='20'/>
+			</Sequence>
+		  
+			<!-- 대기 -->
+			<VxlIdle seq='1' />
+		</Selector>
+	</Root>
+
+  <!-- 일반 좀비(옆으로 걷기) -->
+	<Root name="NormalZombie2">
+		<Selector>
+			<Sequence>
+				<If name="on_spawn" />
+				<VxlSpawn seq='33' />
+			</Sequence>
+			<VxlAttack seq_min='37' seq_max='39' />
+			<VxlRushAttack dist='80' seq='41' speed='50' delay='1.9' />
+			<Sequence>
+				<VxlCheckTarget check_cooltime='1' />
+				<VxlFindPath canJump='1' canCrouch='1' />
+				<VxlFollowPath seq='11' crouch_speed='40' />
+			</Sequence>
+      <Sequence>
+        <VxlRoaming delay='15' />
+        <VxlFindPath canJump='0' canCrouch='0' />
+        <VxlFollowPath seq='8' speed='20'/>
+      </Sequence>
+			<VxlIdle seq='3' />
+		</Selector>
+	</Root>
+  
+  <!-- 달리는 좀비 -->
+	<Root name="RunnerZombie">
+		<Selector>
+			<Sequence>
+				<If name="on_spawn" />
+				<VxlSpawn seq='32' />
+			</Sequence>
+			<VxlAttack seq_min='34' seq_max='36' />
+			<VxlRushAttack dist='60' seq='42' speed='100' delay='1.3' />
+			<Sequence>
+				<VxlCheckTarget check_cooltime='1' />
+				<VxlFindPath canJump='1' canCrouch='1' />
+				<VxlFollowPath seq='15' crouch_speed='40' />
+			</Sequence>
+      <Sequence>
+        <VxlRoaming delay='15' />
+        <VxlFindPath canJump='0' canCrouch='0' />
+        <VxlFollowPath seq='8' speed='20'/>
+      </Sequence>
+			<VxlIdle seq='1' />
+		</Selector>
+	</Root>
+  
+  <!-- 메이플 버섯 -->
+  <Root name="Mushroom">
+    <Selector>
+      <VxlAttack seq_min='1' seq_max='1' />
+      <Sequence>
+        <VxlCheckTarget check_cooltime='1' />
+        <VxlFindPath canJump='1' canCrouch='0' />
+        <VxlFollowPath seq='5' />
+      </Sequence>
+      <Sequence>
+        <VxlRoaming delay='15' />
+        <VxlFindPath canJump='0' canCrouch='0' />
+        <VxlFollowPath seq='4' speed='20'/>
+      </Sequence>
+      <VxlIdle seq='0' />
+    </Selector>
+  </Root>
+
+  <!-- 중국 좀비 -->
+  <Root name="ChinaMonster">
+    <Selector>
+      <VxlAttack seq_min='12' seq_max='15' />
+
+      <!-- 타겟 찾아서 이동 -->
+      <Sequence>
+        <VxlCheckTarget check_cooltime='1' />
+        <VxlFindPath canJump='1' canCrouch='1' />
+        <VxlFollowPath seq='5' crouch_speed='40' />
+      </Sequence>
+
+      <!-- 주위 배회 -->
+      <Sequence>
+        <VxlRoaming delay='15' />
+        <VxlFindPath canJump='0' canCrouch='0' />
+        <VxlFollowPath seq='2' speed='40'/>
+      </Sequence>
+
+      <!-- 대기 -->
+      <VxlIdle seq='1' />
+    </Selector>
+  </Root>
+  
+  <!-- 눈사람 -->
+  <Root name="Snowman">
+    <Selector>
+      <VxlAttack seq_min='10' seq_max='10' />
+      <Sequence>
+        <VxlCheckTarget check_cooltime='1' />
+        <VxlFindPath canJump='1' canCrouch='1' />
+        <VxlFollowPath seq='3' crouch_speed='40' />
+      </Sequence>
+      <Sequence>
+        <VxlRoaming delay='15' />
+        <VxlFindPath canJump='0' canCrouch='0' />
+        <VxlFollowPath seq='2' speed='20'/>
+      </Sequence>
+      <VxlIdle seq='1' />
+    </Selector>
+  </Root>
+  
+  <!-- 우주테마 -->
+  <Root name="Minion">
+    <Selector>
+      <VxlAttack seq_min='9' seq_max='11' />
+      <Sequence>
+        <VxlCheckTarget check_cooltime='1' />
+        <VxlFindPath canJump='1' canCrouch='1' />
+        <VxlFollowPath seq='4' crouch_speed='40' />
+      </Sequence>
+      <Sequence>
+        <VxlRoaming delay='15' />
+        <VxlFindPath canJump='0' canCrouch='0' />
+        <VxlFollowPath seq='3' speed='20'/>
+      </Sequence>
+      <VxlIdle seq='1' />
+    </Selector>
+  </Root>
+  
+  <!-- 훌리건 근접 -->
+  <Root name="HooliganMelee">
+    <Selector>
+      <VxlAttack seq_min='10' seq_max='13' />
+      <Sequence>
+        <VxlCheckTarget check_cooltime='1' />
+        <VxlFindPath canJump='1' canCrouch='1' />
+        <VxlFollowPath seq='3' crouch_speed='40' />
+      </Sequence>
+      <Sequence>
+        <VxlRoaming delay='15' />
+        <VxlFindPath canJump='0' canCrouch='0' />
+        <VxlFollowPath seq='2' speed='20'/>
+      </Sequence>
+      <VxlIdle seq='1' />
+    </Selector>
+  </Root>
+  
+  <!-- 훌리건 원거리 -->
+  <Root name="HooliganThrow">
+    <Selector>
+      <VxlAttack seq_min='11' seq_max='11' />
+      <Sequence>
+        <VxlCheckTarget check_cooltime='1' />
+        <VxlFindPath canJump='1' canCrouch='1' />
+        <VxlFollowPath seq='4' crouch_speed='40' />
+      </Sequence>
+      <Sequence>
+        <VxlRoaming delay='15' />
+        <VxlFindPath canJump='0' canCrouch='0' />
+        <VxlFollowPath seq='3' speed='20'/>
+      </Sequence>
+      <VxlIdle seq='1' />
+    </Selector>
+  </Root>
+  
+    <!-- 보스 - 프로토타입 포보스 -->
+	<Root name="Boss_ProtoPhobos">
+		<Selector>
+			<!-- 스폰 애니메이션 -->
+			<Sequence>
+					<If name="on_spawn" />
+					<VxlSpawn seq='12' delay='3.0' fadein_time='3.0' />
+			</Sequence>
+					 
+			<!-- 공격 선택 및 시도 -->
+			<VxlSelectAttack_Boss />
+			<VxlAttack_ProtoPhobos type='1' />
+			<VxlAttack_ProtoPhobos type='2' />
+			<VxlAttack_ProtoPhobos type='3' />
+		  
+			<!-- 타겟 선택 및 이동 -->
+			<Sequence>
+				<VxlCheckTarget_Boss max_range = '25' />
+				<VxlCanMove_Boss />
+				<VxlFindPath canJump='0' canCrouch='0' delay='0.2' />
+				<VxlFollowPath seq='7' />
+			</Sequence>		  
+	  
+			<!-- 대기 -->
+			<VxlIdle seq='5' />
+		</Selector>
+	</Root>
+  
+</BehaviorTree>

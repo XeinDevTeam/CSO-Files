@@ -1,0 +1,47 @@
+{
+    "HelpPageList":[      
+        {
+            "Title": "SeasonPass",
+            "Desc": "SeasonPass",
+            "BGImage": "bg_season_help"
+        },
+        {            
+            "BGImage": "bg_season_banner"
+        },
+        {            
+			"UseScroll" : true,
+            "MainImage": "preview_season"
+        },
+        {
+            "Title": "QnA",
+            "UseScroll" : true,
+            "BGImage": "bg_season_help",
+            "QnA":[
+                {
+                    "Title": "Q_01",
+                    "Desc": "A_01"
+                },
+                {
+                    "Title": "Q_02",
+                    "Desc": "A_02"
+                },
+                {
+                    "Title": "Q_03",
+                    "Desc": "A_03"
+                },
+                {
+                    "Title": "Q_04",
+                    "Desc": "A_04"
+                }                
+                {
+                    "Title": "Q_05",
+                    "Desc": "A_05"
+                }
+                {
+                    "Title": "Q_06",
+                    "Desc": "A_06"
+                }
+            ]
+        }        
+    ]
+}

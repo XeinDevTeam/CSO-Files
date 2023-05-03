@@ -1,0 +1,35 @@
+"Resource/ItemShop_ver9.res"
+{
+	"ItemShopDlg"
+	{
+		"ControlName"		"CItemShopDlgVer2"
+		"fieldName"		"ItemShopDlg"
+		"xpos"		"505"
+		"ypos"		"123"
+		"wide"		"502"
+		"tall"		"551"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintbackground"		"1"
+		"settitlebarvisible"		"1"
+	}
+	"ItemView"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ItemView"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"502"
+		"tall"		"551"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintbackground"		"1"
+		"scaleImage"		"0"
+	}
+}

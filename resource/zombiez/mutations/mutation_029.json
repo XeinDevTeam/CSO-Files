@@ -1,0 +1,12 @@
+//적응력
+//언제든지 좀비 변경 가능
+{
+  "team": 2
+  , "weight": 100
+  , "param1" :  // 변화 시 남는 체력
+  {
+    "base_value" :	0.2
+    , "increment" : 0.04
+    , "is_percent" : true
+  }
+}

@@ -1,0 +1,15 @@
+﻿//체력강탈
+//인간 감염시 본인+주변 HP 회복
+{
+	"team": 2
+	, "weight": 100
+	, "param1" :  // 회복 범위
+	{
+		"base_value" :	100
+	}
+	, "param2" :  // 회복량 계수
+	{
+		"base_value" :	1
+		, "increment" : 1.55
+	}
+}

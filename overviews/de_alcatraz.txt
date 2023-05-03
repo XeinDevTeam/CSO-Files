@@ -1,0 +1,13 @@
+// overview description file for de_alcatraz.bsp
+global 
+{
+	ZOOM	1.33
+	ORIGIN	184.00 -176.00 824.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/de_alcatraz.bmp"
+	HEIGHT -192
+}

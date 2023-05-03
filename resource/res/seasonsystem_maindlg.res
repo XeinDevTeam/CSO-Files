@@ -1,0 +1,101 @@
+"Resource/Res/SeasonSystem_MainDlg.res"
+{
+	"SeasonSystem_MainDlg"
+	{
+		"ControlName"			"CSeasonSystem_MainDlg"
+		"fieldName"				"SeasonSystem_MainDlg"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"1018"
+		"tall"					"736"
+		"zpos"					"0"		
+		"visible"				"1"		
+	}
+
+	"SeasonSystem_TitleLabel"
+	{
+		"ControlName"			"Label"
+		"fieldName"				"SeasonSystem_TitleLabel"
+		"xpos"					"21"
+		"ypos"					"31"
+		"wide"					"970"
+		"tall"					"38"
+		"zpos"					"1"
+		"EnableMouseInput" 	  	"0"
+		"EnableKeyboardInput" 	"0"
+		"labelText"				"#CSO_SeasonSystem_Title"
+		"textAlignment"			"center"
+		"ForceTextColor"		"168 168 168 255"
+		"EnableForceTextColor"	"1"
+		"Font"					"ResultTitle"
+	}
+
+	"SeasonSystem_SeasonInfo_Label"
+	{
+		"ControlName"				"Label"
+		"fieldName"					"SeasonSystem_SeasonInfo_Label"
+		"xpos"						"34"
+		"ypos"						"79"
+		"wide"						"67"
+		"tall"						"28"
+		"zpos"						"1"
+		"EnableForceTextColor"		"1"
+		"ForceTextColor"			"157 129 62 255"
+		"Font"						"Normal24"
+		"labelText"					"#CSO_SeasonSystem_SeasonInfo"
+		"EnableMouseInput" 	  		"0"
+		"EnableKeyboardInput" 		"0"
+	}
+
+	"SeasonSystem_Date_Label"
+	{
+		"ControlName"				"Label"
+		"fieldName"					"SeasonSystem_Date_Label"
+		"xpos"						"112"
+		"ypos"						"89"
+		"wide"						"564"
+		"tall"						"14"
+		"zpos"						"1"
+		"EnableForceTextColor"		"1"
+		"ForceTextColor"			"157 129 62 255"
+		"Font"						"DefaultMiddle"
+		"labelText"					"#CSO_SeasonSystem_Date_01"
+		"EnableMouseInput" 	  		"0"
+		"EnableKeyboardInput" 		"0"
+	}
+
+	"SeasonSystem_HelpBtn"
+	{
+		"ControlName"			"ThreePicsButton"
+		"fieldName"				"SeasonSystem_HelpBtn"
+		"xpos"					"879"
+		"ypos"					"23"
+		"wide"					"117"
+		"tall"					"32"
+		"zpos"					"2"
+		"ThreePicsTgaPath"		"resource/Control/Button/btn_invensort"
+		"UseDisableImage"		"0"
+		"labelText"				"#CSO_SeasonSystem_HelpBtn"
+		"textAlignment"			"center"
+		"EnableForceTextColor"	"1"
+		"ForceTextColor"		"168 168 168 255"
+		"Font"					"DefaultMiddle"
+		"Command"				"OpenHelpDlg"
+		"EnableKeyboardInput" 	"0"
+	}
+
+	"SeasonSystem_CloseBtn"
+	{
+		"ControlName"			"Button"
+		"fieldName"				"SeasonSystem_CloseBtn"
+		"xpos"					"898"
+		"ypos"					"678"
+		"wide"					"98"
+		"tall"					"32"
+		"zpos"					"3"
+		"labelText"				"#CSO_ClosePopup"
+		"textAlignment"			"center"
+		"Command"				"Close"
+		"EnableKeyboardInput"	"0"
+	}
+}

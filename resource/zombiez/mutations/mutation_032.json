@@ -1,0 +1,12 @@
+//폭격지원
+//수류탄 폭발 시 일정 확률로 벙커 버스터 폭격 지원
+{
+  "team": 1
+  , "weight": 100
+  , "param1" :  // 발동 확률
+  {
+    "base_value" :	0.01
+    , "increment" : 0.01
+    , "is_percent" : true
+  }
+}

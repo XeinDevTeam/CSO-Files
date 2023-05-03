@@ -1,0 +1,16 @@
+"Mode(custom=100, season=101)",Image,MainMode(fix가 붙으면 위치가 고정됨),"AllMode(0은 표시안함, unique는 한개만 선택됨)",Title,Type(여기 내용이 없으면 표시방식이 바뀝니다),Difficulty,PlayTime,Desc,SpecialStartButton
+24,resource/Icon/botzombi,5,1,#CSO_GameMode_BotZombie,PvP,Easy,9,#CSO_GameMode_BotZombie_Tooltip,
+9,resource/Icon/ZombiExpand,8,1,#CSO_GameMode_Zombi_Expand,PvP,Normal,10,#CSO_GameMode_Zombi_Expand_Tooltip,
+14,resource/Icon/Zombi3,2,1,#CSO_GameMode_Zombi_3,PvP,Normal,15,#CSO_GameMode_Zombi_3_Tooltip,
+32,resource/Icon/Zombieannihilate,12,1,#CSO_GameMode_Zombi_Exterminate,PvP,Hard,9,#CSO_GameMode_Zombi_Exterminate_Tooltip,
+15,resource/Icon/ZombiSurvival,3,2,#CSO_GameMode_Zombi_Survival,PvE,Easy,13,#CSO_GameMode_Zombi_Survival_Tooltip,
+28,resource/Icon/ZombieShelter,7,2,#CSO_GameMode_ZombieShelter_Team,PvE,Hard,35,#CSO_GameMode_ZombieShelter_Team_Tooltip,
+0,resource/Icon/Original,4,3,#CSO_GameMode_Original,PvP,Hard,12,#CSO_GameMode_Original_Tooltip,
+1,resource/Icon/Death,20,3,#CSO_GameMode_DeathMatch,PvP,Normal,12,#CSO_GameMode_DeathMatch_Tooltip,
+2,resource/Icon/TDeath,18,3,#CSO_GameMode_TeamDeathMatch,PvP,Normal,10,#CSO_GameMode_TeamDeathMatch_Tooltip,
+22,resource/Icon/GunDeath,19,3,#CSO_GameMode_GunDeath,PvP,Normal,11,#CSO_GameMode_GunDeath_Tooltip,
+3,resource/Icon/Bot,14,3,#CSO_GameMode_Bot,PvP,Easy,13,#CSO_GameMode_Bot_Tooltip,
+5,resource/Icon/BotTDM,13,3,#CSO_GameMode_BotTDM,PvP,Easy,10,#CSO_GameMode_BotTDM_Tooltip,
+4,resource/Icon/BotDM,15,3,#CSO_GameMode_BotDM,PvP,Easy,8,#CSO_GameMode_BotDM_Tooltip,
+40,resource/Icon/Allstar,6,3,#CSO_GameMode_Allstar,PvP,Normal,12,#CSO_GameMode_Allstar_Tooltip,
+38,resource/Icon/Studio,fix0,0,#CSO_GameMode_Voxel,,,,#CSO_GameMode_VoxelCreate_Tooltip,#CSO_sandbox_start

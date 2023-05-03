@@ -1,0 +1,27 @@
+//폭탄배낭
+//일정 주기로 수류탄 자동 생성
+{
+  "team": 1
+  , "weight": 100
+  , "param1" :  // 생성 주기
+  {
+    "base_value" :	30
+    , "increment" : -0.5
+  }
+  , "param2" :  // 생성할 item id
+  {
+    "base_value" :	31
+  }
+  , "param3" :  // 생성 개수
+  {
+    "base_value" :	1
+    , "increment" : 1
+    , "increment_period" : 6
+  }
+  , "param4" :  // 소지 한계 증가
+  {
+    "base_value" :	1
+    , "increment" : 1
+    , "increment_period" : 6
+  }
+}

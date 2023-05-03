@@ -1,0 +1,16 @@
+﻿//폭탄 강화
+//좀비 폭탄의 데미지, 넉백 증가
+{
+	"team": 2
+	, "weight": 15
+	, "param1" :  // 데미지 증가 계수
+	{
+		"base_value" :	1
+		, "increment" : 0.56
+	}
+	, "param2" :  // 넉백 증가 계수
+	{
+		"base_value" :	0.35
+		, "increment" : 0.9
+	}
+}

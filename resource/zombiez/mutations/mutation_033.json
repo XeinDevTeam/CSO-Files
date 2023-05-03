@@ -1,0 +1,18 @@
+//치명타
+//공격 시 일정 확률로 추가 피해를 주는 치명타 발생
+{
+  "team": 1
+  , "weight": 100
+  , "param1" :  // 발동 확률
+  {
+    "base_value" :	0.04
+    , "increment" : 0.005
+    , "is_percent" : true
+  }
+  , "param2" :  // 추가 피해
+  {
+    "base_value" :	1
+    , "increment" : 0.02
+    , "is_percent" : true
+  }
+}

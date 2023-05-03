@@ -1,0 +1,13 @@
+// overview description file for zm_cantera.bsp
+global 
+{
+	ZOOM	1.41
+	ORIGIN	30.25 144.72 864.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/zm_cantera.bmp"
+	HEIGHT 0
+}

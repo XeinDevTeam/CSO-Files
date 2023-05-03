@@ -1,0 +1,24 @@
+//정면돌격
+//돌격 소총 사용 시, 앞으로 전진하고 있으면 전투 능력 향상
+{
+  "team": 1
+  , "weight": 100
+  , "param1" :  // 공격력
+  {
+    "base_value" :	8
+  }
+  ,	"param2" :  // 명중률(%)
+  {
+    "base_value" :	0.12
+  }
+  ,	"param3" :  // 넉백력
+  {
+    "base_value" :	30
+  }
+  ,	"param4" :  // 중첩 상한치
+  {
+    "base_value" :	4
+    , "increment" : 1
+    , "increment_period" : 2
+  }
+}

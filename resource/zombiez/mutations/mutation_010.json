@@ -1,0 +1,18 @@
+//탄환 생성
+//장전 시 일정 확률로 탄 추가 생성
+{
+  "team": 1
+  , "weight": 100
+  , "param1" :  // 발동 확률
+  {
+    "base_value" :	0.5
+    , "increment" : 0.03
+    , "is_percent" : true
+  }
+  ,	"param2" :  // 추가 생성 분량
+  {
+    "base_value" :	0.45
+    , "increment" : 0.05
+    , "is_percent" : true
+  }
+}

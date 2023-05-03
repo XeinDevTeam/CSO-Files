@@ -1,0 +1,13 @@
+// overview description file for de_skyscraper.bsp
+global 
+{
+	ZOOM	1.23
+	ORIGIN	0.00 -257.81 792.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/dm_chapel.bmp"
+	HEIGHT 8
+}

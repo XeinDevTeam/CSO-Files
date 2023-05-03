@@ -1,0 +1,22 @@
+//폭발 탄환
+//일정 수량의 탄 발사 시, 다음 탄환이 탄착점에 폭발을 유발
+{
+  "team": 1
+  , "weight": 100
+  , "param1" :  // 요구 탄환
+  {
+    "base_value" :	30
+    , "increment" : -4
+    , "increment_period" : 3
+  }
+  ,	"param2" :  // 폭발 범위
+  {
+    "base_value" :	64
+  }
+  ,	"param3" :  // 폭발 피해(무기 공격력의 %)
+  {
+    "base_value" :	0.35
+    , "increment" : 0.05
+    , "is_percent" : true
+  }
+}

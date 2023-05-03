@@ -1,0 +1,16 @@
+//연발탄
+//수류탄 투척 시 추가적인 탄 생성하여 자동 투척.
+{
+  "team": 1
+  , "weight": 100
+  , "param1" :  // 추가 탄
+  {
+    "base_value" :	1
+    , "increment" : 1
+    , "increment_period" : 13
+  }
+  , "param2" :  // 추가 탄 투척 간격
+  {
+    "base_value" :	1
+  }
+}

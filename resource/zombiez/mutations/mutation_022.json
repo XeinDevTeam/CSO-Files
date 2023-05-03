@@ -1,0 +1,12 @@
+//강철머리
+//헤드샷 피해 감소
+{
+  "team": 2
+  , "weight": 100
+  , "param1" :  // 피해 감쇄량
+  {
+    "base_value" :	-0.04
+    , "increment" : -0.03
+    , "is_percent" : true
+  }
+}

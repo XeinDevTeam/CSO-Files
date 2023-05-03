@@ -1,0 +1,603 @@
+{
+	"partner": [
+    {
+		"btnName": "#CSO_buffclassA",
+		"panelName": "buffclassA",
+		"desc": "CSO_Partner_Desc_buffclassA",
+		"modelID": 86,
+		"teamID": 2,
+		"skill": 90,
+		"reaction": 45,
+		"teamwork": 70,
+		"aggression": 55,
+		"accuracyMin": 0.8,
+		"accuracyMax": 1.2,
+		"health": 65,
+		"speed": 25,
+		"weapons": [
+		{
+			"money": 500,
+			"weapons": [
+			{ "ratio": 0.2, "weaponID": 2 }, { "ratio": 0.6, "weaponID": 6 }, { "ratio": 0.1, "weaponID": 5 }, 
+			{ "ratio": 0.1, "weaponID": 4 }]
+		},
+		{
+			"money": 1000,
+			"weapons": [
+			{ "ratio": 0.1, "weaponID": 2 }, { "ratio": 0.5, "weaponID": 6 }, { "ratio": 0.35, "weaponID": 5 }, 
+			{ "ratio": 0.05, "weaponID": 4 }]
+		},
+		{
+			"money": 2000,
+			"weapons": [
+			{ "ratio": 0.55, "weaponID": 4 }, { "ratio": 0.3, "weaponID": 12 }, { "ratio": 0.05, "weaponID": 20 }, 
+			{ "ratio": 0.1, "weaponID": 7 }]
+		},
+		{
+			"money": 3000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 12 }, { "ratio": 0.5, "weaponID": 20 }, { "ratio": 0.15, "weaponID": 8 }, 
+			{ "ratio": 0.05, "weaponID": 15 }]
+		},
+		{
+			"money": 4000,
+			"weapons": [
+			{ "ratio": 0.4, "weaponID": 20 }, { "ratio": 0.3, "weaponID": 15 }, { "ratio": 0.05, "weaponID": 187 }, 
+			{ "ratio": 0.2, "weaponID": 400 }, { "ratio": 0.05, "weaponID": 304 }]
+		},
+		{
+			"money": 5000,
+			"weapons": [
+			{ "ratio": 0.5, "weaponID": 15 }, { "ratio": 0.1, "weaponID": 187 }, { "ratio": 0.3, "weaponID": 400 }, 
+			{ "ratio": 0.1, "weaponID": 32 }]
+		},
+		{
+			"money": 6000,
+			"weapons": [
+			{ "ratio": 0.4, "weaponID": 15 }, { "ratio": 0.2, "weaponID": 16 }, { "ratio": 0.2, "weaponID": 18 }, 
+			{ "ratio": 0.1, "weaponID": 14 }, { "ratio": 0.1, "weaponID": 148 }]
+		},
+		{
+			"money": 7000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 15 }, { "ratio": 0.3, "weaponID": 16 }, { "ratio": 0.2, "weaponID": 14 }, 
+			{ "ratio": 0.2, "weaponID": 148 }]
+		},
+		{
+			"money": 8000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 14 }, { "ratio": 0.3, "weaponID": 16 }, { "ratio": 0.2, "weaponID": 148 }, 
+			{ "ratio": 0.2, "weaponID": 355 }]
+		},
+		{
+			"money": 10000,
+			"weapons": [
+			{ "ratio": 0.6, "weaponID": 148 }, { "ratio": 0.4, "weaponID": 355 }]
+		}]
+    },
+    {
+		"btnName": "#CSO_buffclasschoijiyoon",
+		"panelName": "buffclasschoijiyoon",
+		"desc": "CSO_Partner_Desc_buffclasschoijiyoon",
+		"modelID": 88,
+		"teamID": 2,
+		"skill": 65,
+		"reaction": 80,
+		"teamwork": 70,
+		"aggression": 90,
+		"accuracyMin": 0.9,
+		"accuracyMax": 1.0,
+		"health": 20,
+		"speed": 10,
+		"weapons": [
+		{
+			"money": 500,
+			"weapons": [
+			{ "ratio": 0.2, "weaponID": 2 }, { "ratio": 0.5, "weaponID": 6 }, { "ratio": 0.1, "weaponID": 5 }, 
+			{ "ratio": 0.2, "weaponID": 4 }]
+		},
+		{
+			"money": 1000,
+			"weapons": [
+			{ "ratio": 0.05, "weaponID": 2 }, { "ratio": 0.4, "weaponID": 6 }, { "ratio": 0.3, "weaponID": 5 }, 
+			{ "ratio": 0.25, "weaponID": 4 }]
+		},
+		{
+			"money": 2000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 4 }, { "ratio": 0.5, "weaponID": 12 }, { "ratio": 0.1, "weaponID": 20 }, 
+			{ "ratio": 0.1, "weaponID": 7 }]
+		},
+		{
+			"money": 3000,
+			"weapons": [
+			{ "ratio": 0.15, "weaponID": 12 }, { "ratio": 0.55, "weaponID": 20 }, { "ratio": 0.1, "weaponID": 8 }, 
+			{ "ratio": 0.1, "weaponID": 15 }]
+		},
+		{
+			"money": 4000,
+			"weapons": [
+			{ "ratio": 0.05, "weaponID": 20 }, { "ratio": 0.5, "weaponID": 15 }, { "ratio": 0.05, "weaponID": 187 }, 
+			{ "ratio": 0.3, "weaponID": 400 }, { "ratio": 0.1, "weaponID": 304 }]
+		},
+		{
+			"money": 5000,
+			"weapons": [
+			{ "ratio": 0.4, "weaponID": 15 }, { "ratio": 0.2, "weaponID": 187 }, { "ratio": 0.2, "weaponID": 400 }, 
+			{ "ratio": 0.2, "weaponID": 32 }]
+		},
+		{
+			"money": 6000,
+			"weapons": [
+			{ "ratio": 0.2, "weaponID": 15 }, { "ratio": 0.4, "weaponID": 16 }, { "ratio": 0.1, "weaponID": 18 }, 
+			{ "ratio": 0.2, "weaponID": 14 }, { "ratio": 0.1, "weaponID": 148 }]
+		},
+		{
+			"money": 7000,
+			"weapons": [
+			{ "ratio": 0.1, "weaponID": 15 }, { "ratio": 0.4, "weaponID": 16 }, { "ratio": 0.2, "weaponID": 14 }, 
+			{ "ratio": 0.3, "weaponID": 148 }]
+		},
+		{
+			"money": 8000,
+			"weapons": [
+			{ "ratio": 0.2, "weaponID": 14 }, { "ratio": 0.3, "weaponID": 16 }, { "ratio": 0.25, "weaponID": 148 }, 
+			{ "ratio": 0.25, "weaponID": 355 }]
+		},
+		{
+			"money": 10000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 148 }, { "ratio": 0.7, "weaponID": 355 }]
+		}]
+    },
+    {
+		"btnName": "#CSO_buffclassfernando",
+		"panelName": "buffclassfernando",
+		"desc": "CSO_Partner_Desc_buffclassfernando",
+		"modelID": 95,
+		"teamID": 2,
+		"skill": 50,
+		"reaction": 70,
+		"teamwork": 70,
+		"aggression": 50,
+		"accuracyMin": 0.6,
+		"accuracyMax": 1.5,
+		"health": 90,
+		"speed": 95,
+		"weapons": [
+		{
+			"money": 500,
+			"weapons": [
+			{ "ratio": 0.2, "weaponID": 2 }, { "ratio": 0.5, "weaponID": 6 }, { "ratio": 0.1, "weaponID": 5 }, 
+			{ "ratio": 0.2, "weaponID": 4 }]
+		},
+		{
+			"money": 1000,
+			"weapons": [
+			{ "ratio": 0.1, "weaponID": 2 }, { "ratio": 0.5, "weaponID": 6 }, { "ratio": 0.2, "weaponID": 5 }, 
+			{ "ratio": 0.2, "weaponID": 4 }]
+		},
+		{
+			"money": 2000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 4 }, { "ratio": 0.5, "weaponID": 12 }, { "ratio": 0.1, "weaponID": 20 }, 
+			{ "ratio": 0.1, "weaponID": 7 }]
+		},
+		{
+			"money": 3000,
+			"weapons": [
+			{ "ratio": 0.15, "weaponID": 12 }, { "ratio": 0.3, "weaponID": 20 }, { "ratio": 0.35, "weaponID": 8 }, 
+			{ "ratio": 0.2, "weaponID": 15 }]
+		},
+		{
+			"money": 4000,
+			"weapons": [
+			{ "ratio": 0.05, "weaponID": 20 }, { "ratio": 0.4, "weaponID": 15 }, { "ratio": 0.3, "weaponID": 36 }, 
+			{ "ratio": 0.15, "weaponID": 400 }, { "ratio": 0.1, "weaponID": 304 }]
+		},
+		{
+			"money": 5000,
+			"weapons": [
+			{ "ratio": 0.4, "weaponID": 15 }, { "ratio": 0.4, "weaponID": 370 }, { "ratio": 0.1, "weaponID": 400 }, 
+			{ "ratio": 0.1, "weaponID": 32 }]
+		},
+		{
+			"money": 6000,
+			"weapons": [
+			{ "ratio": 0.15, "weaponID": 15 }, { "ratio": 0.35, "weaponID": 16 }, { "ratio": 0.05, "weaponID": 18 }, 
+			{ "ratio": 0.35, "weaponID": 347 }, { "ratio": 0.1, "weaponID": 148 }]
+		},
+		{
+			"money": 7000,
+			"weapons": [
+			{ "ratio": 0.05, "weaponID": 15 }, { "ratio": 0.3, "weaponID": 16 }, { "ratio": 0.35, "weaponID": 487 }, 
+			{ "ratio": 0.3, "weaponID": 148 }]
+		},
+		{
+			"money": 8000,
+			"weapons": [
+			{ "ratio": 0.4, "weaponID": 487 }, { "ratio": 0.1, "weaponID": 16 }, { "ratio": 0.25, "weaponID": 148 }, 
+			{ "ratio": 0.25, "weaponID": 355 }]
+		},
+		{
+			"money": 10000,
+			"weapons": [
+			{ "ratio": 0.5, "weaponID": 148 }, { "ratio": 0.5, "weaponID": 355 }]
+		}]
+    },
+    {
+		"btnName": "#CSO_buffclasslycan",
+		"panelName": "buffclasslycan",
+		"desc": "CSO_Partner_Desc_buffclasslycan",
+		"modelID": 90,
+		"teamID": 2,
+		"skill": 70,
+		"reaction": 60,
+		"teamwork": 70,
+		"aggression": 80,
+		"accuracyMin": 0.7,
+		"accuracyMax": 1.3,
+		"health": 40,
+		"speed": 55,
+		"weapons": [
+		{
+			"money": 500,
+			"weapons": [
+			{ "ratio": 0.2, "weaponID": 2 }, { "ratio": 0.6, "weaponID": 6 }, { "ratio": 0.1, "weaponID": 5 }, 
+			{ "ratio": 0.1, "weaponID": 4 }]
+		},
+		{
+			"money": 1000,
+			"weapons": [
+			{ "ratio": 0.1, "weaponID": 2 }, { "ratio": 0.5, "weaponID": 6 }, { "ratio": 0.35, "weaponID": 5 }, 
+			{ "ratio": 0.05, "weaponID": 4 }]
+		},
+		{
+			"money": 2000,
+			"weapons": [
+			{ "ratio": 0.55, "weaponID": 4 }, { "ratio": 0.3, "weaponID": 12 }, { "ratio": 0.05, "weaponID": 20 }, 
+			{ "ratio": 0.1, "weaponID": 7 }]
+		},
+		{
+			"money": 3000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 12 }, { "ratio": 0.5, "weaponID": 20 }, { "ratio": 0.15, "weaponID": 8 }, 
+			{ "ratio": 0.05, "weaponID": 15 }]
+		},
+		{
+			"money": 4000,
+			"weapons": [
+			{ "ratio": 0.4, "weaponID": 20 }, { "ratio": 0.3, "weaponID": 15 }, { "ratio": 0.05, "weaponID": 187 }, 
+			{ "ratio": 0.2, "weaponID": 400 }, { "ratio": 0.05, "weaponID": 304 }]
+		},
+		{
+			"money": 5000,
+			"weapons": [
+			{ "ratio": 0.5, "weaponID": 15 }, { "ratio": 0.1, "weaponID": 187 }, { "ratio": 0.3, "weaponID": 400 }, 
+			{ "ratio": 0.1, "weaponID": 32 }]
+		},
+		{
+			"money": 6000,
+			"weapons": [
+			{ "ratio": 0.4, "weaponID": 15 }, { "ratio": 0.2, "weaponID": 16 }, { "ratio": 0.2, "weaponID": 18 }, 
+			{ "ratio": 0.1, "weaponID": 14 }, { "ratio": 0.1, "weaponID": 148 }]
+		},
+		{
+			"money": 7000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 15 }, { "ratio": 0.3, "weaponID": 16 }, { "ratio": 0.2, "weaponID": 14 }, 
+			{ "ratio": 0.2, "weaponID": 148 }]
+		},
+		{
+			"money": 8000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 14 }, { "ratio": 0.3, "weaponID": 16 }, { "ratio": 0.2, "weaponID": 148 }, 
+			{ "ratio": 0.2, "weaponID": 355 }]
+		},
+		{
+			"money": 10000,
+			"weapons": [
+			{ "ratio": 0.6, "weaponID": 148 }, { "ratio": 0.4, "weaponID": 355 }]
+		}]
+    },
+    {
+		"btnName": "#CSO_buffclassyuri",
+		"panelName": "buffclassyuri",
+		"desc": "CSO_Partner_Desc_buffclassyuri",
+		"modelID": 89,
+		"teamID": 1,
+		"skill": 90,
+		"reaction": 45,
+		"teamwork": 70,
+		"aggression": 55,
+		"accuracyMin": 0.8,
+		"accuracyMax": 1.2,
+		"health": 65,
+		"speed": 25,
+		"weapons": [
+		{
+			"money": 500,
+			"weapons": [
+			{ "ratio": 0.2, "weaponID": 1 }, { "ratio": 0.6, "weaponID": 3 }, { "ratio": 0.1, "weaponID": 149 }, 
+			{ "ratio": 0.1, "weaponID": 4 }]
+		},
+		{
+			"money": 1000,
+			"weapons": [
+			{ "ratio": 0.1, "weaponID": 1 }, { "ratio": 0.5, "weaponID": 3 }, { "ratio": 0.35, "weaponID": 149 }, 
+			{ "ratio": 0.05, "weaponID": 4 }]
+		},
+		{
+			"money": 2000,
+			"weapons": [
+			{ "ratio": 0.55, "weaponID": 4 }, { "ratio": 0.3, "weaponID": 12 }, { "ratio": 0.05, "weaponID": 23 }, 
+			{ "ratio": 0.1, "weaponID": 7 }]
+		},
+		{
+			"money": 3000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 12 }, { "ratio": 0.5, "weaponID": 23 }, { "ratio": 0.15, "weaponID": 8 }, 
+			{ "ratio": 0.05, "weaponID": 21 }]
+		},
+		{
+			"money": 4000,
+			"weapons": [
+			{ "ratio": 0.4, "weaponID": 23 }, { "ratio": 0.3, "weaponID": 21 }, { "ratio": 0.05, "weaponID": 22 }, 
+			{ "ratio": 0.2, "weaponID": 400 }, { "ratio": 0.05, "weaponID": 304 }]
+		},
+		{
+			"money": 5000,
+			"weapons": [
+			{ "ratio": 0.5, "weaponID": 21 }, { "ratio": 0.1, "weaponID": 22 }, { "ratio": 0.3, "weaponID": 400 }, 
+			{ "ratio": 0.1, "weaponID": 32 }]
+		},
+		{
+			"money": 6000,
+			"weapons": [
+			{ "ratio": 0.4, "weaponID": 21 }, { "ratio": 0.2, "weaponID": 22 }, { "ratio": 0.2, "weaponID": 19 }, 
+			{ "ratio": 0.1, "weaponID": 14 }, { "ratio": 0.1, "weaponID": 148 }]
+		},
+		{
+			"money": 7000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 21 }, { "ratio": 0.3, "weaponID": 22 }, { "ratio": 0.2, "weaponID": 14 }, 
+			{ "ratio": 0.2, "weaponID": 148 }]
+		},
+		{
+			"money": 8000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 14 }, { "ratio": 0.3, "weaponID": 22 }, { "ratio": 0.2, "weaponID": 148 }, 
+			{ "ratio": 0.2, "weaponID": 355 }]
+		},
+		{
+			"money": 10000,
+			"weapons": [
+			{ "ratio": 0.6, "weaponID": 148 }, { "ratio": 0.4, "weaponID": 355 }]
+		}]
+    },
+    {
+		"btnName": "#CSO_buffclasspirategirl",
+		"panelName": "buffclasspirategirl",
+		"desc": "CSO_Partner_Desc_buffclasspirategirl",
+		"modelID": 92,
+		"teamID": 1,
+		"skill": 65,
+		"reaction": 80,
+		"teamwork": 70,
+		"aggression": 90,
+		"accuracyMin": 0.9,
+		"accuracyMax": 1.0,
+		"health": 20,
+		"speed": 10,
+		"weapons": [
+	{
+			"money": 500,
+			"weapons": [
+			{ "ratio": 0.2, "weaponID": 1 }, { "ratio": 0.5, "weaponID": 3 }, { "ratio": 0.1, "weaponID": 149 }, 
+			{ "ratio": 0.2, "weaponID": 4 }]
+		},
+		{
+			"money": 1000,
+			"weapons": [
+			{ "ratio": 0.05, "weaponID": 1 }, { "ratio": 0.4, "weaponID": 3 }, { "ratio": 0.3, "weaponID": 149 }, 
+			{ "ratio": 0.25, "weaponID": 4 }]
+		},
+		{
+			"money": 2000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 4 }, { "ratio": 0.5, "weaponID": 12 }, { "ratio": 0.1, "weaponID": 23 }, 
+			{ "ratio": 0.1, "weaponID": 7 }]
+		},
+		{
+			"money": 3000,
+			"weapons": [
+			{ "ratio": 0.15, "weaponID": 12 }, { "ratio": 0.55, "weaponID": 23 }, { "ratio": 0.1, "weaponID": 8 }, 
+			{ "ratio": 0.2, "weaponID": 21 }]
+		},
+		{
+			"money": 4000,
+			"weapons": [
+			{ "ratio": 0.05, "weaponID": 23 }, { "ratio": 0.5, "weaponID": 21 }, { "ratio": 0.05, "weaponID": 22 }, 
+			{ "ratio": 0.3, "weaponID": 400 }, { "ratio": 0.1, "weaponID": 304 }]
+		},
+		{
+			"money": 5000,
+			"weapons": [
+			{ "ratio": 0.4, "weaponID": 21 }, { "ratio": 0.2, "weaponID": 22 }, { "ratio": 0.2, "weaponID": 400 }, 
+			{ "ratio": 0.2, "weaponID": 32 }]
+		},
+		{
+			"money": 6000,
+			"weapons": [
+			{ "ratio": 0.2, "weaponID": 21 }, { "ratio": 0.4, "weaponID": 22 }, { "ratio": 0.1, "weaponID": 19 }, 
+			{ "ratio": 0.2, "weaponID": 14 }, { "ratio": 0.1, "weaponID": 148 }]
+		},
+		{
+			"money": 7000,
+			"weapons": [
+			{ "ratio": 0.1, "weaponID": 21 }, { "ratio": 0.4, "weaponID": 22 }, { "ratio": 0.2, "weaponID": 14 }, 
+			{ "ratio": 0.3, "weaponID": 148 }]
+		},
+		{
+			"money": 8000,
+			"weapons": [
+			{ "ratio": 0.2, "weaponID": 14 }, { "ratio": 0.3, "weaponID": 22 }, { "ratio": 0.25, "weaponID": 148 }, 
+			{ "ratio": 0.25, "weaponID": 355 }]
+		},
+		{
+			"money": 10000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 148 }, { "ratio": 0.7, "weaponID": 355 }]
+		}]
+    },
+    {
+		"btnName": "#CSO_buffclassB",
+		"panelName": "buffclassB",
+		"desc": "CSO_Partner_Desc_buffclassB",
+		"modelID": 87,
+		"teamID": 1,
+		"skill": 50,
+		"reaction": 70,
+		"teamwork": 70,
+		"aggression": 50,
+		"accuracyMin": 0.6,
+		"accuracyMax": 1.5,
+		"health": 90,
+		"speed": 95,
+		"weapons": [
+		{
+			"money": 500,
+			"weapons": [
+			{ "ratio": 0.2, "weaponID": 1 }, { "ratio": 0.5, "weaponID": 3 }, { "ratio": 0.1, "weaponID": 149 }, 
+			{ "ratio": 0.2, "weaponID": 4 }]
+		},
+		{
+			"money": 1000,
+			"weapons": [
+			{ "ratio": 0.1, "weaponID": 1 }, { "ratio": 0.5, "weaponID": 3 }, { "ratio": 0.2, "weaponID": 149 }, 
+			{ "ratio": 0.2, "weaponID": 4 }]
+		},
+		{
+			"money": 2000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 4 }, { "ratio": 0.5, "weaponID": 12 }, { "ratio": 0.1, "weaponID": 23 }, 
+			{ "ratio": 0.1, "weaponID": 7 }]
+		},
+		{
+			"money": 3000,
+			"weapons": [
+			{ "ratio": 0.15, "weaponID": 12 }, { "ratio": 0.3, "weaponID": 23 }, { "ratio": 0.35, "weaponID": 8 }, 
+			{ "ratio": 0.2, "weaponID": 21 }]
+		},
+		{
+			"money": 4000,
+			"weapons": [
+			{ "ratio": 0.05, "weaponID": 23 }, { "ratio": 0.4, "weaponID": 21 }, { "ratio": 0.3, "weaponID": 11 }, 
+			{ "ratio": 0.15, "weaponID": 400 }, { "ratio": 0.1, "weaponID": 304 }]
+		},
+		{
+			"money": 5000,
+			"weapons": [
+			{ "ratio": 0.4, "weaponID": 21 }, { "ratio": 0.4, "weaponID": 370 }, { "ratio": 0.1, "weaponID": 400 }, 
+			{ "ratio": 0.1, "weaponID": 32 }]
+		},
+		{
+			"money": 6000,
+			"weapons": [
+			{ "ratio": 0.15, "weaponID": 21 }, { "ratio": 0.35, "weaponID": 22 }, { "ratio": 0.05, "weaponID": 19 }, 
+			{ "ratio": 0.35, "weaponID": 347 }, { "ratio": 0.1, "weaponID": 148 }]
+		},
+		{
+			"money": 7000,
+			"weapons": [
+			{ "ratio": 0.05, "weaponID": 21 }, { "ratio": 0.3, "weaponID": 22 }, { "ratio": 0.35, "weaponID": 487 }, 
+			{ "ratio": 0.3, "weaponID": 148 }]
+		},
+		{
+			"money": 8000,
+			"weapons": [
+			{ "ratio": 0.4, "weaponID": 487 }, { "ratio": 0.1, "weaponID": 22 }, { "ratio": 0.25, "weaponID": 148 }, 
+			{ "ratio": 0.25, "weaponID": 355 }]
+		},
+		{
+			"money": 10000,
+			"weapons": [
+			{ "ratio": 0.5, "weaponID": 148 }, { "ratio": 0.5, "weaponID": 355 }]
+		}]
+    },
+    {
+		"btnName": "#CSO_buffclasshunter",
+		"panelName": "buffclasshunter",
+		"desc": "CSO_Partner_Desc_buffclasshunter",
+		"modelID": 91,
+		"teamID": 1,
+		"skill": 70,
+		"reaction": 60,
+		"teamwork": 70,
+		"aggression": 80,
+		"accuracyMin": 0.7,
+		"accuracyMax": 1.3,
+		"health": 40,
+		"speed": 55,
+		"weapons": [
+		{
+			"money": 500,
+			"weapons": [
+			{ "ratio": 0.2, "weaponID": 1 }, { "ratio": 0.6, "weaponID": 3 }, { "ratio": 0.1, "weaponID": 149 }, 
+			{ "ratio": 0.1, "weaponID": 4 }]
+		},
+		{
+			"money": 1000,
+			"weapons": [
+			{ "ratio": 0.1, "weaponID": 1 }, { "ratio": 0.5, "weaponID": 3 }, { "ratio": 0.35, "weaponID": 149 }, 
+			{ "ratio": 0.05, "weaponID": 4 }]
+		},
+		{
+			"money": 2000,
+			"weapons": [
+			{ "ratio": 0.55, "weaponID": 4 }, { "ratio": 0.3, "weaponID": 12 }, { "ratio": 0.05, "weaponID": 23 }, 
+			{ "ratio": 0.1, "weaponID": 7 }]
+		},
+		{
+			"money": 3000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 12 }, { "ratio": 0.5, "weaponID": 23 }, { "ratio": 0.15, "weaponID": 8 }, 
+			{ "ratio": 0.05, "weaponID": 21 }]
+		},
+		{
+			"money": 4000,
+			"weapons": [
+			{ "ratio": 0.4, "weaponID": 23 }, { "ratio": 0.3, "weaponID": 21 }, { "ratio": 0.05, "weaponID": 22 }, 
+			{ "ratio": 0.2, "weaponID": 400 }, { "ratio": 0.05, "weaponID": 304 }]
+		},
+		{
+			"money": 5000,
+			"weapons": [
+			{ "ratio": 0.5, "weaponID": 21 }, { "ratio": 0.1, "weaponID": 22 }, { "ratio": 0.3, "weaponID": 400 }, 
+			{ "ratio": 0.1, "weaponID": 32 }]
+		},
+		{
+			"money": 6000,
+			"weapons": [
+			{ "ratio": 0.4, "weaponID": 21 }, { "ratio": 0.2, "weaponID": 22 }, { "ratio": 0.2, "weaponID": 19 }, 
+			{ "ratio": 0.1, "weaponID": 14 }, { "ratio": 0.1, "weaponID": 148 }]
+		},
+		{
+			"money": 7000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 21 }, { "ratio": 0.3, "weaponID": 22 }, { "ratio": 0.2, "weaponID": 14 }, 
+			{ "ratio": 0.2, "weaponID": 148 }]
+		},
+		{
+			"money": 8000,
+			"weapons": [
+			{ "ratio": 0.3, "weaponID": 14 }, { "ratio": 0.3, "weaponID": 22 }, { "ratio": 0.2, "weaponID": 148 }, 
+			{ "ratio": 0.2, "weaponID": 355 }]
+		},
+		{
+			"money": 10000,
+			"weapons": [
+			{ "ratio": 0.6, "weaponID": 148 }, { "ratio": 0.4, "weaponID": 355 }]
+		}]
+    }]
+}

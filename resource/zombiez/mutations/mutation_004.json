@@ -1,0 +1,21 @@
+//투명장전
+//장전 시 일시적으로 은신 상태로 변환
+{
+  "team": 1
+  , "weight": 100
+  , "param1" :  // 투명도 0 ~ 1
+  {
+    "base_value" :	1
+    , "is_percent" : true
+  }
+  ,	"param2" :  // 지속 시간
+  {
+    "base_value" :	0.5
+    , "increment" : 0.05
+  }
+  ,	"param3" :  // 발동 쿨타임(무한 투명 방지)
+  {
+    "base_value" :	1.25
+    , "increment" : 0.05
+  }
+}

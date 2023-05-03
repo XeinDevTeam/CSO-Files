@@ -1,0 +1,13 @@
+// overview description file for bzm_assault_mini.bsp
+global 
+{
+	ZOOM	1.76
+	ORIGIN	436.06 -370.36 640.00
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/bzm_assault_mini.bmp"
+	HEIGHT 4
+}
